@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- =============================================
+       META & DOCUMENT-LEVEL SETTINGS
+       - <title> and <meta name="description"> use header.*
+       - Viewport for responsive layout
+       ============================================= -->
+  <meta charset="UTF-8">
+  <title>Efficient fuzzy-logic control of indoor mobile robots evolving in static and dynamic workspaces</title>
+  <meta name="description" content="Detail on the paper titled : Efficient fuzzy-logic control of indoor mobile robots evolving in static and dynamic workspaces.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- =============================================
+       FONTS & ICONS
+       - Inter font family
+       - Font Awesome icons (e.g., GitHub, PDF, DOI)
+       ============================================= -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- =============================================
+       PAGE STYLES
+       - 'css' should point to a page/theme stylesheet
+       - Example: /CSS/publication.css or a shared bundle
+       ============================================= -->
+  <link rel="stylesheet" href="../../CSS/page_style.css">
+</head>
+
+<body>
+  <!-- =============================================
+       LAYOUT WRAPPER
+       - Two-column layout: sidebar + main content
+       - To add new sections, create a <section> in <main>
+       ============================================= -->
+  <div class="layout">
+
+    <!-- =============================================
+         SIDEBAR / NAVIGATION
+         - Static links back to Home and Publications list
+         ============================================= -->
+    <aside class="sidebar">
+      <h1>Abderraouf Maoudj</h1>
+      <nav>
+        <a href="../../index.html">Home</a>
+        <a href="../../#publications">Publications</a>
+      </nav>
+    </aside>
+
+    <!-- =============================================
+         MAIN CONTENT
+         - Contains paper metadata + abstract + gallery + video + citation
+         ============================================= -->
+    <main class="main-content">
+
+      <!-- =============================================
+           PAPER HEADER
+           - Data sources:
+             header.title
+             header.authors
+             header.published.{date,journal,volume,article}
+             header.icons: list of { url?, id?, title, icon }
+           - If icon.url exists → external link; else emits an anchor with id
+           ============================================= -->
+      <div class="paper-header">
+        <h1>Efficient fuzzy-logic control of indoor mobile robots evolving in static and dynamic workspaces</h1>
+        <p><strong>Authors:</strong> A. Hentout, A. Maoudj &amp; A. Kouider</p>
+        <p>
+          <strong>Published:</strong> &nbsp;|&nbsp;
+          <strong>Journal:</strong> 2023., , 
+          <span class="inline-icons">
+                <!-- Icon with external link (opens in new tab) -->
+                <a href="https://www.researchsquare.com/article/rs-3182222/latest" target="_blank" title="View paper"><i class="fas fa-file-alt"></i></a>
+                <!-- Icon without URL: retains an ID for JS binding -->
+                <a href="#" id="copy-citation" title="Copy BibTeX"><i class="fas fa-quote-right"></i></a>
+          </span>
+        </p>
+      </div>
+
+      <!-- =============================================
+           ABSTRACT (optional)
+           - Renders only if 'abstract' exists and has entries
+           - Each paragraph is a separate <p>
+           ============================================= -->
+      <section id="abstract">
+        <h2 class="section-title">Abstract</h2>
+          <p>This paper presents an efficient motion control approach for indoor mobile robots in both static and dynamic workspaces. The proposed system consists of two layers. In the Optimization Layer (Global planner), a Deterministic Constructive Algorithm (DCA) generates the best path for the mobile robot, represented as a set of nodes, to move from the initial position (Source) to the final position (Target) while avoiding the static obstacles.</p>
+          <p>The Control layer (Local planner), which is the main focus of this article, consists of an Efficient Fuzzy-Logic Controller (EFLC), mimicking the human reasoning, to avoid the dynamic obstacles and drive safely the mobile robot along the generated path. The strength of the proposed EFLC approach is shown using V-REP software in dynamic workspaces.</p>
+      </section>
+
+      <!-- =============================================
+           GALLERY (optional)
+           - Replaces/stands in for "Experimental Results"
+           - Data model:
+             gallery.title? (defaults to "Gallery")
+             gallery.images: list of { src, alt?, caption? }
+           - Each image is clickable (opens full-size in new tab)
+           ============================================= -->
+      <section id="gallery">
+        <h2 class="section-title">Gallery</h2>
+        <div class="gallery-grid">
+            <figure class="gallery-item">
+              <a href="images/p003_img01_1888x2072.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p003_img01_1888x2072.png"
+                  alt="p003 img01 1888x2072"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p004_img01_499x453.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p004_img01_499x453.png"
+                  alt="p004 img01 499x453"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p004_img02_499x453.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p004_img02_499x453.png"
+                  alt="p004 img02 499x453"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p004_img03_447x453.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p004_img03_447x453.png"
+                  alt="p004 img03 447x453"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p004_img04_447x453.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p004_img04_447x453.png"
+                  alt="p004 img04 447x453"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p004_img05_727x467.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p004_img05_727x467.png"
+                  alt="p004 img05 727x467"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p004_img06_727x467.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p004_img06_727x467.png"
+                  alt="p004 img06 727x467"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p005_img01_746x369.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p005_img01_746x369.png"
+                  alt="p005 img01 746x369"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p005_img02_945x514.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p005_img02_945x514.png"
+                  alt="p005 img02 945x514"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p005_img03_894x347.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p005_img03_894x347.png"
+                  alt="p005 img03 894x347"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p005_img04_894x347.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p005_img04_894x347.png"
+                  alt="p005 img04 894x347"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p006_img01_567x323.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p006_img01_567x323.png"
+                  alt="p006 img01 567x323"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p006_img02_567x323.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p006_img02_567x323.png"
+                  alt="p006 img02 567x323"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p006_img03_378x247.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p006_img03_378x247.png"
+                  alt="p006 img03 378x247"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p006_img04_378x271.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p006_img04_378x271.png"
+                  alt="p006 img04 378x271"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p006_img05_378x271.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p006_img05_378x271.png"
+                  alt="p006 img05 378x271"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p006_img07_378x334.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p006_img07_378x334.png"
+                  alt="p006 img07 378x334"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p006_img08_378x303.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p006_img08_378x303.png"
+                  alt="p006 img08 378x303"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p006_img09_378x303.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p006_img09_378x303.png"
+                  alt="p006 img09 378x303"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p006_img10_378x217.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p006_img10_378x217.png"
+                  alt="p006 img10 378x217"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p006_img11_376x215.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p006_img11_376x215.png"
+                  alt="p006 img11 376x215"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p007_img01_540x310.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p007_img01_540x310.png"
+                  alt="p007 img01 540x310"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p007_img02_540x310.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p007_img02_540x310.png"
+                  alt="p007 img02 540x310"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p007_img03_540x310.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p007_img03_540x310.png"
+                  alt="p007 img03 540x310"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p007_img04_540x310.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p007_img04_540x310.png"
+                  alt="p007 img04 540x310"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p007_img05_539x310.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p007_img05_539x310.png"
+                  alt="p007 img05 539x310"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p007_img06_539x310.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p007_img06_539x310.png"
+                  alt="p007 img06 539x310"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p007_img07_540x310.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p007_img07_540x310.png"
+                  alt="p007 img07 540x310"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p007_img08_541x310.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p007_img08_541x310.png"
+                  alt="p007 img08 541x310"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p007_img09_541x310.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p007_img09_541x310.png"
+                  alt="p007 img09 541x310"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p007_img10_540x310.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p007_img10_540x310.png"
+                  alt="p007 img10 540x310"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p007_img11_540x310.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p007_img11_540x310.png"
+                  alt="p007 img11 540x310"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/thumbnail.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/thumbnail.png"
+                  alt="thumbnail"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+        </div>
+      </section>
+
+      <!-- =============================================
+           VIDEO (optional)
+           - Renders only if 'video.embed' is a YouTube URL
+           - Use an /embed/ URL for best compatibility
+           ============================================= -->
+
+      <!-- =============================================
+           FULL CITATION
+           - Displays BibTeX inside <pre> for easy copy
+           - Pretty-printed by the script below if it’s one line
+           ============================================= -->
+      <section id="citation">
+        <h2 class="section-title">Citation</h2>
+        <pre id="bibtex-block">@misc{Hentout2023Efficient,
+  title = {Efficient fuzzy-logic control of indoor mobile robots evolving in static and dynamic workspaces},
+  author = {Abdelfetah Hentout and Abderraouf Maoudj and Ahmed Kouider},
+  year = {2023}
+}</pre>
+      </section>
+
+      <!-- =============================================
+           BACK LINK
+           - Returns to publications list or previous page
+           - Text and URL are data-driven
+           ============================================= -->
+      <p style="text-align:center;">
+        <a href="../../#publication"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+      </p>
+
+    </main>
+  </div>
+
+  <!-- =============================================
+       FOOTER & TOAST
+       - Footer text is HTML-safe
+       - #toast is used for transient notifications (e.g., copied!)
+       ============================================= -->
+  <footer style="text-align:center;">&copy; 2025 Abderraouf Maoudj | Built with ❤️ and HTML/CSS</footer>
+
+  <div id="toast">Citation copied to clipboard</div>
+
+  <!-- =============================================
+       SCRIPTS (vanilla JS only)
+       - 1) Pretty-print BibTeX if given on a single line
+       - 2) Copy formatted BibTeX to clipboard (button optional)
+       ============================================= -->
+  <script>
+    /* -------------------------------------------------
+       1) PRETTY-PRINT BIBTEX
+       - If citation is a single line, inserts newlines/indents
+       - No-op if already formatted
+       ------------------------------------------------- */
+    (function () {
+      const pre = document.getElementById('bibtex-block');
+      if (!pre) return;
+      let s = (pre.textContent || '').trim();
+
+      const looksLikeBib = /^@\w+\s*{/.test(s);
+      const hasNewlines  = /\n/.test(s);
+
+      if (looksLikeBib && !hasNewlines) {
+        // Break after entry header: @type{key,
+        s = s.replace(/^(@\w+\s*{\s*[^,]+,)\s*/, '$1\n  ');
+        // Newline + indent after commas that precede key=
+        s = s.replace(/,\s*(\w+\s*=)/g, ',\n  $1 ');
+        // Newline before closing brace
+        s = s.replace(/\s*}\s*$/, '\n}');
+        pre.textContent = s;
+      }
+    })();
+
+    /* -------------------------------------------------
+       2) COPY FORMATTED BIBTEX
+       - Looks for a control with id="copy-citation" (optional)
+       - Falls back to raw BibTeX if <pre> not found
+       - Shows #toast for feedback
+       ------------------------------------------------- */
+    const btn = document.getElementById('copy-citation');
+    if (btn) {
+      const pre = document.getElementById('bibtex-block');
+      const raw = `@misc{Hentout2023Efficient,
+  title = {Efficient fuzzy-logic control of indoor mobile robots evolving in static and dynamic workspaces},
+  author = {Abdelfetah Hentout and Abderraouf Maoudj and Ahmed Kouider},
+  year = {2023}
+}`;
+      btn.addEventListener('click', e => {
+        e.preventDefault();
+        const text = pre ? pre.textContent : raw;
+        navigator.clipboard.writeText(text).then(() => {
+          const toast = document.getElementById('toast');
+          toast.classList.add('show');
+          setTimeout(() => toast.classList.remove('show'), 3000);
+        });
+      });
+    }
+  </script>
+</body>
+</html>

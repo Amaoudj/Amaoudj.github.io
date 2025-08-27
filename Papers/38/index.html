@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- =============================================
+       META & DOCUMENT-LEVEL SETTINGS
+       - <title> and <meta name="description"> use header.*
+       - Viewport for responsive layout
+       ============================================= -->
+  <meta charset="UTF-8">
+  <title>Integration of a vision system with a robotic polishing system for machining variety of workpieces</title>
+  <meta name="description" content="Detail on the paper titled : Integration of a vision system with a robotic polishing system for machining variety of workpieces.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- =============================================
+       FONTS & ICONS
+       - Inter font family
+       - Font Awesome icons (e.g., GitHub, PDF, DOI)
+       ============================================= -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- =============================================
+       PAGE STYLES
+       - 'css' should point to a page/theme stylesheet
+       - Example: /CSS/publication.css or a shared bundle
+       ============================================= -->
+  <link rel="stylesheet" href="../../CSS/page_style.css">
+</head>
+
+<body>
+  <!-- =============================================
+       LAYOUT WRAPPER
+       - Two-column layout: sidebar + main content
+       - To add new sections, create a <section> in <main>
+       ============================================= -->
+  <div class="layout">
+
+    <!-- =============================================
+         SIDEBAR / NAVIGATION
+         - Static links back to Home and Publications list
+         ============================================= -->
+    <aside class="sidebar">
+      <h1>Abderraouf Maoudj</h1>
+      <nav>
+        <a href="../../index.html">Home</a>
+        <a href="../../#publications">Publications</a>
+      </nav>
+    </aside>
+
+    <!-- =============================================
+         MAIN CONTENT
+         - Contains paper metadata + abstract + gallery + video + citation
+         ============================================= -->
+    <main class="main-content">
+
+      <!-- =============================================
+           PAPER HEADER
+           - Data sources:
+             header.title
+             header.authors
+             header.published.{date,journal,volume,article}
+             header.icons: list of { url?, id?, title, icon }
+           - If icon.url exists → external link; else emits an anchor with id
+           ============================================= -->
+      <div class="paper-header">
+        <h1>Integration of a vision system with a robotic polishing system for machining variety of workpieces</h1>
+        <p><strong>Authors:</strong> A. KHARIDEGE &amp; A. MAOUDJ</p>
+        <p>
+          <strong>Published:</strong> &nbsp;|&nbsp;
+          <strong>Journal:</strong> 2024., , 
+          <span class="inline-icons">
+                <!-- Icon with external link (opens in new tab) -->
+                <a href="https://www.researchsquare.com/article/rs-4306065/latest" target="_blank" title="View paper"><i class="fas fa-file-alt"></i></a>
+                <!-- Icon without URL: retains an ID for JS binding -->
+                <a href="#" id="copy-citation" title="Copy BibTeX"><i class="fas fa-quote-right"></i></a>
+          </span>
+        </p>
+      </div>
+
+      <!-- =============================================
+           ABSTRACT (optional)
+           - Renders only if 'abstract' exists and has entries
+           - Each paragraph is a separate <p>
+           ============================================= -->
+      <section id="abstract">
+        <h2 class="section-title">Abstract</h2>
+          <p>Industrial robots are extensively employed in a variety of surface industrial processes. To increase productivity, automated manufacturing systems operate in the factory on the physical product to perform operations such as processing, material handling, polishing and sometimes accomplishing more than one of these operations in the same system. It is necessary to locate objects or its features as rapidly as possible so that further image-processing algorithms can extract features.</p>
+          <p>Robotic-based pick-and-place applications can be achieved by determining the correct orientation of a part within 2D or 3D space. A machine vision image acquisition hardware platform was set up, HALCON software used for noise filter, threshold segmentation and edge detection of the workpiece image to comply with identification accuracy requirements. Based on the preprocessing result, the workpiece features information extracted …</p>
+      </section>
+
+      <!-- =============================================
+           GALLERY (optional)
+           - Replaces/stands in for "Experimental Results"
+           - Data model:
+             gallery.title? (defaults to "Gallery")
+             gallery.images: list of { src, alt?, caption? }
+           - Each image is clickable (opens full-size in new tab)
+           ============================================= -->
+      <section id="gallery">
+        <h2 class="section-title">Gallery</h2>
+        <div class="gallery-grid">
+            <figure class="gallery-item">
+              <a href="images/p005_img01_686x514.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p005_img01_686x514.png"
+                  alt="p005 img01 686x514"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p007_img01_981x436.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p007_img01_981x436.png"
+                  alt="p007 img01 981x436"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p008_img01_413x481.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p008_img01_413x481.png"
+                  alt="p008 img01 413x481"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p008_img02_420x300.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p008_img02_420x300.png"
+                  alt="p008 img02 420x300"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p008_img03_420x300.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p008_img03_420x300.png"
+                  alt="p008 img03 420x300"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p010_img01_999x135.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p010_img01_999x135.png"
+                  alt="p010 img01 999x135"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p010_img02_859x271.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p010_img02_859x271.png"
+                  alt="p010 img02 859x271"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p011_img01_715x243.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p011_img01_715x243.png"
+                  alt="p011 img01 715x243"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p012_img01_254x215.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p012_img01_254x215.png"
+                  alt="p012 img01 254x215"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p012_img02_586x198.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p012_img02_586x198.png"
+                  alt="p012 img02 586x198"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p012_img03_1021x181.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p012_img03_1021x181.png"
+                  alt="p012 img03 1021x181"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p013_img01_510x196.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p013_img01_510x196.png"
+                  alt="p013 img01 510x196"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p013_img02_638x221.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p013_img02_638x221.png"
+                  alt="p013 img02 638x221"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p014_img01_1244x474.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p014_img01_1244x474.png"
+                  alt="p014 img01 1244x474"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p014_img02_547x219.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p014_img02_547x219.png"
+                  alt="p014 img02 547x219"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p015_img01_289x220.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p015_img01_289x220.png"
+                  alt="p015 img01 289x220"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p015_img02_440x330.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p015_img02_440x330.png"
+                  alt="p015 img02 440x330"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p015_img03_440x330.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p015_img03_440x330.png"
+                  alt="p015 img03 440x330"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p015_img04_1258x475.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p015_img04_1258x475.png"
+                  alt="p015 img04 1258x475"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p016_img01_440x330.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p016_img01_440x330.png"
+                  alt="p016 img01 440x330"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p016_img02_440x330.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p016_img02_440x330.png"
+                  alt="p016 img02 440x330"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p016_img03_439x330.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p016_img03_439x330.png"
+                  alt="p016 img03 439x330"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/thumbnail.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/thumbnail.png"
+                  alt="thumbnail"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+        </div>
+      </section>
+
+      <!-- =============================================
+           VIDEO (optional)
+           - Renders only if 'video.embed' is a YouTube URL
+           - Use an /embed/ URL for best compatibility
+           ============================================= -->
+
+      <!-- =============================================
+           FULL CITATION
+           - Displays BibTeX inside <pre> for easy copy
+           - Pretty-printed by the script below if it’s one line
+           ============================================= -->
+      <section id="citation">
+        <h2 class="section-title">Citation</h2>
+        <pre id="bibtex-block">@misc{KHARIDEGE2024Integration,
+  title = {Integration of a vision system with a robotic polishing system for machining variety of workpieces},
+  author = {AHMED KHARIDEGE and ABDERRAOUF MAOUDJ},
+  year = {2024}
+}</pre>
+      </section>
+
+      <!-- =============================================
+           BACK LINK
+           - Returns to publications list or previous page
+           - Text and URL are data-driven
+           ============================================= -->
+      <p style="text-align:center;">
+        <a href="../../#publication"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+      </p>
+
+    </main>
+  </div>
+
+  <!-- =============================================
+       FOOTER & TOAST
+       - Footer text is HTML-safe
+       - #toast is used for transient notifications (e.g., copied!)
+       ============================================= -->
+  <footer style="text-align:center;">&copy; 2025 Abderraouf Maoudj | Built with ❤️ and HTML/CSS</footer>
+
+  <div id="toast">Citation copied to clipboard</div>
+
+  <!-- =============================================
+       SCRIPTS (vanilla JS only)
+       - 1) Pretty-print BibTeX if given on a single line
+       - 2) Copy formatted BibTeX to clipboard (button optional)
+       ============================================= -->
+  <script>
+    /* -------------------------------------------------
+       1) PRETTY-PRINT BIBTEX
+       - If citation is a single line, inserts newlines/indents
+       - No-op if already formatted
+       ------------------------------------------------- */
+    (function () {
+      const pre = document.getElementById('bibtex-block');
+      if (!pre) return;
+      let s = (pre.textContent || '').trim();
+
+      const looksLikeBib = /^@\w+\s*{/.test(s);
+      const hasNewlines  = /\n/.test(s);
+
+      if (looksLikeBib && !hasNewlines) {
+        // Break after entry header: @type{key,
+        s = s.replace(/^(@\w+\s*{\s*[^,]+,)\s*/, '$1\n  ');
+        // Newline + indent after commas that precede key=
+        s = s.replace(/,\s*(\w+\s*=)/g, ',\n  $1 ');
+        // Newline before closing brace
+        s = s.replace(/\s*}\s*$/, '\n}');
+        pre.textContent = s;
+      }
+    })();
+
+    /* -------------------------------------------------
+       2) COPY FORMATTED BIBTEX
+       - Looks for a control with id="copy-citation" (optional)
+       - Falls back to raw BibTeX if <pre> not found
+       - Shows #toast for feedback
+       ------------------------------------------------- */
+    const btn = document.getElementById('copy-citation');
+    if (btn) {
+      const pre = document.getElementById('bibtex-block');
+      const raw = `@misc{KHARIDEGE2024Integration,
+  title = {Integration of a vision system with a robotic polishing system for machining variety of workpieces},
+  author = {AHMED KHARIDEGE and ABDERRAOUF MAOUDJ},
+  year = {2024}
+}`;
+      btn.addEventListener('click', e => {
+        e.preventDefault();
+        const text = pre ? pre.textContent : raw;
+        navigator.clipboard.writeText(text).then(() => {
+          const toast = document.getElementById('toast');
+          toast.classList.add('show');
+          setTimeout(() => toast.classList.remove('show'), 3000);
+        });
+      });
+    }
+  </script>
+</body>
+</html>

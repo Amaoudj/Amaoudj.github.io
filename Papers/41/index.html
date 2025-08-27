@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- =============================================
+       META & DOCUMENT-LEVEL SETTINGS
+       - <title> and <meta name="description"> use header.*
+       - Viewport for responsive layout
+       ============================================= -->
+  <meta charset="UTF-8">
+  <title>Evolution of path costs for efficient decentralized multi-agent pathfinding</title>
+  <meta name="description" content="Detail on the paper titled : Evolution of path costs for efficient decentralized multi-agent pathfinding.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- =============================================
+       FONTS & ICONS
+       - Inter font family
+       - Font Awesome icons (e.g., GitHub, PDF, DOI)
+       ============================================= -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- =============================================
+       PAGE STYLES
+       - 'css' should point to a page/theme stylesheet
+       - Example: /CSS/publication.css or a shared bundle
+       ============================================= -->
+  <link rel="stylesheet" href="../../CSS/page_style.css">
+</head>
+
+<body>
+  <!-- =============================================
+       LAYOUT WRAPPER
+       - Two-column layout: sidebar + main content
+       - To add new sections, create a <section> in <main>
+       ============================================= -->
+  <div class="layout">
+
+    <!-- =============================================
+         SIDEBAR / NAVIGATION
+         - Static links back to Home and Publications list
+         ============================================= -->
+    <aside class="sidebar">
+      <h1>Abderraouf Maoudj</h1>
+      <nav>
+        <a href="../../index.html">Home</a>
+        <a href="../../#publications">Publications</a>
+      </nav>
+    </aside>
+
+    <!-- =============================================
+         MAIN CONTENT
+         - Contains paper metadata + abstract + gallery + video + citation
+         ============================================= -->
+    <main class="main-content">
+
+      <!-- =============================================
+           PAPER HEADER
+           - Data sources:
+             header.title
+             header.authors
+             header.published.{date,journal,volume,article}
+             header.icons: list of { url?, id?, title, icon }
+           - If icon.url exists → external link; else emits an anchor with id
+           ============================================= -->
+      <div class="paper-header">
+        <h1>Evolution of path costs for efficient decentralized multi-agent pathfinding</h1>
+        <p><strong>Authors:</strong> U. Farhadi, H. Hess, A. Maoudj &amp; A. L. Christensen</p>
+        <p>
+          <strong>Published:</strong> &nbsp;|&nbsp;
+          <strong>Journal:</strong> Swarm and Evolutionary Computation, Vol. 93, pp. 101833
+          <span class="inline-icons">
+                <!-- Icon with external link (opens in new tab) -->
+                <a href="https://www.sciencedirect.com/science/article/pii/S2210650224003717" target="_blank" title="View paper"><i class="fas fa-file-alt"></i></a>
+                <!-- Icon without URL: retains an ID for JS binding -->
+                <a href="#" id="copy-citation" title="Copy BibTeX"><i class="fas fa-quote-right"></i></a>
+          </span>
+        </p>
+      </div>
+
+      <!-- =============================================
+           ABSTRACT (optional)
+           - Renders only if 'abstract' exists and has entries
+           - Each paragraph is a separate <p>
+           ============================================= -->
+      <section id="abstract">
+        <h2 class="section-title">Abstract</h2>
+          <p>Efficient multi-agent pathfinding (MAPF) is becoming increasingly relevant in real-world scenarios. MAPF aims to minimize the travel time for robots operating in a shared environment. To date, substantial research has been dedicated to offline centralized algorithms based on conflict avoidance.</p>
+          <p>Recently, an entirely decentralized algorithm, IDCMAPF, was introduced, premised on online conflict resolution. Decentralized approaches offer potential advantages in scalability, flexibility, and inherent robustness compared to centralized methods, as conflicts are handled locally. However, in scenarios with high-robot densities, decentralized conflict handling is not always effective.</p>
+          <p>In this paper, we therefore propose a combination of online conflict resolution and evolved local path costs that promote conflict avoidance by discouraging paths through highly congested areas. We represent the environment as a directed …</p>
+      </section>
+
+      <!-- =============================================
+           GALLERY (optional)
+           - Replaces/stands in for "Experimental Results"
+           - Data model:
+             gallery.title? (defaults to "Gallery")
+             gallery.images: list of { src, alt?, caption? }
+           - Each image is clickable (opens full-size in new tab)
+           ============================================= -->
+      <section id="gallery">
+        <h2 class="section-title">Gallery</h2>
+        <div class="gallery-grid">
+            <figure class="gallery-item">
+              <a href="images/p002_img01_1620x803.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p002_img01_1620x803.png"
+                  alt="p002 img01 1620x803"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p004_img01_1545x377.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p004_img01_1545x377.png"
+                  alt="p004 img01 1545x377"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p004_img02_1597x379.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p004_img02_1597x379.png"
+                  alt="p004 img02 1597x379"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p005_img01_1210x1118.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p005_img01_1210x1118.png"
+                  alt="p005 img01 1210x1118"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p006_img01_1593x412.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p006_img01_1593x412.png"
+                  alt="p006 img01 1593x412"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p007_img01_1593x404.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p007_img01_1593x404.png"
+                  alt="p007 img01 1593x404"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p007_img02_1593x400.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p007_img02_1593x400.png"
+                  alt="p007 img02 1593x400"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p007_img03_1593x395.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p007_img03_1593x395.png"
+                  alt="p007 img03 1593x395"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p007_img04_1572x406.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p007_img04_1572x406.png"
+                  alt="p007 img04 1572x406"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p008_img01_1554x501.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p008_img01_1554x501.png"
+                  alt="p008 img01 1554x501"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p008_img03_1569x501.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p008_img03_1569x501.png"
+                  alt="p008 img03 1569x501"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p009_img01_1600x507.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p009_img01_1600x507.png"
+                  alt="p009 img01 1600x507"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p009_img02_1596x528.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p009_img02_1596x528.png"
+                  alt="p009 img02 1596x528"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p009_img03_1586x500.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p009_img03_1586x500.png"
+                  alt="p009 img03 1586x500"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p010_img01_1598x585.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p010_img01_1598x585.png"
+                  alt="p010 img01 1598x585"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p010_img02_1598x587.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p010_img02_1598x587.png"
+                  alt="p010 img02 1598x587"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/p010_img03_1595x587.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/p010_img03_1595x587.png"
+                  alt="p010 img03 1595x587"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+            <figure class="gallery-item">
+              <a href="images/thumbnail.png" target="_blank" class="gallery-link">
+                <img
+                  src="images/thumbnail.png"
+                  alt="thumbnail"
+                  class="gallery-img"
+                  loading="lazy">
+              </a>
+            </figure>
+        </div>
+      </section>
+
+      <!-- =============================================
+           VIDEO (optional)
+           - Renders only if 'video.embed' is a YouTube URL
+           - Use an /embed/ URL for best compatibility
+           ============================================= -->
+
+      <!-- =============================================
+           FULL CITATION
+           - Displays BibTeX inside <pre> for easy copy
+           - Pretty-printed by the script below if it’s one line
+           ============================================= -->
+      <section id="citation">
+        <h2 class="section-title">Citation</h2>
+        <pre id="bibtex-block">@article{Farhadi2025Evolution,
+  title = {Evolution of path costs for efficient decentralized multi-agent pathfinding},
+  author = {Ulrich Farhadi and Henning Hess and Abderraouf Maoudj and Anders Lyhne Christensen},
+  journal = {Swarm and Evolutionary Computation},
+  publisher = {Elsevier},
+  volume = {93},
+  pages = {101833},
+  year = {2025}
+}</pre>
+      </section>
+
+      <!-- =============================================
+           BACK LINK
+           - Returns to publications list or previous page
+           - Text and URL are data-driven
+           ============================================= -->
+      <p style="text-align:center;">
+        <a href="../../#publication"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+      </p>
+
+    </main>
+  </div>
+
+  <!-- =============================================
+       FOOTER & TOAST
+       - Footer text is HTML-safe
+       - #toast is used for transient notifications (e.g., copied!)
+       ============================================= -->
+  <footer style="text-align:center;">&copy; 2025 Abderraouf Maoudj | Built with ❤️ and HTML/CSS</footer>
+
+  <div id="toast">Citation copied to clipboard</div>
+
+  <!-- =============================================
+       SCRIPTS (vanilla JS only)
+       - 1) Pretty-print BibTeX if given on a single line
+       - 2) Copy formatted BibTeX to clipboard (button optional)
+       ============================================= -->
+  <script>
+    /* -------------------------------------------------
+       1) PRETTY-PRINT BIBTEX
+       - If citation is a single line, inserts newlines/indents
+       - No-op if already formatted
+       ------------------------------------------------- */
+    (function () {
+      const pre = document.getElementById('bibtex-block');
+      if (!pre) return;
+      let s = (pre.textContent || '').trim();
+
+      const looksLikeBib = /^@\w+\s*{/.test(s);
+      const hasNewlines  = /\n/.test(s);
+
+      if (looksLikeBib && !hasNewlines) {
+        // Break after entry header: @type{key,
+        s = s.replace(/^(@\w+\s*{\s*[^,]+,)\s*/, '$1\n  ');
+        // Newline + indent after commas that precede key=
+        s = s.replace(/,\s*(\w+\s*=)/g, ',\n  $1 ');
+        // Newline before closing brace
+        s = s.replace(/\s*}\s*$/, '\n}');
+        pre.textContent = s;
+      }
+    })();
+
+    /* -------------------------------------------------
+       2) COPY FORMATTED BIBTEX
+       - Looks for a control with id="copy-citation" (optional)
+       - Falls back to raw BibTeX if <pre> not found
+       - Shows #toast for feedback
+       ------------------------------------------------- */
+    const btn = document.getElementById('copy-citation');
+    if (btn) {
+      const pre = document.getElementById('bibtex-block');
+      const raw = `@article{Farhadi2025Evolution,
+  title = {Evolution of path costs for efficient decentralized multi-agent pathfinding},
+  author = {Ulrich Farhadi and Henning Hess and Abderraouf Maoudj and Anders Lyhne Christensen},
+  journal = {Swarm and Evolutionary Computation},
+  publisher = {Elsevier},
+  volume = {93},
+  pages = {101833},
+  year = {2025}
+}`;
+      btn.addEventListener('click', e => {
+        e.preventDefault();
+        const text = pre ? pre.textContent : raw;
+        navigator.clipboard.writeText(text).then(() => {
+          const toast = document.getElementById('toast');
+          toast.classList.add('show');
+          setTimeout(() => toast.classList.remove('show'), 3000);
+        });
+      });
+    }
+  </script>
+</body>
+</html>

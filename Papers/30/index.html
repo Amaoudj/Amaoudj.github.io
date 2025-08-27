@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- =============================================
+       META & DOCUMENT-LEVEL SETTINGS
+       - <title> and <meta name="description"> use header.*
+       - Viewport for responsive layout
+       ============================================= -->
+  <meta charset="UTF-8">
+  <title>Decentralized Multi-Agent Path Finding</title>
+  <meta name="description" content="Detail on the paper titled : Decentralized Multi-Agent Path Finding.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- =============================================
+       FONTS & ICONS
+       - Inter font family
+       - Font Awesome icons (e.g., GitHub, PDF, DOI)
+       ============================================= -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- =============================================
+       PAGE STYLES
+       - 'css' should point to a page/theme stylesheet
+       - Example: /CSS/publication.css or a shared bundle
+       ============================================= -->
+  <link rel="stylesheet" href="../../CSS/page_style.css">
+</head>
+
+<body>
+  <!-- =============================================
+       LAYOUT WRAPPER
+       - Two-column layout: sidebar + main content
+       - To add new sections, create a <section> in <main>
+       ============================================= -->
+  <div class="layout">
+
+    <!-- =============================================
+         SIDEBAR / NAVIGATION
+         - Static links back to Home and Publications list
+         ============================================= -->
+    <aside class="sidebar">
+      <h1>Abderraouf Maoudj</h1>
+      <nav>
+        <a href="../../index.html">Home</a>
+        <a href="../../#publications">Publications</a>
+      </nav>
+    </aside>
+
+    <!-- =============================================
+         MAIN CONTENT
+         - Contains paper metadata + abstract + gallery + video + citation
+         ============================================= -->
+    <main class="main-content">
+
+      <!-- =============================================
+           PAPER HEADER
+           - Data sources:
+             header.title
+             header.authors
+             header.published.{date,journal,volume,article}
+             header.icons: list of { url?, id?, title, icon }
+           - If icon.url exists → external link; else emits an anchor with id
+           ============================================= -->
+      <div class="paper-header">
+        <h1>Decentralized Multi-Agent Path Finding</h1>
+        <p><strong>Authors:</strong> A. Maoudj &amp; A. L. Christensen</p>
+        <p>
+          <strong>Published:</strong> &nbsp;|&nbsp;
+          <strong>Journal:</strong> Swarm Intelligence: 13th International Conference, Vol. 13491, pp. 104
+          <span class="inline-icons">
+                <!-- Icon with external link (opens in new tab) -->
+                <a href="https://books.google.com/books?hl=en&amp;lr=&amp;id=U6CYEAAAQBAJ&amp;oi=fnd&amp;pg=PA104&amp;dq=info:aSHmsSgJBrEJ:scholar.google.com&amp;ots=L4LpqUzrnH&amp;sig=kH8jXxmDKLMhL49Xy0fF28ZAkrM" target="_blank" title="View paper"><i class="fas fa-file-alt"></i></a>
+                <!-- Icon without URL: retains an ID for JS binding -->
+                <a href="#" id="copy-citation" title="Copy BibTeX"><i class="fas fa-quote-right"></i></a>
+          </span>
+        </p>
+      </div>
+
+      <!-- =============================================
+           ABSTRACT (optional)
+           - Renders only if 'abstract' exists and has entries
+           - Each paragraph is a separate <p>
+           ============================================= -->
+      <section id="abstract">
+        <h2 class="section-title">Abstract</h2>
+          <p>Mobile robots have already made their way into warehouses, and significant effort has consequently been devoted to designing effective algorithms for the related multi-agent path finding (MAPF) problem.However, most of the proposed MAPF algorithms still rely on centralized planning as well as simplistic assumptions, such as that robots have full observability of the environment and move at equal and constant speeds. The resultant plans thus cannot be executed directly on physical robots where these assumptions generally do not hold. To mitigate these issues, we consider the decentralized partially observable multirobot setting where robots do not have access to the full state of the world.</p>
+          <p>Instead, each robot coordinates with neighbors within a limited communication range. In the proposed approach, each robot indepen-dently plans its own path using A* without taking into account other robots, and the robots then solve potential conflicts locally as they occur. Experimental results obtained in various benchmark scenarios confirm that the proposed decentralized approach is effective and scales well to large numbers of robots.</p>
+      </section>
+
+      <!-- =============================================
+           GALLERY (optional)
+           - Replaces/stands in for "Experimental Results"
+           - Data model:
+             gallery.title? (defaults to "Gallery")
+             gallery.images: list of { src, alt?, caption? }
+           - Each image is clickable (opens full-size in new tab)
+           ============================================= -->
+
+      <!-- =============================================
+           VIDEO (optional)
+           - Renders only if 'video.embed' is a YouTube URL
+           - Use an /embed/ URL for best compatibility
+           ============================================= -->
+
+      <!-- =============================================
+           FULL CITATION
+           - Displays BibTeX inside <pre> for easy copy
+           - Pretty-printed by the script below if it’s one line
+           ============================================= -->
+      <section id="citation">
+        <h2 class="section-title">Citation</h2>
+        <pre id="bibtex-block">@article{Maoudj2022Decentralized,
+  title = {Decentralized Multi-Agent Path Finding},
+  author = {Abderraouf Maoudj and Anders Lyhne Christensen},
+  journal = {Swarm Intelligence: 13th International Conference, ANTS 2022, Málaga, Spain, November 2–4, 2022, Proceedings},
+  publisher = {Springer Nature},
+  volume = {13491},
+  pages = {104},
+  year = {2022}
+}</pre>
+      </section>
+
+      <!-- =============================================
+           BACK LINK
+           - Returns to publications list or previous page
+           - Text and URL are data-driven
+           ============================================= -->
+      <p style="text-align:center;">
+        <a href="../../#publication"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+      </p>
+
+    </main>
+  </div>
+
+  <!-- =============================================
+       FOOTER & TOAST
+       - Footer text is HTML-safe
+       - #toast is used for transient notifications (e.g., copied!)
+       ============================================= -->
+  <footer style="text-align:center;">&copy; 2025 Abderraouf Maoudj | Built with ❤️ and HTML/CSS</footer>
+
+  <div id="toast">Citation copied to clipboard</div>
+
+  <!-- =============================================
+       SCRIPTS (vanilla JS only)
+       - 1) Pretty-print BibTeX if given on a single line
+       - 2) Copy formatted BibTeX to clipboard (button optional)
+       ============================================= -->
+  <script>
+    /* -------------------------------------------------
+       1) PRETTY-PRINT BIBTEX
+       - If citation is a single line, inserts newlines/indents
+       - No-op if already formatted
+       ------------------------------------------------- */
+    (function () {
+      const pre = document.getElementById('bibtex-block');
+      if (!pre) return;
+      let s = (pre.textContent || '').trim();
+
+      const looksLikeBib = /^@\w+\s*{/.test(s);
+      const hasNewlines  = /\n/.test(s);
+
+      if (looksLikeBib && !hasNewlines) {
+        // Break after entry header: @type{key,
+        s = s.replace(/^(@\w+\s*{\s*[^,]+,)\s*/, '$1\n  ');
+        // Newline + indent after commas that precede key=
+        s = s.replace(/,\s*(\w+\s*=)/g, ',\n  $1 ');
+        // Newline before closing brace
+        s = s.replace(/\s*}\s*$/, '\n}');
+        pre.textContent = s;
+      }
+    })();
+
+    /* -------------------------------------------------
+       2) COPY FORMATTED BIBTEX
+       - Looks for a control with id="copy-citation" (optional)
+       - Falls back to raw BibTeX if <pre> not found
+       - Shows #toast for feedback
+       ------------------------------------------------- */
+    const btn = document.getElementById('copy-citation');
+    if (btn) {
+      const pre = document.getElementById('bibtex-block');
+      const raw = `@article{Maoudj2022Decentralized,
+  title = {Decentralized Multi-Agent Path Finding},
+  author = {Abderraouf Maoudj and Anders Lyhne Christensen},
+  journal = {Swarm Intelligence: 13th International Conference, ANTS 2022, Málaga, Spain, November 2–4, 2022, Proceedings},
+  publisher = {Springer Nature},
+  volume = {13491},
+  pages = {104},
+  year = {2022}
+}`;
+      btn.addEventListener('click', e => {
+        e.preventDefault();
+        const text = pre ? pre.textContent : raw;
+        navigator.clipboard.writeText(text).then(() => {
+          const toast = document.getElementById('toast');
+          toast.classList.add('show');
+          setTimeout(() => toast.classList.remove('show'), 3000);
+        });
+      });
+    }
+  </script>
+</body>
+</html>

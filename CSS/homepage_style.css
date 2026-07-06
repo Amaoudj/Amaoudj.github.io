@@ -317,3 +317,18 @@ footer{
   .pub-search{margin-left:0;width:100%;}
   .pub-search input{width:100%;}
 }
+
+/* ===== Additions 2026: project images, links, pub notes, teaching, scroll-reveal ===== */
+.project-card{overflow:hidden;display:flex;flex-direction:column;}
+.proj-img{width:calc(100% + 3rem);height:150px;object-fit:cover;margin:-1.4rem -1.5rem 1rem;border-bottom:1px solid var(--line);background:var(--surface-2);}
+.project-card .p-link{margin-top:.9rem;align-self:flex-start;font-size:.84rem;font-weight:600;color:var(--accent);display:inline-flex;align-items:center;gap:.4rem;}
+.project-card .p-link:hover{color:var(--primary);}
+.project-card .p-link i{font-size:.72rem;}
+.pub-note{font-size:.85rem;color:var(--muted);margin-top:.45rem;line-height:1.5;}
+.course-wide{grid-column:1 / -1;}
+.course strong em{font-style:normal;font-weight:500;color:var(--faint);font-size:.82rem;}
+
+/* Scroll reveal (classes are only added by JS, so content stays visible if JS is off) */
+.reveal-init{opacity:0;transform:translateY(18px);}
+.reveal-in{opacity:1;transform:none;transition:opacity .55s ease, transform .55s ease;}
+@media (prefers-reduced-motion: reduce){.reveal-init{opacity:1;transform:none;}}

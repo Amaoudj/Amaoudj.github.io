@@ -115,36 +115,42 @@
         <h3 class="section-title">Research &amp; Selected Projects</h3>
         <div class="projects">
           <div class="project-card">
+            <img src="images/proj-nextgen.jpg" alt="Next-Generation Robotic Manipulation" class="proj-img" loading="lazy" onerror="this.remove();">
+            <span class="p-status ongoing">Ongoing · 2026–2027</span>
+            <h4>Next-Generation Robotic Manipulation and Learning Systems for Saudi Industry 4.0</h4>
+            <div class="p-meta">KFUPM · Enabling Adaptive and Collaborative Intelligence</div>
+            <p>Enable robots to understand human intent through natural communication, take plain instructions, and
+            learn behaviours from minimal demonstrations — combining generative reinforcement learning,
+            vision–language–action models, and world models to reduce integration cost on Saudi factory floors.</p>
+          </div>
+          <div class="project-card">
+            <img src="images/proj-legged.jpg" alt="Fault-tolerant legged robot locomotion" class="proj-img" loading="lazy" onerror="this.remove();">
             <span class="p-status ongoing">Ongoing</span>
-            <h4>Next-Generation Robotic Manipulation &amp; Learning Systems</h4>
-            <div class="p-meta">IRC-IMR, KFUPM · Post-Doctoral Researcher</div>
-            <p>Robots as adaptive apprentices: combining generative reinforcement learning, vision–language–action
-            models for grounding instructions, world models for safe offline skill refinement, and distributed
-            intelligence for multi-robot coordination when tasks exceed a single robot's capability.</p>
+            <h4>Biologically-Inspired, Fault-Tolerant Legged Robot Locomotion: A Sim-to-Real Approach</h4>
+            <div class="p-meta">IRC-IMR, KFUPM · Robust Legged Robots</div>
+            <p>A hierarchical CPG network trained with reinforcement learning (PPO) for fast, stable, decentralized
+            locomotion with fault tolerance to leg failures. Trained in a physics engine and transferred zero-shot
+            to an 18-DoF hexapod, with robust navigation on flat and structured uneven terrain.</p>
           </div>
           <div class="project-card">
-            <span class="p-status ongoing">Ongoing</span>
-            <h4>Resilient Legged Robotics — Decentralized RL–CPG Locomotion</h4>
-            <div class="p-meta">IRC-IMR, KFUPM · Post-Doctoral Researcher</div>
-            <p>A failure-adaptive locomotion stack coupling bio-inspired Hopf-oscillator CPG dynamics with an RL
-            modulation layer. Fault-as-training curriculum in MuJoCo yields a single policy covering many
-            leg-availability patterns; validated zero-shot on an 18-DoF hexapod (manuscript under review, IEEE T-RO).</p>
+            <img src="images/proj-inmr2403.jpg" alt="Advancing Robotics for Industry 4.0 (INMR2403)" class="proj-img" loading="lazy" onerror="this.remove();">
+            <span class="p-status completed">2024–2025</span>
+            <h4>Advancing Robotics for Industry 4.0 — Integrating Collaborative Robot Systems to Enhance Industrial Tasks</h4>
+            <div class="p-meta">KFUPM · Grant No. INMR2403</div>
+            <p>Build a scalable collaborative-robotics network founded on shared, adaptable skills — AI-based
+            controllers for skills coordination and learning, vision systems, and LLM-based human–multi-robot
+            interaction — advancing multi-arm Industry 4.0 operations in line with KSA Vision 2030.</p>
+            <a class="p-link" href="https://pure.kfupm.edu.sa/en/persons/abderraouf-maoudj/projects/" target="_blank" rel="noopener">Project page <i class="fas fa-arrow-up-right-from-square"></i></a>
           </div>
           <div class="project-card">
-            <span class="p-status completed">2023–2025</span>
-            <h4>Collaborative Robot Systems for Industrial Tasks (Grant INMR2403)</h4>
-            <div class="p-meta">IRC-IMR, KFUPM · Project Lead</div>
-            <p>A scalable collaborative-robotics network with shared, adaptable skills. Delivered multi-agent deep
-            RL, imitation learning, and transformer-based inter-arm attention for decentralized multi-arm motion
-            planning, plus swarm-coordination mechanisms for large-scale warehouse automation.</p>
-          </div>
-          <div class="project-card">
+            <img src="images/proj-swarm.jpg" alt="Swarm Robotics for Industry 4.0" class="proj-img" loading="lazy" onerror="this.remove();">
             <span class="p-status completed">2021–2023</span>
             <h4>Swarm Robotics for Industry 4.0</h4>
-            <div class="p-meta">SDU Biorobotics, Denmark · with Enable Robotics</div>
-            <p>Decentralized coordination for mobile robots in I4.0 warehouses: decentralized multi-agent path
-            finding, capacitated multi-AGV scheduling, and lifelong MAPF — delivering coordination frameworks
-            scaling to thousands of robots in dynamic environments.</p>
+            <div class="p-meta">SDU Biorobotics, Denmark · with Enable Robotics &amp; MiR</div>
+            <p>AI-based algorithms for high-throughput coordination of autonomous mobile-robot fleets in dense
+            warehouses and fulfilment centres — decentralized multi-agent path finding, capacitated multi-AGV
+            scheduling, and lifelong MAPF — scaling to thousands of robots in dynamic environments.</p>
+            <a class="p-link" href="https://www.sdu.dk/en/forskning/sdu_biorobotics/projects/swarm-robotics-i-4-0-lab" target="_blank" rel="noopener">Project page <i class="fas fa-arrow-up-right-from-square"></i></a>
           </div>
         </div>
       </section>
@@ -180,6 +186,7 @@
                 </div>
                 <div class="pub-icons">
                   <a href="https://doi.org/10.21203/rs.3.rs-9069526/v1" target="_blank" rel="noopener" title="Link"><i class="fas fa-link"></i></a>
+                  <a href="https://www.youtube.com/watch?v=lUgh1zLoQ-A" target="_blank" rel="noopener" title="Video"><i class="fab fa-youtube"></i></a>
                   <a href="#" class="copy-citation" data-citation="@article{Maoudj2026SPINDER,
   title = {SPINDER: An Open-Source 18-DoF Hexapod Robot with Hierarchical Central Pattern Generator Control and Analytic Inverse Kinematics},
   author = {Abderraouf Maoudj and Azhar Aulia Saputra and Brahim Brahmi and Mourad Nouioua},
@@ -188,10 +195,12 @@
 }" title="BibTeX"><i class="fas fa-quote-right"></i></a>
                 </div>
               </div>
-              <div class="publication-content">
+              <div class="publication-content has-thumb">
+                <img src="images/spinder-robot.jpg" alt="SPINDER 18-DoF hexapod robot" class="pub-thumb" loading="lazy" decoding="async" onerror="this.closest('.publication-content')?.classList.remove('has-thumb'); this.remove();">
                 <div class="publication-detail">
                   <p class="authors">A. Maoudj, A. A. Saputra, B. Brahmi &amp; M. Nouioua</p>
                   <p class="venue">Scientific Reports, 2026.</p>
+                  <p class="pub-note">Hardware experiments: the robot demonstrates omnidirectional movement — walking in sagittal, coronal, and rotational directions — and maintains stable locomotion on flat ground and structured uneven terrain, indicating that the control decomposition is robust to moderate contact variability.</p>
                 </div>
               </div>
             </div>
@@ -2260,19 +2269,22 @@
       <!-- TEACHING -->
       <section id="teaching">
         <h3 class="section-title">Teaching &amp; Mentorship</h3>
-        <p class="lead">Teaching and mentorship are central to my academic career. I design courses that bridge
-        foundational theory with implementation — through simulation, laboratory work, and design-based projects —
-        so students gain the analytical and engineering skills demanded in robotics, control, automation, and
-        intelligent systems.</p>
+        <p class="lead">My teaching journey began during my PhD, assisting in core courses in robotics, AI,
+        electronics, and automation. As a Senior Researcher I supervised Master's projects in robotic manipulation,
+        mobile navigation, and control integration — reinforcing my conviction that hands-on experience is critical
+        to mastery. I integrate tools such as MATLAB/Simulink, ROS, Python, PyBullet, MuJoCo, and robotic platforms
+        (e.g., UR5, Meca500) into lab-driven modules, and emphasise learning through open-ended design challenges,
+        problem-based projects, simulation-to-reality pipelines, and iterative prototyping — encouraging students to
+        defend their design choices and reflect on system behaviour.</p>
 
-        <div class="sub-h">Courses delivered (undergraduate &amp; graduate)</div>
+        <div class="sub-h">Selected courses</div>
         <div class="course-grid">
-          <div class="course"><strong>Linear Control Systems</strong><span>UG · modeling, Laplace/time–frequency response, controller synthesis, MATLAB/Simulink labs.</span></div>
-          <div class="course"><strong>Introduction to Robotic Systems &amp; ROS</strong><span>UG/Grad · mobile &amp; manipulator kinematics/dynamics, ROS 1/2, Navigation Stack, MoveIt.</span></div>
-          <div class="course"><strong>Applied Reinforcement Learning for Robotic Manipulation</strong><span>Grad · Q-learning, DQN, SAC; learning-based controllers in sim and on hardware.</span></div>
-          <div class="course"><strong>Automation &amp; PLCs</strong><span>UG · Siemens TIA Portal (Ladder, Grafcet); discrete-event control for manufacturing.</span></div>
-          <div class="course"><strong>Embedded Systems for Automotive Engineering</strong><span>UG · automotive sensing/actuation, AUTOSAR, real-time constraints.</span></div>
-          <div class="course"><strong>Mobile Robot Navigation</strong><span>UG · fundamentals and key concepts in applied robotics.</span></div>
+          <div class="course"><strong>Linear Control Systems <em>· Undergraduate</em></strong><span>Modeling, Laplace transforms, temporal and frequency-domain responses, feedback-system design, and controller synthesis, with MATLAB-based validation.</span></div>
+          <div class="course"><strong>Algorithms &amp; C Programming <em>· Undergraduate</em></strong><span>Structured programming in C (data types, control flow, functions, pointers, arrays, dynamic memory) alongside algorithm design and analysis — complexity, recursion, searching and sorting — reinforced with problem-based coding assignments.</span></div>
+          <div class="course"><strong>Introduction to Robotic Systems &amp; ROS <em>· Graduate</em></strong><span>Mobile and manipulator robotics, sensing, actuation, and control, with ROS-based development using the Navigation Stack, MoveIt, and real-time communication interfaces.</span></div>
+          <div class="course"><strong>Automation &amp; PLCs <em>· Graduate</em></strong><span>Industrial automation, PLC programming (TIA Portal; Grafcet, Ladder), actuator–sensor integration, and project-based industrial process automation.</span></div>
+          <div class="course"><strong>Applied Reinforcement Learning for Robotic Manipulation</strong><span>Robotic-arm kinematics and control, and reinforcement-learning approaches — Q-learning, DQN, and SAC — integrated through simulation and coding-based assignments.</span></div>
+          <div class="course course-wide"><strong>Reinforcement Learning for Robotics <em>· Proposed — Graduate &amp; PhD</em></strong><span>Introduces RL for robotic systems from a control-and-robotics perspective: fundamentals of robotics and control (sensing/actuation, kinematics, standard regulators), then RL fundamentals and how RL differs from supervised/unsupervised learning. The algorithmic core covers model-free RL, value methods (Q-learning/DQN), actor–critic/PPO, and SAC/TD3 for continuous control, followed by offline RL (learning from fixed datasets). Two additional PhD modules add imitation learning and Vision–Language–Action for robotics (high-level policy specification and perception-to-action interfaces). Reinforced through lectures plus targeted written and coding assignments tied to robotic navigation and manipulation.</span></div>
         </div>
 
         <div class="sub-h">Invited seminars, lectures &amp; outreach</div>
@@ -2402,5 +2414,6 @@
     document.querySelectorAll('main section[id]').forEach(s=>obs.observe(s));
   })();
   </script>
+  <script src="JS/enhance.js" defer></script>
 </body>
 </html>

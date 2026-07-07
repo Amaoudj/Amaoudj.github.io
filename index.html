@@ -47,7 +47,7 @@
       <img class="avatar" src="profile_image.png" alt="Abderraouf Maoudj">
       <div class="id-block">
         <div class="id-name">Abderraouf Maoudj</div>
-        <div class="id-role">Post-Doctoral Research Fellow<br>Robotics &amp; AI · Robotic Learning</div>
+        <div class="id-role">Robotic Researcher</div>
         <div class="id-affil">IRC-IMR, King Fahd University of Petroleum &amp; Minerals</div>
       </div>
 
@@ -69,10 +69,11 @@
       <nav class="side-nav">
         <a href="#about"><i class="fas fa-user"></i> About</a>
         <a href="#research"><i class="fas fa-diagram-project"></i> Research &amp; Projects</a>
-        <a href="#publications"><i class="fas fa-book-open"></i> Publications</a>
-        <a href="#experience"><i class="fas fa-briefcase"></i> Experience</a>
-        <a href="#education"><i class="fas fa-graduation-cap"></i> Education</a>
         <a href="#teaching"><i class="fas fa-chalkboard-user"></i> Teaching</a>
+        <a href="#seminars"><i class="fas fa-microphone-lines"></i> Seminars</a>
+        <a href="#experience"><i class="fas fa-briefcase"></i> Experience</a>
+        <a href="#publications"><i class="fas fa-book-open"></i> Publications</a>
+        <a href="#education"><i class="fas fa-graduation-cap"></i> Education</a>
         <a href="#skills"><i class="fas fa-gears"></i> Skills</a>
         <a href="#contact"><i class="fas fa-paper-plane"></i> Contact</a>
       </nav>
@@ -85,18 +86,26 @@
       <section id="about" class="hero">
         <h2>Abderraouf Maoudj</h2>
         <div class="headline">Robotic learning · multi-robot coordination · collaborative manipulation for Industry 4.0</div>
-        <p>I am a senior robotics researcher and Post-Doctoral Research Fellow at the Interdisciplinary Research
-        Center for Intelligent Manufacturing &amp; Robotics (IRC-IMR), KFUPM. My work builds learning-based
+        <p>I'm a senior robotics researcher and Post-Doctoral Research Fellow at the Interdisciplinary Research
+        Center for Intelligent Manufacturing and Robotics (IRC-IMR), KFUPM. My work builds learning-based
         robotic systems that can be <em>instructed, taught, and coordinated</em> rather than manually programmed —
         integrating vision–language–action (VLA) models, world-model-based reinforcement learning, imitation
         learning, and decentralized multi-agent coordination. With more than a decade of academic and industrial
         R&amp;D across Denmark, Algeria, and Saudi Arabia, I focus on methods that move beyond simulation into
-        large-scale deployment in dynamic warehouses, factories, and smart-manufacturing settings.</p>
-        <p>My current agenda spans next-generation manipulation (learning skills from minimal human or video
-        demonstration, offline policy refinement with learned world models) and resilient legged locomotion
-        (bio-inspired CPG dynamics modulated by reinforcement learning under progressive hardware faults).
-        Across these threads I aim to let large teams of robots make local decisions that yield globally
-        efficient, robust behavior in uncertain environments.</p>
+        large-scale deployment in dynamic warehouses, factories, and smart-manufacturing settings, where
+        scalability and adaptability are the core challenges.</p>
+        <p>My current research centers on three directions:</p>
+        <ul class="about-list">
+          <li><strong>Next-generation robotic manipulation and learning:</strong> learning skills from minimal
+          human or video demonstration and refining policies offline with learned world models, with a particular
+          focus on how high-level operator commands can be translated into effective, optimized robot actions.</li>
+          <li><strong>Multi-robot planning and coordination:</strong> enabling swarms of autonomous robots to
+          distribute tasks in a decentralized manner, collaborate toward individual and shared goals, and adapt to
+          changing conditions, with particular application to fleets of drones and mobile robots — letting large
+          teams of robots make local decisions that yield globally efficient, robust behavior in uncertain environments.</li>
+          <li><strong>Resilient legged locomotion:</strong> bio-inspired CPG dynamics modulated by reinforcement
+          learning to sustain performance under progressive hardware faults.</li>
+        </ul>
         <div class="interests">
           <span class="tag accent">Reinforcement Learning</span>
           <span class="tag accent">Robotic Manipulation</span>
@@ -110,7 +119,6 @@
         </div>
       </section>
 
-      <!-- RESEARCH / PROJECTS -->
       <section id="research">
         <h3 class="section-title">Research &amp; Selected Projects</h3>
         <div class="projects">
@@ -155,7 +163,90 @@
         </div>
       </section>
 
-      <!-- PUBLICATIONS -->
+      <section id="teaching">
+        <h3 class="section-title">Teaching &amp; Mentorship</h3>
+        <p class="lead">My teaching journey began during my PhD, assisting in core courses in robotics, AI,
+        electronics, and automation. As a Senior Researcher I supervised Master's projects in robotic manipulation,
+        mobile navigation, and control integration — reinforcing my conviction that hands-on experience is critical
+        to mastery. I integrate tools such as MATLAB/Simulink, ROS, Python, PyBullet, MuJoCo, and robotic platforms
+        (e.g., UR5, Meca500) into lab-driven modules, and emphasise learning through open-ended design challenges,
+        problem-based projects, simulation-to-reality pipelines, and iterative prototyping — encouraging students to
+        defend their design choices and reflect on system behaviour.</p>
+
+        <div class="sub-h">Selected courses</div>
+        <div class="course-grid">
+          <div class="course"><strong>Linear Control Systems <em>· Undergraduate</em></strong><span>Modeling, Laplace transforms, temporal and frequency-domain responses, feedback-system design, and controller synthesis, with MATLAB-based validation.</span></div>
+          <div class="course"><strong>Algorithms &amp; C Programming <em>· Undergraduate</em></strong><span>Structured programming in C (data types, control flow, functions, pointers, arrays, dynamic memory) alongside algorithm design and analysis — complexity, recursion, searching and sorting — reinforced with problem-based coding assignments.</span></div>
+          <div class="course"><strong>Introduction to Robotic Systems &amp; ROS <em>· Graduate</em></strong><span>Mobile and manipulator robotics, sensing, actuation, and control, with ROS-based development using the Navigation Stack, MoveIt, and real-time communication interfaces.</span></div>
+          <div class="course"><strong>Automation &amp; PLCs <em>· Graduate</em></strong><span>Industrial automation, PLC programming (TIA Portal; Grafcet, Ladder), actuator–sensor integration, and project-based industrial process automation.</span></div>
+          <div class="course"><strong>Applied Reinforcement Learning for Robotic Manipulation</strong><span>Robotic-arm kinematics and control, and reinforcement-learning approaches — Q-learning, DQN, and SAC — integrated through simulation and coding-based assignments.</span></div>
+          <div class="course course-wide"><strong>Reinforcement Learning for Robotics <em>· Proposed — Graduate &amp; PhD</em></strong><span>Introduces RL for robotic systems from a control-and-robotics perspective: fundamentals of robotics and control (sensing/actuation, kinematics, standard regulators), then RL fundamentals and how RL differs from supervised/unsupervised learning. The algorithmic core covers model-free RL, value methods (Q-learning/DQN), actor–critic/PPO, and SAC/TD3 for continuous control, followed by offline RL (learning from fixed datasets). Two additional PhD modules add imitation learning and Vision–Language–Action for robotics (high-level policy specification and perception-to-action interfaces). Reinforced through lectures plus targeted written and coding assignments tied to robotic navigation and manipulation.</span></div>
+        </div>
+      </section>
+
+      <section id="seminars">
+        <h3 class="section-title">Invited Seminars, Lectures &amp; Outreach</h3>
+        <ul class="seminars">
+          <li>
+            <span class="s-t">Reinforcement Learning in Robotics: From Mathematical Foundations to Real-World Applications</span><br>
+            <span class="s-m">Invited lecture, Department of Electrical Engineering, KFUPM — November 2025.</span>
+            <a class="sem-link" href="https://www.linkedin.com/feed/update/urn:li:activity:7401183545009995776/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn post</a>
+          </li>
+          <li>
+            <span class="s-t">Decentralized Multi-Robot Motion Planning &amp; Coordination for Industrial Applications</span><br>
+            <span class="s-m">Invited seminar, University of Tartu, Estonia — September 2024.</span>
+            <a class="sem-link" href="https://www.linkedin.com/feed/update/urn:li:activity:7236637521974067201/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i> LinkedIn post</a>
+            <img src="images/seminar-tartu.jpg" alt="University of Tartu invited seminar" class="sem-photo" loading="lazy" onerror="this.remove();">
+          </li>
+          <li>
+            <span class="s-t">Multi-Robot Motion Planning &amp; Coordination in Industrial Environments</span><br>
+            <span class="s-m">Co-organized &amp; presented — IRC-IMR Annual Research Workshop, DTV, KFUPM — August 2024.</span>
+            <a class="sem-link" href="https://ri.kfupm.edu.sa/ircimr/events/event-details/irc-imr-3rd-annual-workshop" target="_blank" rel="noopener"><i class="fas fa-arrow-up-right-from-square"></i> Workshop page</a>
+          </li>
+          <li>
+            <span class="s-t">IRC-IMR Robotics activities · Vision 2030 research strategy</span><br>
+            <span class="s-m">2024 KFUPM Research Forum — October 2024.</span>
+            <a class="sem-link" href="https://research-forum.kfupm.edu.sa/" target="_blank" rel="noopener"><i class="fas fa-arrow-up-right-from-square"></i> Research Forum</a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="experience">
+        <h3 class="section-title">Experience</h3>
+        <div class="timeline">
+          <div class="tl-item">
+            <div class="tl-role">Post-Doctoral Research Fellow</div>
+            <div class="tl-org">Interdisciplinary Research Center for Intelligent Manufacturing &amp; Robotics (IRC-IMR), KFUPM — Saudi Arabia</div>
+            <div class="tl-period">2023 – Present</div>
+            <ul>
+              <li>Lead research on adaptive control and learning for next-generation robotic manipulation, including VLA models, world-model RL, and imitation learning.</li>
+              <li>Established a collaborative-robotics testbed and a Collaborative Robotics Network Framework with closed-loop control for rapid, low-configuration cobot deployment.</li>
+              <li>Develop AI-driven methods for high-throughput coordination of autonomous mobile-robot fleets in dense warehouses supporting KSA e-commerce and logistics.</li>
+              <li>Supervise Master's students and research interns; several projects reached publications, industrial demos, or technology prototypes.</li>
+            </ul>
+          </div>
+          <div class="tl-item">
+            <div class="tl-role">Post-Doctoral Researcher</div>
+            <div class="tl-org">SDU Biorobotics, University of Southern Denmark — Denmark</div>
+            <div class="tl-period">2021 – 2023</div>
+            <ul>
+              <li>AI-based distributed multi-robot coordination for large-scale e-commerce logistics (project: Swarm Robotics for Industry 4.0, with Enable Robotics).</li>
+              <li>Decentralized multi-agent path finding, capacitated multi-AGV scheduling, and swarm robotics in dynamic warehouses; frameworks scaling to &gt;3,000 robots.</li>
+              <li>Co-supervised Master's projects emphasizing reproducible experimentation, benchmarking, and open-source software.</li>
+            </ul>
+          </div>
+          <div class="tl-item">
+            <div class="tl-role">Research Professor / Senior Researcher</div>
+            <div class="tl-org">Robotics Division, Center for Development of Advanced Technologies (CDTA) — Algeria</div>
+            <div class="tl-period">2014 – 2020</div>
+            <ul>
+              <li>R&amp;D on robotics and automation for smart manufacturing: scalable integration of collaborative arms, AGV fleets, PLC-based automation, and intelligent scheduling into Industry 4.0 cyber–physical assembly cells.</li>
+              <li>Delivered core engineering courses and supervised multiple Master's theses in robotic manipulation, industrial automation, and autonomous navigation.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
       <section id="publications">
         <h3 class="section-title">Publications <span class="count">49 entries</span></h3>
         <p class="subtext" style="color:var(--muted);font-size:.9rem;margin-bottom:1rem;">
@@ -2212,44 +2303,6 @@
         </div>
       </section>
 
-      <!-- EXPERIENCE -->
-      <section id="experience">
-        <h3 class="section-title">Experience</h3>
-        <div class="timeline">
-          <div class="tl-item">
-            <div class="tl-role">Post-Doctoral Research Fellow</div>
-            <div class="tl-org">Interdisciplinary Research Center for Intelligent Manufacturing &amp; Robotics (IRC-IMR), KFUPM — Saudi Arabia</div>
-            <div class="tl-period">2023 – Present</div>
-            <ul>
-              <li>Lead research on adaptive control and learning for next-generation robotic manipulation, including VLA models, world-model RL, and imitation learning.</li>
-              <li>Established a collaborative-robotics testbed and a Collaborative Robotics Network Framework with closed-loop control for rapid, low-configuration cobot deployment.</li>
-              <li>Develop AI-driven methods for high-throughput coordination of autonomous mobile-robot fleets in dense warehouses supporting KSA e-commerce and logistics.</li>
-              <li>Supervise Master's students and research interns; several projects reached publications, industrial demos, or technology prototypes.</li>
-            </ul>
-          </div>
-          <div class="tl-item">
-            <div class="tl-role">Post-Doctoral Researcher</div>
-            <div class="tl-org">SDU Biorobotics, University of Southern Denmark — Denmark</div>
-            <div class="tl-period">2021 – 2023</div>
-            <ul>
-              <li>AI-based distributed multi-robot coordination for large-scale e-commerce logistics (project: Swarm Robotics for Industry 4.0, with Enable Robotics).</li>
-              <li>Decentralized multi-agent path finding, capacitated multi-AGV scheduling, and swarm robotics in dynamic warehouses; frameworks scaling to &gt;3,000 robots.</li>
-              <li>Co-supervised Master's projects emphasizing reproducible experimentation, benchmarking, and open-source software.</li>
-            </ul>
-          </div>
-          <div class="tl-item">
-            <div class="tl-role">Research Professor / Senior Researcher</div>
-            <div class="tl-org">Robotics Division, Center for Development of Advanced Technologies (CDTA) — Algeria</div>
-            <div class="tl-period">2014 – 2020</div>
-            <ul>
-              <li>R&amp;D on robotics and automation for smart manufacturing: scalable integration of collaborative arms, AGV fleets, PLC-based automation, and intelligent scheduling into Industry 4.0 cyber–physical assembly cells.</li>
-              <li>Delivered core engineering courses and supervised multiple Master's theses in robotic manipulation, industrial automation, and autonomous navigation.</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <!-- EDUCATION -->
       <section id="education">
         <h3 class="section-title">Education</h3>
         <details class="card" open>
@@ -2266,37 +2319,6 @@
         </details>
       </section>
 
-      <!-- TEACHING -->
-      <section id="teaching">
-        <h3 class="section-title">Teaching &amp; Mentorship</h3>
-        <p class="lead">My teaching journey began during my PhD, assisting in core courses in robotics, AI,
-        electronics, and automation. As a Senior Researcher I supervised Master's projects in robotic manipulation,
-        mobile navigation, and control integration — reinforcing my conviction that hands-on experience is critical
-        to mastery. I integrate tools such as MATLAB/Simulink, ROS, Python, PyBullet, MuJoCo, and robotic platforms
-        (e.g., UR5, Meca500) into lab-driven modules, and emphasise learning through open-ended design challenges,
-        problem-based projects, simulation-to-reality pipelines, and iterative prototyping — encouraging students to
-        defend their design choices and reflect on system behaviour.</p>
-
-        <div class="sub-h">Selected courses</div>
-        <div class="course-grid">
-          <div class="course"><strong>Linear Control Systems <em>· Undergraduate</em></strong><span>Modeling, Laplace transforms, temporal and frequency-domain responses, feedback-system design, and controller synthesis, with MATLAB-based validation.</span></div>
-          <div class="course"><strong>Algorithms &amp; C Programming <em>· Undergraduate</em></strong><span>Structured programming in C (data types, control flow, functions, pointers, arrays, dynamic memory) alongside algorithm design and analysis — complexity, recursion, searching and sorting — reinforced with problem-based coding assignments.</span></div>
-          <div class="course"><strong>Introduction to Robotic Systems &amp; ROS <em>· Graduate</em></strong><span>Mobile and manipulator robotics, sensing, actuation, and control, with ROS-based development using the Navigation Stack, MoveIt, and real-time communication interfaces.</span></div>
-          <div class="course"><strong>Automation &amp; PLCs <em>· Graduate</em></strong><span>Industrial automation, PLC programming (TIA Portal; Grafcet, Ladder), actuator–sensor integration, and project-based industrial process automation.</span></div>
-          <div class="course"><strong>Applied Reinforcement Learning for Robotic Manipulation</strong><span>Robotic-arm kinematics and control, and reinforcement-learning approaches — Q-learning, DQN, and SAC — integrated through simulation and coding-based assignments.</span></div>
-          <div class="course course-wide"><strong>Reinforcement Learning for Robotics <em>· Proposed — Graduate &amp; PhD</em></strong><span>Introduces RL for robotic systems from a control-and-robotics perspective: fundamentals of robotics and control (sensing/actuation, kinematics, standard regulators), then RL fundamentals and how RL differs from supervised/unsupervised learning. The algorithmic core covers model-free RL, value methods (Q-learning/DQN), actor–critic/PPO, and SAC/TD3 for continuous control, followed by offline RL (learning from fixed datasets). Two additional PhD modules add imitation learning and Vision–Language–Action for robotics (high-level policy specification and perception-to-action interfaces). Reinforced through lectures plus targeted written and coding assignments tied to robotic navigation and manipulation.</span></div>
-        </div>
-
-        <div class="sub-h">Invited seminars, lectures &amp; outreach</div>
-        <ul class="seminars">
-          <li><span class="s-t">Reinforcement Learning in Robotics: From Mathematical Foundations to Real-World Applications</span><br><span class="s-m">Invited lecture, Dept. of Electrical Engineering, KFUPM — November 2025.</span></li>
-          <li><span class="s-t">Decentralized Multi-Robot Motion Planning &amp; Coordination for Industrial Applications</span><br><span class="s-m">Invited seminar, University of Tartu, Estonia — September 2024.</span></li>
-          <li><span class="s-t">Multi-Robot Motion Planning &amp; Coordination in Industrial Environments</span><br><span class="s-m">Co-organized &amp; presented — Fourth Annual Research Workshop, DTV, KFUPM — August 2024.</span></li>
-          <li><span class="s-t">IRC-IMR Robotics activities · Vision 2030 research strategy</span><br><span class="s-m">2024 KFUPM Research Forum — October 2024.</span></li>
-        </ul>
-      </section>
-
-      <!-- SKILLS -->
       <section id="skills">
         <h3 class="section-title">Technical Skills</h3>
         <div class="skills-grid">
@@ -2309,7 +2331,6 @@
         </div>
       </section>
 
-      <!-- CONTACT -->
       <section id="contact">
         <h3 class="section-title">Contact</h3>
         <div class="contact-grid">
@@ -2412,6 +2433,22 @@
       });
     },{rootMargin:'-30% 0px -60% 0px'});
     document.querySelectorAll('main section[id]').forEach(s=>obs.observe(s));
+  })();
+  </script>
+  <script>
+  (function(){
+    var ov=document.createElement('div');ov.className='lightbox-overlay';
+    var im=document.createElement('img');ov.appendChild(im);
+    var cl=document.createElement('span');cl.className='lb-close';cl.innerHTML='&times;';ov.appendChild(cl);
+    document.body.appendChild(ov);
+    function openLb(src,alt){im.src=src;im.alt=alt||'';ov.classList.add('open');}
+    function closeLb(){ov.classList.remove('open');im.src='';}
+    document.querySelectorAll('.proj-img,.sem-photo,.pub-thumb').forEach(function(el){
+      el.style.cursor='zoom-in';
+      el.addEventListener('click',function(){openLb(el.currentSrc||el.src,el.alt);});
+    });
+    ov.addEventListener('click',closeLb);
+    document.addEventListener('keydown',function(e){if(e.key==='Escape')closeLb();});
   })();
   </script>
   <script src="JS/enhance.js" defer></script>

@@ -101,10 +101,14 @@
   <h1 id="profile-title">Abderraouf Maoudj</h1>
   <p>My work builds intelligent robot brains that reason on physical time and act safely on physical robots, with embodied AI for robot arms, legged robots and robot teams as the main application. For more than a decade I have carried out academic and industrial research and development in Algeria, Denmark and Saudi Arabia, with industrial partners that include Siemens, Mobile Industrial Robots and Enabled Robotics. The applications lie in intelligent manufacturing and smart logistics, and in embodied intelligence and the low-altitude economy. One question organises the research: how can robots learn useful behaviour from limited interaction, keep working safely when their hardware or their task changes, and coordinate at industrial scale?</p>
   <ul class="about-list">
-    <li><strong>Embodied AI and world models:</strong> NeuroAct, a robot brain designed to keep working when the body or the task changes, whose shared model generalises in simulation to robot bodies it never saw in training; <strong>multi-agent world models</strong> (current work), in which each robot is curious about how its own actions and those of its teammates change the environment, so that the team learns a joint model of how the whole system evolves; and, as directions I am developing, vision-language-action policies that consult a world model before contact, and policies that reason on physical time.</li>
-    <li><strong>Robot learning for intelligent manufacturing:</strong> as Principal Investigator of KFUPM Grant No. INMR2403, which I proposed, won and delivered, I built a dual-arm Meca500 skill-learning testbed that is now shared laboratory infrastructure in active use. On it, a decentralised policy per arm with graph attention between arms runs on the physical arms and coordinates more arms in simulation than it was trained with.</li>
-    <li><strong>Multi-robot systems for smart logistics and drone teams:</strong> decentralised path finding and scheduling for warehouse robot fleets under limited communication, developed with the industrial partner Enabled Robotics, which coordinate very large fleets in simulation; and decentralised multi-drone gas-source localisation with a safety filter, which found the source far more often than infotaxis and model-predictive-control baselines.</li>
-    <li><strong>Fault-tolerant legged robots and actuation:</strong> a co-authored controller in which reinforcement learning modulates central pattern generators was deployed zero-shot on a physical 18-DoF hexapod and kept it walking without a fall across repeated hardware trials, even with multiple legs disabled (under review); the open-source SPINDER hexapod platform (<em>Scientific Reports</em>, 2026); and, as Co-Principal Investigator of KFUPM Grant No. INMR2632, a dual-mode actuation joint for an open bipedal platform.</li>
+    <li>
+<strong>Embodied AI and world models:</strong> NeuroAct, a robot brain designed to keep working when the body or the task changes, whose shared model generalises in simulation to robot bodies it never saw in training; <strong>multi-agent world models</strong> (current work), in which each robot is curious about how its own actions and those of its teammates change the environment, so that the team learns a joint model of how the whole system evolves; and, as directions I am developing, vision-language-action policies that consult a world model before contact, and policies that reason on physical time.</li>
+    <li>
+<strong>Robot learning for intelligent manufacturing:</strong> as Principal Investigator of KFUPM Grant No. INMR2403, which I proposed, won and delivered, I built a dual-arm Meca500 skill-learning testbed that is now shared laboratory infrastructure in active use. On it, a decentralised policy per arm with graph attention between arms runs on the physical arms and coordinates more arms in simulation than it was trained with.</li>
+    <li>
+<strong>Multi-robot systems for smart logistics and drone teams:</strong> decentralised path finding and scheduling for warehouse robot fleets under limited communication, developed with the industrial partner Enabled Robotics, which coordinate very large fleets in simulation; and decentralised multi-drone gas-source localisation with a safety filter, which found the source far more often than infotaxis and model-predictive-control baselines.</li>
+    <li>
+<strong>Fault-tolerant legged robots and actuation:</strong> a co-authored controller in which reinforcement learning modulates central pattern generators was deployed zero-shot on a physical 18-DoF hexapod and kept it walking without a fall across repeated hardware trials, even with multiple legs disabled (under review); the open-source SPINDER hexapod platform (<em>Scientific Reports</em>, 2026); and, as Co-Principal Investigator of KFUPM Grant No. INMR2632, a dual-mode actuation joint for an open bipedal platform.</li>
   </ul>
 </section>
 
@@ -115,33 +119,55 @@
 </div>
 <span class="section-aside">Watch the work in motion</span>
 </div>
-<p class="section-intro">Recent work in manipulation, robot teams, and autonomous inspection at IRC-IMR, KFUPM. Each demonstration includes the original project notes.</p>
+<p class="section-intro">Current research in embodied robot learning, industrial autonomy, manipulation and coordinated robot teams. Watch each project in motion and explore the research behind it.</p>
 <div class="current-grid">
-<article class="current-project" aria-labelledby="project-smart-souq">
+<article class="current-project" aria-labelledby="project-intelligent-biped"><div class="project-media">
+<video controls playsinline preload="none" poster="images/current-projects/intelligent-biped.jpg" aria-label="From CAD to learned walking"><source src="videos/current-projects/intelligent-biped.mp4" type="video/mp4">Your browser does not support video. <a href="videos/current-projects/intelligent-biped.mp4">Open the demonstration</a>.</video><span class="media-label">Robot design &amp; learned locomotion</span>
+</div>
+<div class="project-body">
+<div class="project-kicker">Intelligent biped · INMR2632</div>
+<h3 id="project-intelligent-biped">From CAD to learned walking</h3>
+<p class="project-credits">Azhar Saputra · Abderraouf Maoudj · Brahim Brahmi</p>
+<p>A modular biped platform links CAD-defined mechanisms with learned locomotion in Isaac Lab. A neural policy, gait timing and servo-level control support training from flat ground to uneven terrain, slopes and stairs. The 3D-printed prototype is in fabrication, with hardware transfer and balance testing next.</p>
+<div class="project-bottom">
+<span class="application">Embodied robot learning</span><a href="Projects/intelligent-biped/" aria-label="From CAD to learned walking: full project overview">Project overview <span aria-hidden="true">↗</span></a>
+</div>
+</div></article><article class="current-project" aria-labelledby="project-industrial-plant-inspection"><div class="project-media">
+<video controls playsinline preload="none" poster="images/current-projects/industrial-plant-inspection.jpg" aria-label="Autonomy for the whole inspection mission"><source src="videos/current-projects/industrial-plant-inspection.mp4" type="video/mp4">Your browser does not support video. <a href="videos/current-projects/industrial-plant-inspection.mp4">Open the demonstration</a>.</video><span class="media-label">Adaptive industrial inspection</span>
+</div>
+<div class="project-body">
+<div class="project-kicker">Plant-driven industrial inspection</div>
+<h3 id="project-industrial-plant-inspection">Autonomy for the whole inspection mission</h3>
+<p class="project-credits">Presented by Abderraouf Maoudj</p>
+<p>An autonomy layer turns plant alarms into coordinated inspection missions for legged robots, drones and crawlers. It allocates tasks and routes by sensing capability, distance, battery and risk, linking thermal anomaly checks with cooperative gas-source search. The concept demonstration shows how plant-driven decisions can replace fixed patrol routines.</p>
+<div class="project-bottom">
+<span class="application">Industrial autonomy</span><a href="Projects/industrial-plant-inspection/" aria-label="Autonomy for the whole inspection mission: full project overview">Project overview <span aria-hidden="true">↗</span></a>
+</div>
+</div></article><article class="current-project" aria-labelledby="project-smart-souq">
     <div class="project-media">
-<video controls playsinline preload="none" poster="images/current-projects/smart-souq.jpg" aria-label="Dual-arm grocery picking for Saudi retail — simulation demonstration"><source src="videos/current-projects/smart-souq.mp4" type="video/mp4">Your browser does not support embedded video. <a href="https://www.linkedin.com/feed/update/urn:li:activity:7522487806212849664/">Watch the demonstration on LinkedIn</a>.</source></video><span class="media-label">Simulation · Mobile manipulation</span>
+<video controls playsinline preload="none" poster="images/current-projects/smart-souq.jpg" aria-label="Dual-arm grocery picking for Saudi retail — project demonstration"><source src="videos/current-projects/smart-souq.mp4" type="video/mp4">Your browser does not support embedded video. <a href="https://www.linkedin.com/feed/update/urn:li:activity:7522487806212849664/">Watch the demonstration on LinkedIn</a>.</video><span class="media-label">Retail robotics · Mobile manipulation</span>
 </div>
     <div class="project-body">
 <div class="project-kicker">SMART SOUQ</div>
 <h3 id="project-smart-souq">Dual-arm grocery picking for Saudi retail</h3>
-<p>A dual-arm mobile robot collects grocery orders in a simulated supermarket with shoppers and crowded aisles. Model-based planning and arm coordination work alongside learned dynamics compensation, exploring more adaptable order fulfilment for Saudi retail.</p>
+<p>A dual-arm mobile robot collects grocery orders in a digital supermarket testbed with shoppers and crowded aisles. Model-based planning and arm coordination work alongside learned dynamics compensation, exploring more adaptable order fulfilment for Saudi retail.</p>
 <div class="project-bottom">
 <span class="application">Retail automation</span><a href="https://www.linkedin.com/feed/update/urn:li:activity:7522487806212849664/" target="_blank" rel="noopener noreferrer" aria-label="SMART SOUQ: original LinkedIn video and project notes">Project notes <span aria-hidden="true">↗</span></a>
 </div>
 </div></article><article class="current-project" aria-labelledby="project-multi-arm-assembly">
     <div class="project-media">
-<video controls playsinline preload="none" poster="images/current-projects/multi-arm-assembly.jpg" aria-label="Coordination when it matters — simulation demonstration"><source src="videos/current-projects/multi-arm-assembly.mp4" type="video/mp4">Your browser does not support embedded video. <a href="https://www.linkedin.com/feed/update/urn:li:activity:7520524387951808513/">Watch the demonstration on LinkedIn</a>.</source></video><span class="media-label">MuJoCo simulation · Multi-arm systems</span>
+<video controls playsinline preload="none" poster="images/current-projects/multi-arm-assembly.jpg" aria-label="Coordination when it matters — project demonstration"><source src="videos/current-projects/multi-arm-assembly.mp4" type="video/mp4">Your browser does not support embedded video. <a href="https://www.linkedin.com/feed/update/urn:li:activity:7520524387951808513/">Watch the demonstration on LinkedIn</a>.</video><span class="media-label">Coordinated industrial assembly</span>
 </div>
     <div class="project-body">
 <div class="project-kicker">Shared-cell assembly</div>
 <h3 id="project-multi-arm-assembly">Coordination when it matters</h3>
-<p>Robot arms assemble parts from NIST Assembly Task Board 1 in a shared workspace. The research explores how to coordinate when tasks overlap while allowing independent motion elsewhere, with additional experiments on physical industrial arms.</p>
+<p>Robot arms assemble parts from NIST Assembly Task Board 1 in a shared workspace. This demonstration uses a MuJoCo testbed to explore coordination when tasks overlap; the wider project also includes experiments on physical industrial arms.</p>
 <div class="project-bottom">
 <span class="application">Flexible manufacturing</span><a href="https://www.linkedin.com/feed/update/urn:li:activity:7520524387951808513/" target="_blank" rel="noopener noreferrer" aria-label="Shared-cell assembly: original LinkedIn video and project notes">Project notes <span aria-hidden="true">↗</span></a>
 </div>
 </div></article><article class="current-project" aria-labelledby="project-gas-source-localization">
     <div class="project-media">
-<video controls playsinline preload="none" poster="images/current-projects/gas-source-localization-frame.jpg" aria-label="Drone gas-source localization — illustrative flight sequence"><source src="videos/current-projects/gas-source-localization.mp4" type="video/mp4">Your browser does not support embedded video. <a href="https://www.linkedin.com/feed/update/urn:li:activity:7517547685487452160/">Watch the demonstration on LinkedIn</a>.</source></video><span class="media-label">Illustrative flight sequence · Multi-agent learning</span>
+<video controls playsinline preload="none" poster="images/current-projects/gas-source-localization.jpg" aria-label="Drone teams that search for gas leaks — project demonstration"><source src="videos/current-projects/gas-source-localization.mp4" type="video/mp4">Your browser does not support embedded video. <a href="https://www.linkedin.com/feed/update/urn:li:activity:7517547685487452160/">Watch the demonstration on LinkedIn</a>.</video><span class="media-label">Cooperative aerial inspection</span>
 </div>
     <div class="project-body">
 <div class="project-kicker">Cooperative aerial inspection</div>
@@ -152,12 +178,12 @@
 </div>
 </div></article><article class="current-project" aria-labelledby="project-camera-drone-tracking">
     <div class="project-media">
-<video controls playsinline preload="none" poster="images/current-projects/camera-drone-tracking.jpg" aria-label="A drone team that chooses who looks — simulation demonstration"><source src="videos/current-projects/camera-drone-tracking.mp4" type="video/mp4">Your browser does not support embedded video. <a href="https://www.linkedin.com/feed/update/urn:li:activity:7514391443050811392/">Watch the demonstration on LinkedIn</a>.</source></video><span class="media-label">MuJoCo simulation · Camera-only tracking</span>
+<video controls playsinline preload="none" poster="images/current-projects/camera-drone-tracking.jpg" aria-label="A drone team that chooses who looks — project demonstration"><source src="videos/current-projects/camera-drone-tracking.mp4" type="video/mp4">Your browser does not support embedded video. <a href="https://www.linkedin.com/feed/update/urn:li:activity:7514391443050811392/">Watch the demonstration on LinkedIn</a>.</video><span class="media-label">Cooperative vision · Team planning</span>
 </div>
     <div class="project-body">
 <div class="project-kicker">Distributed visual sensing</div>
 <h3 id="project-camera-drone-tracking">A drone team that chooses who looks</h3>
-<p>Six camera drones track a target that shares no position telemetry, with only three detectors active at a time. An explicit planner selects complementary views and positions standby drones to reduce tracking gaps, with potential applications around industrial sites and emergency-response operations.</p>
+<p>Six camera drones track a target that shares no position telemetry, with only three detectors active at a time. An explicit planner selects complementary views and positions standby drones to reduce tracking gaps. The video visualizes a MuJoCo-based evaluation, with potential applications in industrial monitoring and emergency-response operations.</p>
 <div class="project-bottom">
 <span class="application">Cooperative perception</span><a href="https://www.linkedin.com/feed/update/urn:li:activity:7514391443050811392/" target="_blank" rel="noopener noreferrer" aria-label="Distributed visual sensing: original LinkedIn video and project notes">Project notes <span aria-hidden="true">↗</span></a>
 </div>

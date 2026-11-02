@@ -111,6 +111,10 @@ a:focus-visible,button:focus-visible { outline:2px solid var(--accent); outline-
   padding: 8px 10px;
 }
 
+/* Justified body paragraphs across research and publication pages. */
+.main-content p,.main-content section li{ text-align:justify; text-align-last:left; hyphens:auto; overflow-wrap:break-word; }
+.paper-header p,.gallery-caption{ text-align:left; }
+
 /* Smaller tiles on small screens */
 @media (max-width: 480px) {
   .gallery-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
@@ -119,10 +123,15 @@ a:focus-visible,button:focus-visible { outline:2px solid var(--accent); outline-
 /* --- Responsive: collapse sidebar on small screens --- */
 @media (max-width: 768px) {
   body { padding-left: 0; }
+  .layout { flex-direction:column; }
   .sidebar {
     position: static;
     width: 100%;
     height: auto;
+    padding:1.2rem 1.4rem;
   }
-  .main-content { margin: 0 auto; }
+  .sidebar h1 { font-size:1.3rem; margin-bottom:.7rem; }
+  .sidebar nav { display:flex; flex-wrap:wrap; gap:.5rem 1.1rem; }
+  .sidebar nav a { padding:.35rem 0; font-size:.8rem; }
+  .main-content { width:100%; margin:0 auto; padding:1.6rem 1.4rem; }
 }

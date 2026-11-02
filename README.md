@@ -8,14 +8,17 @@ This is a static GitHub Pages website. No build step or server-side dependencies
 
 - `index.html`: profile, current video projects, research directions, teaching, appointments, and searchable publication list.
 - `CSS/academic.css`: responsive homepage design.
+- `CSS/project_style.css`: research project overview pages, with shared publication-page styles.
 - `JS/portfolio.js`: publication filtering, BibTeX copying, figure viewing, and video playback coordination.
+- `Projects/<slug>/index.html`: detailed biped and industrial inspection project pages.
 - `Papers/<number>/index.html`: existing publication detail pages, styled by `CSS/page_style.css`.
-- `videos/current-projects/`: four locally hosted demonstrations, loaded only when played.
+- `videos/current-projects/`: six locally hosted demonstrations, loaded only when played.
 - `images/current-projects/`: genuine preview images and video stills.
+- `images/projects/`: original CAD and inspection figures from the project presentation.
 - `images/publications/`: lightweight publication preview images.
 - `publications.json` and `publications.bib`: normalized public bibliography and downloadable BibTeX.
 
-Project descriptions distinguish simulations, illustrative footage, and the wider research programme. The original LinkedIn posts are linked beside each demonstration.
+Project descriptions explain the demonstration context and the wider research programme. Original LinkedIn posts or detailed project overviews are linked beside each demonstration. Videos open with project credits; original source files are backed up outside this repository.
 
 ## CV
 

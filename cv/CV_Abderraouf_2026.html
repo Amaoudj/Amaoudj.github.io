@@ -33,7 +33,7 @@ li { margin-bottom: 5px; orphans: 3; widows: 3; }
 .project p { margin-bottom: 4px; }
 .links { font-size: 9pt; }
 .compact-list li { margin-bottom: 5px; }
-.pubs { break-before: page; }
+.pubs { break-before: auto; }
 .note { color: #566773; font-size: 9pt; }
 .bibliography { list-style: none; margin: 5px 0 0; padding: 0; font-size: 9.1pt; line-height: 1.33; }
 .bibliography li { display: grid; grid-template-columns: 29px 1fr; gap: 4px; break-inside: avoid; margin-bottom: 6px; }
@@ -44,8 +44,11 @@ li { margin-bottom: 5px; orphans: 3; widows: 3; }
 .ref-person p { margin: 2px 0; }
 .skills li { margin-bottom: 5px; }
 @media print {
- html { background:white; } body { padding:0; max-width: none; }
- a { color:#245a76; } h2 { margin-top:16px; }
+ html { background:white; } body { padding:0; max-width: none; line-height:1.34; }
+ a { color:#245a76; } h2 { margin-top:14px; }
+ h3 { margin-top:9px; } p { margin-bottom:7px; }
+ .entry { margin-bottom:9px; } .project { margin-bottom:8px; }
+ li { margin-bottom:4px; } ul { margin-bottom:8px; }
 }
 @media screen and (max-width:600px) { body { padding:22px; } .contacts,.refs-grid { grid-template-columns:1fr; } .entry { grid-template-columns:1fr; gap:2px; } }
 </style></head><body>
@@ -60,13 +63,16 @@ li { margin-bottom: 5px; orphans: 3; widows: 3; }
 <p class="metrics">1,837 citations · h-index 14 · i10-index 16 <span style="font-size:8pt">(Google Scholar, November 2026)</span></p>
 </header>
 
-<section><h2>Research Profile</h2>
-<p>Robotics researcher with twelve years of academic and industrial R&amp;D experience in Algeria, Denmark and Saudi Arabia. Develops learning and control methods for manipulation, decentralized robot teams and fault-tolerant locomotion, supported by physical prototypes, industrial collaborations and open research infrastructure.</p>
-<ul>
-<li><b>Learning for manipulation:</b> multi-arm reinforcement learning, imitation learning and world models; established a shared dual-arm Meca500 testbed as Principal Investigator of KFUPM Grant INMR2403.</li>
-<li><b>Scalable robot teams:</b> decentralized planning, scheduling and coordination for warehouse fleets, including planners evaluated with at least 1,000 simulated robots and lifelong task streams.</li>
-<li><b>Resilient embodied intelligence:</b> open-source legged platforms, learning-augmented CPG control and sim-to-real locomotion under progressive hardware failures; ongoing cross-embodiment learning through NeuroAct.</li>
-</ul></section>
+<section class="research-profile"><h2>Research Profile</h2>
+<p>My work builds intelligent robot brains that reason on physical time and act safely on physical robots, with embodied AI for robot arms, legged robots and robot teams as the main application. For more than a decade I have carried out academic and industrial research and development in Algeria, Denmark and Saudi Arabia, with industrial partners that include Siemens, Mobile Industrial Robots and Enabled Robotics. The applications lie in intelligent manufacturing and smart logistics, and in embodied intelligence and the low-altitude economy, which China has named among its future and strategic emerging industries. One question organises the research: how can robots learn useful behaviour from limited interaction, keep working safely when their hardware or their task changes, and coordinate at industrial scale?</p>
+  <ul>
+    <li><strong>Embodied AI and world models:</strong> NeuroAct, a robot brain designed to keep working when the body or the task changes, whose shared model generalises in simulation to robot bodies it never saw in training; <strong>multi-agent world models</strong> (current work), in which each robot is curious about how its own actions and those of its teammates change the environment, so that the team learns a joint model of how the whole system evolves; and, as directions I am developing, vision-language-action policies that consult a world model before contact, and policies that reason on physical time.</li>
+    <li><strong>Robot learning for intelligent manufacturing:</strong> as Principal Investigator of KFUPM Grant No. INMR2403, which I proposed, won and delivered, I built a dual-arm Meca500 skill-learning testbed that is now shared laboratory infrastructure in active use. On it, a decentralised policy per arm with graph attention between arms runs on the physical arms and coordinates more arms in simulation than it was trained with. First-author papers on multi-arm reinforcement learning and dual-arm manipulation are in press.</li>
+    <li><strong>Multi-robot systems for smart logistics and drone teams:</strong> decentralised path finding and scheduling for warehouse robot fleets under limited communication, developed with the industrial partner Enabled Robotics, which coordinate very large fleets in simulation; and decentralised multi-drone gas-source localisation with a safety filter, which found the source far more often than infotaxis and model-predictive-control baselines (first author, <em>Scientific Reports</em>, accepted 2026, simulation).</li>
+    <li><strong>Fault-tolerant legged robots and actuation:</strong> a co-authored controller in which reinforcement learning modulates central pattern generators was deployed zero-shot on a physical 18-DoF hexapod and kept it walking without a fall across repeated hardware trials, even with multiple legs disabled (under review); the open-source SPINDER hexapod platform (<em>Scientific Reports</em>, 2026); and, as Co-Principal Investigator of KFUPM Grant No. INMR2632, a dual-mode actuation joint for an open bipedal platform.</li>
+  </ul>
+
+</section>
 
 <section><h2>Research Appointments</h2>
 <div class="entry"><div class="date">2023–Present</div><div><b>Postdoctoral Research Fellow &amp; Robotics Laboratory Coordinator</b><div class="org">IRC-IMR, King Fahd University of Petroleum &amp; Minerals, Saudi Arabia</div><p>Learning-based manipulation and multi-arm planning; decentralized multi-agent learning; resilient legged control and cross-embodiment policies. PI, INMR2403; Co-PI, INMR2632. Graduate teaching and student supervision.</p></div></div>

@@ -1,30 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- =============================================
-       META & DOCUMENT-LEVEL SETTINGS
-       - <title> and <meta name="description"> use header.*
-       - Viewport for responsive layout
-       ============================================= -->
   <meta charset="UTF-8">
-  <title>Multi-Agent Architecture for Telerobotics of Heterogeneous Multi-robots Cooperation through Negotiated Task Allocation with Constraints: Initial Implementaion</title>
-  <meta name="description" content="Detail on the paper titled : Multi-Agent Architecture for Telerobotics of Heterogeneous Multi-robots Cooperation through Negotiated Task Allocation with Constraints: Initial Implementaion.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- =============================================
-       FONTS & ICONS
-       - Inter font family
-       - Font Awesome icons (e.g., GitHub, PDF, DOI)
-       ============================================= -->
+  <title>Multi-agent architecture for telerobotics of heterogeneous multi-robot cooperation through negotiated task allocation with constraints: Initial implementation | Abderraouf Maoudj</title>
+  <meta name="description" content="Multi-agent architecture for telerobotics of heterogeneous multi-robot cooperation through negotiated task allocation with constraints: Initial implementation — 1re Journée d’Étude en Automatique et ses Applications (1JEAA14), pp. 38–43, 2014.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- =============================================
-       PAGE STYLES
-       - 'css' should point to a page/theme stylesheet
-       - Example: /CSS/publication.css or a shared bundle
-       ============================================= -->
   <link rel="stylesheet" href="../../CSS/page_style.css">
 </head>
 
@@ -64,18 +47,10 @@
            - If icon.url exists → external link; else emits an anchor with id
            ============================================= -->
       <div class="paper-header">
-        <h1>Multi-Agent Architecture for Telerobotics of Heterogeneous Multi-robots Cooperation through Negotiated Task Allocation with Constraints: Initial Implementaion</h1>
+        <h1>Multi-agent architecture for telerobotics of heterogeneous multi-robot cooperation through negotiated task allocation with constraints: Initial implementation</h1>
         <p><strong>Authors:</strong> A. Maoudj, B. Bouzouia, A. Hentout &amp; R. Toumi</p>
-        <p>
-          <strong>Published:</strong> &nbsp;|&nbsp;
-          <strong>Journal:</strong> pp. 38-43, , pp. 38-43
-          <span class="inline-icons">
-                <!-- Icon with external link (opens in new tab) -->
-                <a href="https://www.researchgate.net/profile/Abdelfetah-Hentout/publication/279883913_Multi-Agent_Architecture_for_Telerobotics_of_Heterogeneous_Multi-robot_Cooperation_through_Negotiated_Task_Allocation_with_Constraints_Initial_Implementation/links/559d1c9e08aece2562fc199e/Multi-Agent-Architecture-for-Telerobotics-of-Heterogeneous-Multi-robot-Cooperation-through-Negotiated-Task-Allocation-with-Constraints-Initial-Implementation.pdf" target="_blank" title="View paper"><i class="fas fa-file-alt"></i></a>
-                <!-- Icon without URL: retains an ID for JS binding -->
-                <a href="#" id="copy-citation" title="Copy BibTeX"><i class="fas fa-quote-right"></i></a>
-          </span>
-        </p>
+        <p><strong>Published:</strong> 1re Journée d’Étude en Automatique et ses Applications (1JEAA14), pp. 38–43, 2014.</p>
+        <p class="inline-icons"><a href="https://www.researchgate.net/profile/Abdelfetah-Hentout/publication/279883913_Multi-Agent_Architecture_for_Telerobotics_of_Heterogeneous_Multi-robot_Cooperation_through_Negotiated_Task_Allocation_with_Constraints_Initial_Implementation/links/559d1c9e08aece2562fc199e/Multi-Agent-Architecture-for-Telerobotics-of-Heterogeneous-Multi-robot-Cooperation-through-Negotiated-Task-Allocation-with-Constraints-Initial-Implementation.pdf" target="_blank" rel="noopener">Publication record</a> · <a href="#" id="copy-citation" title="Copy BibTeX">Copy BibTeX</a></p>
       </div>
 
       <!-- =============================================
@@ -111,11 +86,11 @@
            ============================================= -->
       <section id="citation">
         <h2 class="section-title">Citation</h2>
-        <pre id="bibtex-block">@misc{Maoudj2014MultiAgent,
-  title = {Multi-Agent Architecture for Telerobotics of Heterogeneous Multi-robots Cooperation through Negotiated Task Allocation with Constraints: Initial Implementaion},
+        <pre id="bibtex-block">@inproceedings{Maoudj2014_p4,
+  title = {Multi-agent architecture for telerobotics of heterogeneous multi-robot cooperation through negotiated task allocation with constraints: Initial implementation},
   author = {A Maoudj and B Bouzouia and A Hentout and R Toumi},
-  pages = {38-43},
-  year = {2014}
+  year = {2014},
+  pages = {38-43}
 }</pre>
       </section>
 
@@ -125,7 +100,7 @@
            - Text and URL are data-driven
            ============================================= -->
       <p style="text-align:center;">
-        <a href="../../#publication"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+        <a href="../../#publications"><i class="fas fa-arrow-left"></i> Back to Publications</a>
       </p>
 
     </main>
@@ -179,12 +154,7 @@
     const btn = document.getElementById('copy-citation');
     if (btn) {
       const pre = document.getElementById('bibtex-block');
-      const raw = `@misc{Maoudj2014MultiAgent,
-  title = {Multi-Agent Architecture for Telerobotics of Heterogeneous Multi-robots Cooperation through Negotiated Task Allocation with Constraints: Initial Implementaion},
-  author = {A Maoudj and B Bouzouia and A Hentout and R Toumi},
-  pages = {38-43},
-  year = {2014}
-}`;
+      const raw = "@inproceedings{Maoudj2014_p4,\n  title = {Multi-agent architecture for telerobotics of heterogeneous multi-robot cooperation through negotiated task allocation with constraints: Initial implementation},\n  author = {A Maoudj and B Bouzouia and A Hentout and R Toumi},\n  year = {2014},\n  pages = {38-43}\n}";
       btn.addEventListener('click', e => {
         e.preventDefault();
         const text = pre ? pre.textContent : raw;

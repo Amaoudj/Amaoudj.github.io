@@ -1,30 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- =============================================
-       META & DOCUMENT-LEVEL SETTINGS
-       - <title> and <meta name="description"> use header.*
-       - Viewport for responsive layout
-       ============================================= -->
   <meta charset="UTF-8">
-  <title>The capacitated multi-AGV scheduling problem with conflicting products: Model and a decentralized multi-agent approach</title>
-  <meta name="description" content="Detail on the paper titled : The capacitated multi-AGV scheduling problem with conflicting products: Model and a decentralized multi-agent approach.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- =============================================
-       FONTS & ICONS
-       - Inter font family
-       - Font Awesome icons (e.g., GitHub, PDF, DOI)
-       ============================================= -->
+  <title>The capacitated multi-AGV scheduling problem with conflicting products: Model and a decentralized multi-agent approach | Abderraouf Maoudj</title>
+  <meta name="description" content="The capacitated multi-AGV scheduling problem with conflicting products: Model and a decentralized multi-agent approach — Robotics and Computer-Integrated Manufacturing, vol. 81, article 102514, 2023.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- =============================================
-       PAGE STYLES
-       - 'css' should point to a page/theme stylesheet
-       - Example: /CSS/publication.css or a shared bundle
-       ============================================= -->
   <link rel="stylesheet" href="../../CSS/page_style.css">
 </head>
 
@@ -66,16 +49,8 @@
       <div class="paper-header">
         <h1>The capacitated multi-AGV scheduling problem with conflicting products: Model and a decentralized multi-agent approach</h1>
         <p><strong>Authors:</strong> A. Maoudj, A. Kouider &amp; A. L. Christensen</p>
-        <p>
-          <strong>Published:</strong> &nbsp;|&nbsp;
-          <strong>Journal:</strong> Robotics and Computer-Integrated Manufacturing, Vol. 81, pp. 102514
-          <span class="inline-icons">
-                <!-- Icon with external link (opens in new tab) -->
-                <a href="https://www.sciencedirect.com/science/article/pii/S073658452200196X" target="_blank" title="View paper"><i class="fas fa-file-alt"></i></a>
-                <!-- Icon without URL: retains an ID for JS binding -->
-                <a href="#" id="copy-citation" title="Copy BibTeX"><i class="fas fa-quote-right"></i></a>
-          </span>
-        </p>
+        <p><strong>Published:</strong> Robotics and Computer-Integrated Manufacturing, vol. 81, article 102514, 2023.</p>
+        <p class="inline-icons"><a href="https://doi.org/10.1016/j.rcim.2022.102514" target="_blank" rel="noopener">Publisher / DOI</a> · <a href="#" id="copy-citation" title="Copy BibTeX">Copy BibTeX</a></p>
       </div>
 
       <!-- =============================================
@@ -111,14 +86,14 @@
            ============================================= -->
       <section id="citation">
         <h2 class="section-title">Citation</h2>
-        <pre id="bibtex-block">@article{Maoudj2023The,
+        <pre id="bibtex-block">@article{Maoudj2023_p33,
   title = {The capacitated multi-AGV scheduling problem with conflicting products: Model and a decentralized multi-agent approach},
   author = {Abderraouf Maoudj and Ahmed Kouider and Anders Lyhne Christensen},
+  year = {2023},
   journal = {Robotics and Computer-Integrated Manufacturing},
-  publisher = {Pergamon},
   volume = {81},
-  pages = {102514},
-  year = {2023}
+  doi = {10.1016/j.rcim.2022.102514},
+  eid = {102514}
 }</pre>
       </section>
 
@@ -128,7 +103,7 @@
            - Text and URL are data-driven
            ============================================= -->
       <p style="text-align:center;">
-        <a href="../../#publication"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+        <a href="../../#publications"><i class="fas fa-arrow-left"></i> Back to Publications</a>
       </p>
 
     </main>
@@ -182,15 +157,7 @@
     const btn = document.getElementById('copy-citation');
     if (btn) {
       const pre = document.getElementById('bibtex-block');
-      const raw = `@article{Maoudj2023The,
-  title = {The capacitated multi-AGV scheduling problem with conflicting products: Model and a decentralized multi-agent approach},
-  author = {Abderraouf Maoudj and Ahmed Kouider and Anders Lyhne Christensen},
-  journal = {Robotics and Computer-Integrated Manufacturing},
-  publisher = {Pergamon},
-  volume = {81},
-  pages = {102514},
-  year = {2023}
-}`;
+      const raw = "@article{Maoudj2023_p33,\n  title = {The capacitated multi-AGV scheduling problem with conflicting products: Model and a decentralized multi-agent approach},\n  author = {Abderraouf Maoudj and Ahmed Kouider and Anders Lyhne Christensen},\n  year = {2023},\n  journal = {Robotics and Computer-Integrated Manufacturing},\n  volume = {81},\n  doi = {10.1016/j.rcim.2022.102514},\n  eid = {102514}\n}";
       btn.addEventListener('click', e => {
         e.preventDefault();
         const text = pre ? pre.textContent : raw;

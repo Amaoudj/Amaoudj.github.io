@@ -1,30 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- =============================================
-       META & DOCUMENT-LEVEL SETTINGS
-       - <title> and <meta name="description"> use header.*
-       - Viewport for responsive layout
-       ============================================= -->
   <meta charset="UTF-8">
-  <title>Evolution of path costs for efficient decentralized multi-agent pathfinding</title>
-  <meta name="description" content="Detail on the paper titled : Evolution of path costs for efficient decentralized multi-agent pathfinding.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- =============================================
-       FONTS & ICONS
-       - Inter font family
-       - Font Awesome icons (e.g., GitHub, PDF, DOI)
-       ============================================= -->
+  <title>Evolution of path costs for efficient decentralized multi-agent pathfinding | Abderraouf Maoudj</title>
+  <meta name="description" content="Evolution of path costs for efficient decentralized multi-agent pathfinding — Swarm and Evolutionary Computation, vol. 93, article 101833, 2025.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- =============================================
-       PAGE STYLES
-       - 'css' should point to a page/theme stylesheet
-       - Example: /CSS/publication.css or a shared bundle
-       ============================================= -->
   <link rel="stylesheet" href="../../CSS/page_style.css">
 </head>
 
@@ -66,16 +49,8 @@
       <div class="paper-header">
         <h1>Evolution of path costs for efficient decentralized multi-agent pathfinding</h1>
         <p><strong>Authors:</strong> U. Farhadi, H. Hess, A. Maoudj &amp; A. L. Christensen</p>
-        <p>
-          <strong>Published:</strong> &nbsp;|&nbsp;
-          <strong>Journal:</strong> Swarm and Evolutionary Computation, Vol. 93, pp. 101833
-          <span class="inline-icons">
-                <!-- Icon with external link (opens in new tab) -->
-                <a href="https://www.sciencedirect.com/science/article/pii/S2210650224003717" target="_blank" title="View paper"><i class="fas fa-file-alt"></i></a>
-                <!-- Icon without URL: retains an ID for JS binding -->
-                <a href="#" id="copy-citation" title="Copy BibTeX"><i class="fas fa-quote-right"></i></a>
-          </span>
-        </p>
+        <p><strong>Published:</strong> Swarm and Evolutionary Computation, vol. 93, article 101833, 2025.</p>
+        <p class="inline-icons"><a href="https://doi.org/10.1016/j.swevo.2024.101833" target="_blank" rel="noopener">Publisher / DOI</a> · <a href="#" id="copy-citation" title="Copy BibTeX">Copy BibTeX</a></p>
       </div>
 
       <!-- =============================================
@@ -279,14 +254,14 @@
            ============================================= -->
       <section id="citation">
         <h2 class="section-title">Citation</h2>
-        <pre id="bibtex-block">@article{Farhadi2025Evolution,
+        <pre id="bibtex-block">@article{Maoudj2025_p41,
   title = {Evolution of path costs for efficient decentralized multi-agent pathfinding},
   author = {Ulrich Farhadi and Henning Hess and Abderraouf Maoudj and Anders Lyhne Christensen},
+  year = {2025},
   journal = {Swarm and Evolutionary Computation},
-  publisher = {Elsevier},
   volume = {93},
-  pages = {101833},
-  year = {2025}
+  doi = {10.1016/j.swevo.2024.101833},
+  eid = {101833}
 }</pre>
       </section>
 
@@ -296,7 +271,7 @@
            - Text and URL are data-driven
            ============================================= -->
       <p style="text-align:center;">
-        <a href="../../#publication"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+        <a href="../../#publications"><i class="fas fa-arrow-left"></i> Back to Publications</a>
       </p>
 
     </main>
@@ -350,15 +325,7 @@
     const btn = document.getElementById('copy-citation');
     if (btn) {
       const pre = document.getElementById('bibtex-block');
-      const raw = `@article{Farhadi2025Evolution,
-  title = {Evolution of path costs for efficient decentralized multi-agent pathfinding},
-  author = {Ulrich Farhadi and Henning Hess and Abderraouf Maoudj and Anders Lyhne Christensen},
-  journal = {Swarm and Evolutionary Computation},
-  publisher = {Elsevier},
-  volume = {93},
-  pages = {101833},
-  year = {2025}
-}`;
+      const raw = "@article{Maoudj2025_p41,\n  title = {Evolution of path costs for efficient decentralized multi-agent pathfinding},\n  author = {Ulrich Farhadi and Henning Hess and Abderraouf Maoudj and Anders Lyhne Christensen},\n  year = {2025},\n  journal = {Swarm and Evolutionary Computation},\n  volume = {93},\n  doi = {10.1016/j.swevo.2024.101833},\n  eid = {101833}\n}";
       btn.addEventListener('click', e => {
         e.preventDefault();
         const text = pre ? pre.textContent : raw;

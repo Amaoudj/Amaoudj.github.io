@@ -1,30 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- =============================================
-       META & DOCUMENT-LEVEL SETTINGS
-       - <title> and <meta name="description"> use header.*
-       - Viewport for responsive layout
-       ============================================= -->
   <meta charset="UTF-8">
-  <title>ML-BiRRT: Machine Learning-Enhanced Bi-Directional RRT for Multi-Arm Robot Motion Planning and Coordination</title>
-  <meta name="description" content="Detail on the paper titled : ML-BiRRT: Machine Learning-Enhanced Bi-Directional RRT for Multi-Arm Robot Motion Planning and Coordination.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- =============================================
-       FONTS & ICONS
-       - Inter font family
-       - Font Awesome icons (e.g., GitHub, PDF, DOI)
-       ============================================= -->
+  <title>ML-BiRRT: Machine Learning-Enhanced Bi-Directional RRT for Multi-Arm Robot Motion Planning and Coordination | Abderraouf Maoudj</title>
+  <meta name="description" content="ML-BiRRT: Machine Learning-Enhanced Bi-Directional RRT for Multi-Arm Robot Motion Planning and Coordination — Robotics and Autonomous Systems, under review, 2026.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- =============================================
-       PAGE STYLES
-       - 'css' should point to a page/theme stylesheet
-       - Example: /CSS/publication.css or a shared bundle
-       ============================================= -->
   <link rel="stylesheet" href="../../CSS/page_style.css">
 </head>
 
@@ -65,18 +48,9 @@
            ============================================= -->
       <div class="paper-header">
         <h1>ML-BiRRT: Machine Learning-Enhanced Bi-Directional RRT for Multi-Arm Robot Motion Planning and Coordination</h1>
-        <p><strong>Authors:</strong> A. Maoudj</p>
-        <p>
-          <strong>Published:</strong> &nbsp;|&nbsp;
-          <strong>Journal:</strong> Robotics and Autonomous Systems., Elsevier &nbsp;|&nbsp;
-          <strong>Year:</strong> 2025 &nbsp;|&nbsp; 
-          <span class="inline-icons">
-                <!-- Icon with external link (opens in new tab) -->
-                <a href="https://www.youtube.com/embed/fj3BrPp8joM" target="_blank" title="Watch video"><i class="fab fa-youtube"></i></a>
-                <!-- Icon without URL: retains an ID for JS binding -->
-                <a href="#" id="copy-citation" title="Copy BibTeX"><i class="fas fa-quote-right"></i></a>
-          </span>
-        </p>
+        <p><strong>Authors:</strong> A. Maoudj, S. Mekid &amp; M. Nouioua</p>
+        <p><strong>Under review:</strong> Robotics and Autonomous Systems, under review, 2026.</p>
+        <p class="inline-icons"><a href="https://www.youtube.com/watch?v=fj3BrPp8joM" target="_blank" rel="noopener">Watch demonstration</a> · <a href="#" id="copy-citation" title="Copy BibTeX">Copy BibTeX</a></p>
       </div>
 
       <!-- =============================================
@@ -87,7 +61,7 @@
       <section id="abstract">
         <h2 class="section-title">Abstract</h2>
           <p>A longstanding challenge in multi-arm robotic manipulation is planning coordinated motions in a shared workspace, where the configuration space grows exponentially with each additional arm. We address this complexity through ML-BiRRT, a machine learning–enhanced bidirectional RRT* framework that integrates sampling-based exploration with uncertainty-aware guidance. Our method introduces three key innovations: (i)~a hybrid Gaussian Process Regression–Neural Network (GPR–NN) architecture where intermediate neural features feed directly into a probabilistic model, focusing expansions on promising regions while quantifying confidence, (ii)~a dynamic sampling strategy that unifies and adaptively balances goal biasing, elliptical sampling, obstacle repulsion, and uniform exploration based on real-time planning progress, and (iii)~adaptive kernel mechanisms that modify their behavior near obstacles, coupled with online hyperparameter optimization that continuously refines the model during planning without requiring pre-training.</p>
-          <p>Example runs are presented in the supplementary</p>
+          <p>The demonstration below illustrates coordinated multi-arm planning.</p>
       </section>
 
       <!-- =============================================
@@ -122,7 +96,7 @@
         <h2 class="section-title">Video</h2>
         <div class="video-container">
           <iframe
-            src="https://www.youtube.com/embed/md-oGacb3To"
+            src="https://www.youtube.com/embed/fj3BrPp8joM"
             style="position:relative;aspect-ratio:16/9;width:100%;border:0;"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen>
@@ -137,14 +111,11 @@
            ============================================= -->
       <section id="citation">
         <h2 class="section-title">Citation</h2>
-        <pre id="bibtex-block">@misc{BiRRT,
+        <pre id="bibtex-block">@unpublished{Maoudj2026_p44,
   title = {ML-BiRRT: Machine Learning-Enhanced Bi-Directional RRT for Multi-Arm Robot Motion Planning and Coordination},
-  author = {Abderraouf Maoudj},
-  publisher = {Robotics and Autonomous Systems, Elsevier},
-  volume = {},
-  pages = {},
-  year = {2025}
- notes = {Under review}
+  author = {Abderraouf Maoudj and Samir Mekid and Mourad Nouioua},
+  year = {2026},
+  note = {Under review}
 }</pre>
       </section>
 
@@ -154,7 +125,7 @@
            - Text and URL are data-driven
            ============================================= -->
       <p style="text-align:center;">
-        <a href="../../#publication"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+        <a href="../../#publications"><i class="fas fa-arrow-left"></i> Back to Publications</a>
       </p>
 
     </main>
@@ -208,15 +179,7 @@
     const btn = document.getElementById('copy-citation');
     if (btn) {
       const pre = document.getElementById('bibtex-block');
-      const raw = `@misc{BiRRT,
-  title = {ML-BiRRT: Machine Learning-Enhanced Bi-Directional RRT for Multi-Arm Robot Motion Planning and Coordination},
-  author = {Abderraouf Maoudj},
-  publisher = {Robotics and Autonomous Systems, Elsevier},
-  volume = {},
-  pages = {},
-  year = {2025}
- notes = {Under review}
-}`;
+      const raw = "@unpublished{Maoudj2026_p44,\n  title = {ML-BiRRT: Machine Learning-Enhanced Bi-Directional RRT for Multi-Arm Robot Motion Planning and Coordination},\n  author = {Abderraouf Maoudj and Samir Mekid and Mourad Nouioua},\n  year = {2026},\n  note = {Under review}\n}";
       btn.addEventListener('click', e => {
         e.preventDefault();
         const text = pre ? pre.textContent : raw;

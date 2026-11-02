@@ -1,30 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- =============================================
-       META & DOCUMENT-LEVEL SETTINGS
-       - <title> and <meta name="description"> use header.*
-       - Viewport for responsive layout
-       ============================================= -->
   <meta charset="UTF-8">
-  <title>Lifelong MAPF for Shipment Preparation in Stochastic Warehouses</title>
-  <meta name="description" content="Detail on the paper titled : Lifelong MAPF for Shipment Preparation in Stochastic Warehouses.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- =============================================
-       FONTS & ICONS
-       - Inter font family
-       - Font Awesome icons (e.g., GitHub, PDF, DOI)
-       ============================================= -->
+  <title>Lifelong MAPF for Shipment Preparation in Stochastic Warehouses | Abderraouf Maoudj</title>
+  <meta name="description" content="Lifelong MAPF for Shipment Preparation in Stochastic Warehouses — IEEE 20th International Conference on Automation Science and Engineering (CASE), pp. 1006–1011, 2024.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- =============================================
-       PAGE STYLES
-       - 'css' should point to a page/theme stylesheet
-       - Example: /CSS/publication.css or a shared bundle
-       ============================================= -->
   <link rel="stylesheet" href="../../CSS/page_style.css">
 </head>
 
@@ -66,16 +49,8 @@
       <div class="paper-header">
         <h1>Lifelong MAPF for Shipment Preparation in Stochastic Warehouses</h1>
         <p><strong>Authors:</strong> A. Maoudj, S. Mekid &amp; A. L. Christensen</p>
-        <p>
-          <strong>Published:</strong> &nbsp;|&nbsp;
-          <strong>Journal:</strong> 2024 IEEE 20th International Conference on Automation Science and Engineering (CASE), , pp. 10
-          <span class="inline-icons">
-                <!-- Icon with external link (opens in new tab) -->
-                <a href="https://ieeexplore.ieee.org/abstract/document/10711327/" target="_blank" title="View paper"><i class="fas fa-file-alt"></i></a>
-                <!-- Icon without URL: retains an ID for JS binding -->
-                <a href="#" id="copy-citation" title="Copy BibTeX"><i class="fas fa-quote-right"></i></a>
-          </span>
-        </p>
+        <p><strong>Published:</strong> IEEE 20th International Conference on Automation Science and Engineering (CASE), pp. 1006–1011, 2024.</p>
+        <p class="inline-icons"><a href="https://doi.org/10.1109/case59546.2024.10711327" target="_blank" rel="noopener">Publisher / DOI</a> · <a href="#" id="copy-citation" title="Copy BibTeX">Copy BibTeX</a></p>
       </div>
 
       <!-- =============================================
@@ -111,11 +86,13 @@
            ============================================= -->
       <section id="citation">
         <h2 class="section-title">Citation</h2>
-        <pre id="bibtex-block">@inproceedings{Maoudj2024Lifelong,
+        <pre id="bibtex-block">@inproceedings{Maoudj2024_p36,
   title = {Lifelong MAPF for Shipment Preparation in Stochastic Warehouses},
-  author = {Abderraouf Maoudj and Samir Mekid and Anders Lyhne Christensen},
-  pages = {10.1109/CASE59546.2024.10711327},
-  year = {2024}
+  author = {Abderraouf Maoudj and Samir Nadir Mekid and Anders Lyhne Christensen},
+  year = {2024},
+  booktitle = {2024 IEEE 20th International Conference on Automation Science and Engineering (CASE)},
+  pages = {1006--1011},
+  doi = {10.1109/case59546.2024.10711327}
 }</pre>
       </section>
 
@@ -125,7 +102,7 @@
            - Text and URL are data-driven
            ============================================= -->
       <p style="text-align:center;">
-        <a href="../../#publication"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+        <a href="../../#publications"><i class="fas fa-arrow-left"></i> Back to Publications</a>
       </p>
 
     </main>
@@ -179,12 +156,7 @@
     const btn = document.getElementById('copy-citation');
     if (btn) {
       const pre = document.getElementById('bibtex-block');
-      const raw = `@inproceedings{Maoudj2024Lifelong,
-  title = {Lifelong MAPF for Shipment Preparation in Stochastic Warehouses},
-  author = {Abderraouf Maoudj and Samir Mekid and Anders Lyhne Christensen},
-  pages = {10.1109/CASE59546.2024.10711327},
-  year = {2024}
-}`;
+      const raw = "@inproceedings{Maoudj2024_p36,\n  title = {Lifelong MAPF for Shipment Preparation in Stochastic Warehouses},\n  author = {Abderraouf Maoudj and Samir Nadir Mekid and Anders Lyhne Christensen},\n  year = {2024},\n  booktitle = {2024 IEEE 20th International Conference on Automation Science and Engineering (CASE)},\n  pages = {1006--1011},\n  doi = {10.1109/case59546.2024.10711327}\n}";
       btn.addEventListener('click', e => {
         e.preventDefault();
         const text = pre ? pre.textContent : raw;

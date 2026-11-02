@@ -1,30 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- =============================================
-       META & DOCUMENT-LEVEL SETTINGS
-       - <title> and <meta name="description"> use header.*
-       - Viewport for responsive layout
-       ============================================= -->
   <meta charset="UTF-8">
-  <title>Human-robot interaction in industrial settings: new challenges and opportunities</title>
-  <meta name="description" content="Detail on the paper titled : Human-robot interaction in industrial settings: new challenges and opportunities.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- =============================================
-       FONTS & ICONS
-       - Inter font family
-       - Font Awesome icons (e.g., GitHub, PDF, DOI)
-       ============================================= -->
+  <title>Editorial: Human-robot interaction in industrial settings: new challenges and opportunities | Abderraouf Maoudj</title>
+  <meta name="description" content="Editorial: Human-robot interaction in industrial settings: new challenges and opportunities — Frontiers in Robotics and AI, vol. 12, article 1652426, 2025.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- =============================================
-       PAGE STYLES
-       - 'css' should point to a page/theme stylesheet
-       - Example: /CSS/publication.css or a shared bundle
-       ============================================= -->
   <link rel="stylesheet" href="../../CSS/page_style.css">
 </head>
 
@@ -64,18 +47,10 @@
            - If icon.url exists → external link; else emits an anchor with id
            ============================================= -->
       <div class="paper-header">
-        <h1>Human-robot interaction in industrial settings: new challenges and opportunities</h1>
-        <p><strong>Authors:</strong> B. Sara, A. Mehdi, K. Geihs, A. Hentout, A. Maoudj &amp; F. Yacef</p>
-        <p>
-          <strong>Published:</strong> &nbsp;|&nbsp;
-          <strong>Journal:</strong> vol. 12, Vol. 12, pp. 1652426
-          <span class="inline-icons">
-                <!-- Icon with external link (opens in new tab) -->
-                <a href="https://www.frontiersin.org/journals/robotics-and-ai/articles/10.3389/frobt.2025.1652426/abstract" target="_blank" title="View paper"><i class="fas fa-file-alt"></i></a>
-                <!-- Icon without URL: retains an ID for JS binding -->
-                <a href="#" id="copy-citation" title="Copy BibTeX"><i class="fas fa-quote-right"></i></a>
-          </span>
-        </p>
+        <h1>Editorial: Human-robot interaction in industrial settings: new challenges and opportunities</h1>
+        <p><strong>Authors:</strong> S. Bouraine, M. Ammi, K. Geihs, A. Hentout, A. Maoudj &amp; F. Yacef</p>
+        <p><strong>Published:</strong> Frontiers in Robotics and AI, vol. 12, article 1652426, 2025.</p>
+        <p class="inline-icons"><a href="https://doi.org/10.3389/frobt.2025.1652426" target="_blank" rel="noopener">Publisher / DOI</a> · <a href="#" id="copy-citation" title="Copy BibTeX">Copy BibTeX</a></p>
       </div>
 
       <!-- =============================================
@@ -111,13 +86,14 @@
            ============================================= -->
       <section id="citation">
         <h2 class="section-title">Citation</h2>
-        <pre id="bibtex-block">@misc{Sara2025Humanrobot,
-  title = {Human-robot interaction in industrial settings: new challenges and opportunities},
-  author = {Bouraine Sara and Ammi Mehdi and Kurt Geihs and Abdelfetah Hentout and Abderraouf Maoudj and Fouad Yacef},
-  publisher = {Frontiers},
+        <pre id="bibtex-block">@misc{Maoudj2025_p43,
+  title = {Editorial: Human-robot interaction in industrial settings: new challenges and opportunities},
+  author = {Sara Bouraine and Mehdi Ammi and Kurt Geihs and Abdelfetah Hentout and Abderraouf Maoudj and Fouad Yacef},
+  year = {2025},
   volume = {12},
   pages = {1652426},
-  year = {2025}
+  doi = {10.3389/frobt.2025.1652426},
+  eid = {1652426}
 }</pre>
       </section>
 
@@ -127,7 +103,7 @@
            - Text and URL are data-driven
            ============================================= -->
       <p style="text-align:center;">
-        <a href="../../#publication"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+        <a href="../../#publications"><i class="fas fa-arrow-left"></i> Back to Publications</a>
       </p>
 
     </main>
@@ -181,14 +157,7 @@
     const btn = document.getElementById('copy-citation');
     if (btn) {
       const pre = document.getElementById('bibtex-block');
-      const raw = `@misc{Sara2025Humanrobot,
-  title = {Human-robot interaction in industrial settings: new challenges and opportunities},
-  author = {Bouraine Sara and Ammi Mehdi and Kurt Geihs and Abdelfetah Hentout and Abderraouf Maoudj and Fouad Yacef},
-  publisher = {Frontiers},
-  volume = {12},
-  pages = {1652426},
-  year = {2025}
-}`;
+      const raw = "@misc{Maoudj2025_p43,\n  title = {Editorial: Human-robot interaction in industrial settings: new challenges and opportunities},\n  author = {Sara Bouraine and Mehdi Ammi and Kurt Geihs and Abdelfetah Hentout and Abderraouf Maoudj and Fouad Yacef},\n  year = {2025},\n  volume = {12},\n  pages = {1652426},\n  doi = {10.3389/frobt.2025.1652426},\n  eid = {1652426}\n}";
       btn.addEventListener('click', e => {
         e.preventDefault();
         const text = pre ? pre.textContent : raw;

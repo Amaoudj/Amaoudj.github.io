@@ -1,30 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- =============================================
-       META & DOCUMENT-LEVEL SETTINGS
-       - <title> and <meta name="description"> use header.*
-       - Viewport for responsive layout
-       ============================================= -->
   <meta charset="UTF-8">
-  <title>Shortest path planning and efficient fuzzy logic control of mobile robots in indoor static and dynamic environments</title>
-  <meta name="description" content="Detail on the paper titled : Shortest path planning and efficient fuzzy logic control of mobile robots in indoor static and dynamic environments.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- =============================================
-       FONTS & ICONS
-       - Inter font family
-       - Font Awesome icons (e.g., GitHub, PDF, DOI)
-       ============================================= -->
+  <title>Shortest path planning and efficient fuzzy logic control of mobile robots in indoor static and dynamic environments | Abderraouf Maoudj</title>
+  <meta name="description" content="Shortest path planning and efficient fuzzy logic control of mobile robots in indoor static and dynamic environments — Romanian Journal of Information Science and Technology, vol. 27, no. 1, pp. 21–36, 2024.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- =============================================
-       PAGE STYLES
-       - 'css' should point to a page/theme stylesheet
-       - Example: /CSS/publication.css or a shared bundle
-       ============================================= -->
   <link rel="stylesheet" href="../../CSS/page_style.css">
 </head>
 
@@ -66,16 +49,8 @@
       <div class="paper-header">
         <h1>Shortest path planning and efficient fuzzy logic control of mobile robots in indoor static and dynamic environments</h1>
         <p><strong>Authors:</strong> A. Hentout, A. Maoudj &amp; A. Kouider</p>
-        <p>
-          <strong>Published:</strong> &nbsp;|&nbsp;
-          <strong>Journal:</strong> Sci. Technol, Vol. 27, pp. 21-36
-          <span class="inline-icons">
-                <!-- Icon with external link (opens in new tab) -->
-                <a href="https://romjist.ro/full-texts/paper759.pdf" target="_blank" title="View paper"><i class="fas fa-file-alt"></i></a>
-                <!-- Icon without URL: retains an ID for JS binding -->
-                <a href="#" id="copy-citation" title="Copy BibTeX"><i class="fas fa-quote-right"></i></a>
-          </span>
-        </p>
+        <p><strong>Published:</strong> Romanian Journal of Information Science and Technology, vol. 27, no. 1, pp. 21–36, 2024.</p>
+        <p class="inline-icons"><a href="https://romjist.ro/full-texts/paper759.pdf" target="_blank" rel="noopener">Publication record</a> · <a href="#" id="copy-citation" title="Copy BibTeX">Copy BibTeX</a></p>
       </div>
 
       <!-- =============================================
@@ -324,14 +299,14 @@
            ============================================= -->
       <section id="citation">
         <h2 class="section-title">Citation</h2>
-        <pre id="bibtex-block">@article{Hentout2024Shortest,
+        <pre id="bibtex-block">@article{Maoudj2024_p37,
   title = {Shortest path planning and efficient fuzzy logic control of mobile robots in indoor static and dynamic environments},
   author = {Abdelfetah Hentout and Abderraouf Maoudj and Ahmed Kouider},
-  journal = {Sci. Technol},
+  year = {2024},
+  journal = {Romanian Journal of Information Science and Technology},
   volume = {27},
   number = {1},
-  pages = {21-36},
-  year = {2024}
+  pages = {21-36}
 }</pre>
       </section>
 
@@ -341,7 +316,7 @@
            - Text and URL are data-driven
            ============================================= -->
       <p style="text-align:center;">
-        <a href="../../#publication"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+        <a href="../../#publications"><i class="fas fa-arrow-left"></i> Back to Publications</a>
       </p>
 
     </main>
@@ -395,15 +370,7 @@
     const btn = document.getElementById('copy-citation');
     if (btn) {
       const pre = document.getElementById('bibtex-block');
-      const raw = `@article{Hentout2024Shortest,
-  title = {Shortest path planning and efficient fuzzy logic control of mobile robots in indoor static and dynamic environments},
-  author = {Abdelfetah Hentout and Abderraouf Maoudj and Ahmed Kouider},
-  journal = {Sci. Technol},
-  volume = {27},
-  number = {1},
-  pages = {21-36},
-  year = {2024}
-}`;
+      const raw = "@article{Maoudj2024_p37,\n  title = {Shortest path planning and efficient fuzzy logic control of mobile robots in indoor static and dynamic environments},\n  author = {Abdelfetah Hentout and Abderraouf Maoudj and Ahmed Kouider},\n  year = {2024},\n  journal = {Romanian Journal of Information Science and Technology},\n  volume = {27},\n  number = {1},\n  pages = {21-36}\n}";
       btn.addEventListener('click', e => {
         e.preventDefault();
         const text = pre ? pre.textContent : raw;

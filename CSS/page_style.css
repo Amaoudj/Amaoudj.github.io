@@ -1,11 +1,11 @@
 :root {
-  --page-bg: #ffffff;
-  --sidebar-bg: #f2f2f2;
-  --accent: #5c6bc0;
-  --text: #2e2f36;
-  --subtext: #555;
-  --muted: #777;
-  --border: #ddd;
+  --page-bg: #fcfcf9;
+  --sidebar-bg: #142d36;
+  --accent: #12685d;
+  --text: #33454b;
+  --subtext: #5a6b70;
+  --muted: #5a6b70;
+  --border: #dce3df;
   --sidebar-w: 220px; /* NEW: single source of truth */
 }
 
@@ -35,8 +35,8 @@ a:hover { color:#3f51b5; }
   display:flex; flex-direction:column;
   overflow-y:auto;
 }
-.sidebar h1 { font-size:1.5rem; margin-bottom:2rem; }
-.sidebar nav a { display:block; padding:.75rem 0; font-weight:600; border-radius:4px; }
+.sidebar h1 { font-family:Georgia,serif; color:#fff; font-size:1.5rem; margin-bottom:2rem; }
+.sidebar nav a { display:block; color:#cadbd3; padding:.75rem 0; font-weight:500; border-radius:4px; }
 .sidebar nav a:hover { background:rgba(0,0,0,0.05); }
 
 /* --- Main content (centered column, text left-aligned) --- */
@@ -47,6 +47,9 @@ a:hover { color:#3f51b5; }
   margin: 0 auto;        /* centers the column in the remaining space */
   text-align: left;      /* ensure text is not center-aligned */
 }
+h1,h2 { font-family: 'Source Serif 4',Georgia,serif; color:#142d36; }
+pre { white-space:pre-wrap; overflow-wrap:anywhere; font-size:.8rem; background:#f0f3ee; padding:1rem; border:1px solid var(--border); border-radius:4px; }
+a:focus-visible,button:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }
 
 .section-title { font-size:1.6rem; font-weight:700; margin-top:2rem; margin-bottom:1rem; }
 

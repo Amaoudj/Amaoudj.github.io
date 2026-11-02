@@ -1,30 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- =============================================
-       META & DOCUMENT-LEVEL SETTINGS
-       - <title> and <meta name="description"> use header.*
-       - Viewport for responsive layout
-       ============================================= -->
   <meta charset="UTF-8">
-  <title>Developing a distributed architecture for robots control in industrial RFID-based cyber-physical systems</title>
-  <meta name="description" content="Detail on the paper titled : Developing a distributed architecture for robots control in industrial RFID-based cyber-physical systems.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- =============================================
-       FONTS & ICONS
-       - Inter font family
-       - Font Awesome icons (e.g., GitHub, PDF, DOI)
-       ============================================= -->
+  <title>Developing a distributed architecture for robots control in industrial RFID-based cyber-physical systems | Abderraouf Maoudj</title>
+  <meta name="description" content="Developing a distributed architecture for robots control in industrial RFID-based cyber-physical systems — Technical report / preprint, 2018.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- =============================================
-       PAGE STYLES
-       - 'css' should point to a page/theme stylesheet
-       - Example: /CSS/publication.css or a shared bundle
-       ============================================= -->
   <link rel="stylesheet" href="../../CSS/page_style.css">
 </head>
 
@@ -66,16 +49,8 @@
       <div class="paper-header">
         <h1>Developing a distributed architecture for robots control in industrial RFID-based cyber-physical systems</h1>
         <p><strong>Authors:</strong> A. Hentout, I. Akli, A. Maoudj &amp; A. Tiberkak</p>
-        <p>
-          <strong>Published:</strong> &nbsp;|&nbsp;
-          <strong>Journal:</strong> , , 
-          <span class="inline-icons">
-                <!-- Icon with external link (opens in new tab) -->
-                <a href="https://www.researchgate.net/profile/Abdelfetah-Hentout/publication/339781346_Developing_a_distributed_architecture_for_robots_control_in_industrial_RFID-based_cyber-physical_systems/links/5e68a8984585153fb3d5fb8b/Developing-a-distributed-architecture-for-robots-control-in-industrial-RFID-based-cyber-physical-systems.pdf" target="_blank" title="View paper"><i class="fas fa-file-alt"></i></a>
-                <!-- Icon without URL: retains an ID for JS binding -->
-                <a href="#" id="copy-citation" title="Copy BibTeX"><i class="fas fa-quote-right"></i></a>
-          </span>
-        </p>
+        <p><strong>Preprint / technical report:</strong> Technical report / preprint, 2018.</p>
+        <p class="inline-icons"><a href="https://www.researchgate.net/profile/Abdelfetah-Hentout/publication/339781346_Developing_a_distributed_architecture_for_robots_control_in_industrial_RFID-based_cyber-physical_systems/links/5e68a8984585153fb3d5fb8b/Developing-a-distributed-architecture-for-robots-control-in-industrial-RFID-based-cyber-physical-systems.pdf" target="_blank" rel="noopener">Publication record</a> · <a href="#" id="copy-citation" title="Copy BibTeX">Copy BibTeX</a></p>
       </div>
 
       <!-- =============================================
@@ -112,9 +87,11 @@
            ============================================= -->
       <section id="citation">
         <h2 class="section-title">Citation</h2>
-        <pre id="bibtex-block">@misc{HentoutDeveloping,
+        <pre id="bibtex-block">@misc{Maoudj2018_p1,
   title = {Developing a distributed architecture for robots control in industrial RFID-based cyber-physical systems},
-  author = {Abdelfetah Hentout and Isma Akli and Abderraouf Maoudj and Allal Tiberkak}
+  author = {Abdelfetah Hentout and Isma Akli and Abderraouf Maoudj and Allal Tiberkak},
+  year = {2018},
+  note = {Preprint / technical report}
 }</pre>
       </section>
 
@@ -124,7 +101,7 @@
            - Text and URL are data-driven
            ============================================= -->
       <p style="text-align:center;">
-        <a href="../../#publication"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+        <a href="../../#publications"><i class="fas fa-arrow-left"></i> Back to Publications</a>
       </p>
 
     </main>
@@ -178,10 +155,7 @@
     const btn = document.getElementById('copy-citation');
     if (btn) {
       const pre = document.getElementById('bibtex-block');
-      const raw = `@misc{HentoutDeveloping,
-  title = {Developing a distributed architecture for robots control in industrial RFID-based cyber-physical systems},
-  author = {Abdelfetah Hentout and Isma Akli and Abderraouf Maoudj and Allal Tiberkak}
-}`;
+      const raw = "@misc{Maoudj2018_p1,\n  title = {Developing a distributed architecture for robots control in industrial RFID-based cyber-physical systems},\n  author = {Abdelfetah Hentout and Isma Akli and Abderraouf Maoudj and Allal Tiberkak},\n  year = {2018},\n  note = {Preprint / technical report}\n}";
       btn.addEventListener('click', e => {
         e.preventDefault();
         const text = pre ? pre.textContent : raw;

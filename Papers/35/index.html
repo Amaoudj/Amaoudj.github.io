@@ -1,30 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- =============================================
-       META & DOCUMENT-LEVEL SETTINGS
-       - <title> and <meta name="description"> use header.*
-       - Viewport for responsive layout
-       ============================================= -->
   <meta charset="UTF-8">
-  <title>Decentralized multi-agent path finding in dynamic warehouse environments</title>
-  <meta name="description" content="Detail on the paper titled : Decentralized multi-agent path finding in dynamic warehouse environments.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- =============================================
-       FONTS & ICONS
-       - Inter font family
-       - Font Awesome icons (e.g., GitHub, PDF, DOI)
-       ============================================= -->
+  <title>Decentralized multi-agent path finding in dynamic warehouse environments | Abderraouf Maoudj</title>
+  <meta name="description" content="Decentralized multi-agent path finding in dynamic warehouse environments — 2023 21st International Conference on Advanced Robotics (ICAR), pp. 28-34, 2023.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- =============================================
-       PAGE STYLES
-       - 'css' should point to a page/theme stylesheet
-       - Example: /CSS/publication.css or a shared bundle
-       ============================================= -->
   <link rel="stylesheet" href="../../CSS/page_style.css">
 </head>
 
@@ -66,16 +49,8 @@
       <div class="paper-header">
         <h1>Decentralized multi-agent path finding in dynamic warehouse environments</h1>
         <p><strong>Authors:</strong> A. Maoudj &amp; A. L. Christensen</p>
-        <p>
-          <strong>Published:</strong> &nbsp;|&nbsp;
-          <strong>Journal:</strong> 2023 21st International Conference on Advanced Robotics (ICAR), , pp. 28-34
-          <span class="inline-icons">
-                <!-- Icon with external link (opens in new tab) -->
-                <a href="https://ieeexplore.ieee.org/abstract/document/10406648/" target="_blank" title="View paper"><i class="fas fa-file-alt"></i></a>
-                <!-- Icon without URL: retains an ID for JS binding -->
-                <a href="#" id="copy-citation" title="Copy BibTeX"><i class="fas fa-quote-right"></i></a>
-          </span>
-        </p>
+        <p><strong>Published:</strong> 2023 21st International Conference on Advanced Robotics (ICAR), pp. 28-34, 2023.</p>
+        <p class="inline-icons"><a href="https://doi.org/10.1109/icar58858.2023.10406648" target="_blank" rel="noopener">Publisher / DOI</a> · <a href="#" id="copy-citation" title="Copy BibTeX">Copy BibTeX</a></p>
       </div>
 
       <!-- =============================================
@@ -171,12 +146,13 @@
            ============================================= -->
       <section id="citation">
         <h2 class="section-title">Citation</h2>
-        <pre id="bibtex-block">@inproceedings{Maoudj2023Decentralized,
+        <pre id="bibtex-block">@inproceedings{Maoudj2023_p35,
   title = {Decentralized multi-agent path finding in dynamic warehouse environments},
   author = {Abderraouf Maoudj and Anders Lyhne Christensen},
-  publisher = {IEEE},
+  year = {2023},
+  booktitle = {2023 21st International Conference on Advanced Robotics (ICAR)},
   pages = {28-34},
-  year = {2023}
+  doi = {10.1109/icar58858.2023.10406648}
 }</pre>
       </section>
 
@@ -186,7 +162,7 @@
            - Text and URL are data-driven
            ============================================= -->
       <p style="text-align:center;">
-        <a href="../../#publication"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+        <a href="../../#publications"><i class="fas fa-arrow-left"></i> Back to Publications</a>
       </p>
 
     </main>
@@ -240,13 +216,7 @@
     const btn = document.getElementById('copy-citation');
     if (btn) {
       const pre = document.getElementById('bibtex-block');
-      const raw = `@inproceedings{Maoudj2023Decentralized,
-  title = {Decentralized multi-agent path finding in dynamic warehouse environments},
-  author = {Abderraouf Maoudj and Anders Lyhne Christensen},
-  publisher = {IEEE},
-  pages = {28-34},
-  year = {2023}
-}`;
+      const raw = "@inproceedings{Maoudj2023_p35,\n  title = {Decentralized multi-agent path finding in dynamic warehouse environments},\n  author = {Abderraouf Maoudj and Anders Lyhne Christensen},\n  year = {2023},\n  booktitle = {2023 21st International Conference on Advanced Robotics (ICAR)},\n  pages = {28-34},\n  doi = {10.1109/icar58858.2023.10406648}\n}";
       btn.addEventListener('click', e => {
         e.preventDefault();
         const text = pre ? pre.textContent : raw;

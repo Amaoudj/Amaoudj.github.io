@@ -1,0 +1,973 @@
+{
+  "updated": "2026-11-02",
+  "scholar": "https://scholar.google.com/citations?user=Fn2egmsAAAAJ&hl=en",
+  "publications": [
+    {
+      "id": "gas2026",
+      "title": "Decentralized Multi-Drone Gas Source Localization via Belief-Coupled MAPPO and Barrier-Filtered Safety",
+      "authors": "A. Maoudj, B. Brahmi, A. A. Saputra, A. Aouaichia, M. Nouioua & N. Kubota",
+      "authors_full": [
+        "Abderraouf Maoudj",
+        "Brahim Brahmi",
+        "Azhar Aulia Saputra",
+        "Abdelhadi Aouaichia",
+        "Mourad Nouioua",
+        "Naoyuki Kubota"
+      ],
+      "year": 2026,
+      "type": "journal",
+      "status": "Accepted",
+      "venue": "Scientific Reports, accepted, 2026.",
+      "doi": "",
+      "url": "https://www.linkedin.com/feed/update/urn:li:activity:7517547685487452160/",
+      "page_url": null,
+      "bibtex": "@article{Maoudj2026_gas2026,\n  title = {Decentralized Multi-Drone Gas Source Localization via Belief-Coupled MAPPO and Barrier-Filtered Safety},\n  author = {Abderraouf Maoudj and Brahim Brahmi and Azhar Aulia Saputra and Abdelhadi Aouaichia and Mourad Nouioua and Naoyuki Kubota},\n  year = {2026},\n  journal = {Scientific Reports},\n  note = {Accepted}\n}"
+    },
+    {
+      "id": "khater2026",
+      "title": "Lyapunov-based adaptive path tracking control of wheeled mobile robots using a self-organizing recurrent Gaussian-gating functional-link fuzzy neural network",
+      "authors": "A. Aziz Khater, Y. Chen, A. Maoudj & A. Aouaichia",
+      "authors_full": [
+        "A. Aziz Khater",
+        "Yi Chen",
+        "Abderraouf Maoudj",
+        "Abdelhadi Aouaichia"
+      ],
+      "year": 2026,
+      "type": "journal",
+      "status": "Published",
+      "venue": "Scientific Reports, published online 1 November 2026.",
+      "doi": "10.1038/s41598-026-76212-6",
+      "url": "https://doi.org/10.1038/s41598-026-76212-6",
+      "page_url": null,
+      "bibtex": "@article{Maoudj2026_khater2026,\n  title = {Lyapunov-based adaptive path tracking control of wheeled mobile robots using a self-organizing recurrent Gaussian-gating functional-link fuzzy neural network},\n  author = {A. Aziz Khater and Yi Chen and Abderraouf Maoudj and Abdelhadi Aouaichia},\n  year = {2026},\n  journal = {Scientific Reports},\n  doi = {10.1038/s41598-026-76212-6}\n}"
+    },
+    {
+      "id": "brahmi2026",
+      "title": "Nonlinear Terminal Model-Based Second-Order Sliding Mode Control for Robust Tracking in Robotic Exoskeletons",
+      "authors": "B. Brahmi, A. Maoudj & J. Ghommam",
+      "authors_full": [
+        "Brahim Brahmi",
+        "Abderraouf Maoudj",
+        "Jawhar Ghommam"
+      ],
+      "year": 2026,
+      "type": "journal",
+      "status": "Published",
+      "venue": "International Journal of Robust and Nonlinear Control, Early View, 30 October 2026.",
+      "doi": "10.1002/rnc.70826",
+      "url": "https://doi.org/10.1002/rnc.70826",
+      "page_url": null,
+      "bibtex": "@article{Maoudj2026_brahmi2026,\n  title = {Nonlinear Terminal Model-Based Second-Order Sliding Mode Control for Robust Tracking in Robotic Exoskeletons},\n  author = {Brahim Brahmi and Abderraouf Maoudj and Jawhar Ghommam},\n  year = {2026},\n  journal = {International Journal of Robust and Nonlinear Control},\n  doi = {10.1002/rnc.70826}\n}"
+    },
+    {
+      "id": "mechta2026",
+      "title": "Hybrid Numerical-Experimental Optimization of Resistance Spot Welding Parameters for Dissimilar S235/AISI 1075 Steel Sheets via Box–Behnken Response Surface Methodology",
+      "authors": "A. Mechta, A. Laouissi, E. Raouache, A. Maoudj & M. Nouioua",
+      "authors_full": [
+        "Ahlem Mechta",
+        "Aissa Laouissi",
+        "Elhadj Raouache",
+        "Abderraouf Maoudj",
+        "Mourad Nouioua"
+      ],
+      "year": 2026,
+      "type": "journal",
+      "status": "Published",
+      "venue": "JOM, vol. 78, no. 11, pp. 10785–10805, 2026.",
+      "doi": "10.1007/s11837-026-08687-7",
+      "url": "https://doi.org/10.1007/s11837-026-08687-7",
+      "page_url": null,
+      "bibtex": "@article{Maoudj2026_mechta2026,\n  title = {Hybrid Numerical-Experimental Optimization of Resistance Spot Welding Parameters for Dissimilar S235/AISI 1075 Steel Sheets via Box–Behnken Response Surface Methodology},\n  author = {Ahlem Mechta and Aissa Laouissi and Elhadj Raouache and Abderraouf Maoudj and Mourad Nouioua},\n  year = {2026},\n  journal = {JOM},\n  volume = {78},\n  number = {11},\n  pages = {10785--10805},\n  doi = {10.1007/s11837-026-08687-7}\n}"
+    },
+    {
+      "id": "p49",
+      "title": "SPINDER: An Open-Source 18-DoF Hexapod Robot with Hierarchical Central Pattern Generator Control and Analytic Inverse Kinematics",
+      "authors": "A. Maoudj, A. A. Saputra, B. Brahmi & M. Nouioua",
+      "authors_full": [
+        "Abderraouf Maoudj",
+        "Azhar Aulia Saputra",
+        "Brahim Brahmi",
+        "Mourad Nouioua"
+      ],
+      "year": 2026,
+      "type": "journal",
+      "status": "Published",
+      "venue": "Scientific Reports, vol. 16, article 26147, 2026.",
+      "doi": "10.1038/s41598-026-56856-0",
+      "url": "https://doi.org/10.1038/s41598-026-56856-0",
+      "page_url": null,
+      "bibtex": "@article{Maoudj2026_p49,\n  title = {SPINDER: An Open-Source 18-DoF Hexapod Robot with Hierarchical Central Pattern Generator Control and Analytic Inverse Kinematics},\n  author = {Abderraouf Maoudj and Azhar Aulia Saputra and Brahim Brahmi and Mourad Nouioua},\n  year = {2026},\n  journal = {Scientific Reports},\n  volume = {16},\n  number = {1},\n  doi = {10.1038/s41598-026-56856-0},\n  eid = {26147}\n}"
+    },
+    {
+      "id": "p48",
+      "title": "A Hierarchical Perception-Action Framework for Adaptive Legged Locomotion in Unstructured Environments",
+      "authors": "A. Maoudj, A. A. Saputra, B. Brahmi & N. Kubota",
+      "authors_full": [
+        "Abderraouf Maoudj",
+        "Azhar Aulia Saputra",
+        "Brahim Brahmi",
+        "Naoyuki Kubota"
+      ],
+      "year": 2026,
+      "type": "journal",
+      "status": "Published",
+      "venue": "IEEE Access, vol. 14, pp. 74923–74932, 2026.",
+      "doi": "10.1109/ACCESS.2026.3689095",
+      "url": "https://doi.org/10.1109/ACCESS.2026.3689095",
+      "page_url": null,
+      "bibtex": "@article{Maoudj2026_p48,\n  title = {A Hierarchical Perception-Action Framework for Adaptive Legged Locomotion in Unstructured Environments},\n  author = {Abderraouf Maoudj and Azhar Aulia Saputra and Brahim Brahmi and Naoyuki Kubota},\n  year = {2026},\n  journal = {IEEE Access},\n  volume = {14},\n  pages = {74923-74932},\n  doi = {10.1109/ACCESS.2026.3689095}\n}"
+    },
+    {
+      "id": "p47",
+      "title": "From Collaborative Robots to Internet of Cobots: Innovations, Applications, and Emerging Trends",
+      "authors": "Z. Khan, A. Maoudj & S. Mekid",
+      "authors_full": [
+        "Zeashan Khan",
+        "Abderraouf Maoudj",
+        "Samir Mekid"
+      ],
+      "year": 2026,
+      "type": "journal",
+      "status": "Published",
+      "venue": "Journal of Ambient Intelligence and Smart Environments, vol. 18, no. 1, pp. 41–67, 2026.",
+      "doi": "10.1177/18761364251393221",
+      "url": "https://doi.org/10.1177/18761364251393221",
+      "page_url": null,
+      "bibtex": "@article{Maoudj2026_p47,\n  title = {From Collaborative Robots to Internet of Cobots: Innovations, Applications, and Emerging Trends},\n  author = {Zeashan Khan and Abderraouf Maoudj and Samir Mekid},\n  year = {2026},\n  journal = {Journal of Ambient Intelligence and Smart Environments},\n  volume = {18},\n  number = {1},\n  pages = {41-67},\n  doi = {10.1177/18761364251393221}\n}"
+    },
+    {
+      "id": "p46",
+      "title": "Machine-Learning Surrogates for the Multi-Objective Optimisation of Cutting Parameters in Dry Turning of POM C GF25%",
+      "authors": "N. Djouambi, M. A. Yallese, M. Kaddeche, A. Maoudj, A. Khellaf & M. Nouioua",
+      "authors_full": [
+        "Nahla Djouambi",
+        "Mohamed Athmane Yallese",
+        "Mounia Kaddeche",
+        "Abderraouf Maoudj",
+        "Ahmed Khellaf",
+        "Mourad Nouioua"
+      ],
+      "year": 2026,
+      "type": "journal",
+      "status": "Published",
+      "venue": "The International Journal of Advanced Manufacturing Technology, vol. 145, no. 5–6, pp. 3651–3670, 2026.",
+      "doi": "10.1007/s00170-026-18556-x",
+      "url": "https://doi.org/10.1007/s00170-026-18556-x",
+      "page_url": null,
+      "bibtex": "@article{Maoudj2026_p46,\n  title = {Machine-Learning Surrogates for the Multi-Objective Optimisation of Cutting Parameters in Dry Turning of POM C GF25%},\n  author = {Nahla Djouambi and Mohamed Athmane Yallese and Mounia Kaddeche and Abderraouf Maoudj and Ahmed Khellaf and Mourad Nouioua},\n  year = {2026},\n  journal = {The International Journal of Advanced Manufacturing Technology},\n  volume = {145},\n  number = {5-6},\n  pages = {3651-3670},\n  doi = {10.1007/s00170-026-18556-x}\n}"
+    },
+    {
+      "id": "p45",
+      "title": "AI-Driven Decision Support for Multi-Objective Optimization of Turning Parameters in Grey Cast Iron Machining",
+      "authors": "M. Nouioua, A. Laouissi, A. A. D. Sarhan, V. Swaminathan, A. Maoudj, et al.",
+      "authors_full": [
+        "Mourad Nouioua",
+        "Aissa Laouissi",
+        "Ahmed Aly Diaa Sarhan",
+        "Vasanth Swaminathan",
+        "Abderraouf Maoudj",
+        "Hussain Mohammed Al-Qahtani"
+      ],
+      "year": 2026,
+      "type": "journal",
+      "status": "Published",
+      "venue": "Results in Engineering, vol. 29, article 109805, 2026.",
+      "doi": "10.1016/j.rineng.2026.109805",
+      "url": "https://doi.org/10.1016/j.rineng.2026.109805",
+      "page_url": null,
+      "bibtex": "@article{Maoudj2026_p45,\n  title = {AI-Driven Decision Support for Multi-Objective Optimization of Turning Parameters in Grey Cast Iron Machining},\n  author = {Mourad Nouioua and Aissa Laouissi and Ahmed Aly Diaa Sarhan and Vasanth Swaminathan and Abderraouf Maoudj and Hussain Mohammed Al-Qahtani},\n  year = {2026},\n  journal = {Results in Engineering},\n  volume = {29},\n  doi = {10.1016/j.rineng.2026.109805},\n  eid = {109805}\n}"
+    },
+    {
+      "id": "polishing2026",
+      "title": "An Adaptive Vision-Based Robotic System for Flexible Surface Polishing",
+      "authors": "A. Maoudj, A. Kharidege, B. Brahmi, A. A. Saputra & M. Nouioua",
+      "authors_full": [
+        "Abderraouf Maoudj",
+        "Ahmed Kharidege",
+        "Brahim Brahmi",
+        "Azhar Aulia Saputra",
+        "Mourad Nouioua"
+      ],
+      "year": 2026,
+      "type": "conference",
+      "status": "Published",
+      "venue": "23rd International Conference on Informatics in Control, Automation and Robotics (ICINCO), vol. 2, pp. 1091–1098, 2026.",
+      "doi": "10.5220/0015220800004979",
+      "url": "https://doi.org/10.5220/0015220800004979",
+      "page_url": null,
+      "bibtex": "@inproceedings{Maoudj2026_polishing2026,\n  title = {An Adaptive Vision-Based Robotic System for Flexible Surface Polishing},\n  author = {Abderraouf Maoudj and Ahmed Kharidege and Brahim Brahmi and Azhar Aulia Saputra and Mourad Nouioua},\n  year = {2026},\n  booktitle = {Proceedings of the 23rd International Conference on Informatics in Control, Automation and Robotics - Volume 2: ICINCO},\n  volume = {2},\n  pages = {1091--1098},\n  doi = {10.5220/0015220800004979}\n}"
+    },
+    {
+      "id": "hamiltonian2026",
+      "title": "Hamiltonian-Based Human Intention Estimation for Compliant Exoskeleton Robot",
+      "authors": "B. Brahmi, A. Maoudj, J. Ghommam & M. H. Rahman",
+      "authors_full": [
+        "Brahim Brahmi",
+        "Abderraouf Maoudj",
+        "Jawhar Ghommam",
+        "Mohammad H. Rahman"
+      ],
+      "year": 2026,
+      "type": "conference",
+      "status": "Published",
+      "venue": "23rd International Conference on Informatics in Control, Automation and Robotics (ICINCO), vol. 1, pp. 495–502, 2026.",
+      "doi": "10.5220/0015307300004979",
+      "url": "https://doi.org/10.5220/0015307300004979",
+      "page_url": null,
+      "bibtex": "@inproceedings{Maoudj2026_hamiltonian2026,\n  title = {Hamiltonian-Based Human Intention Estimation for Compliant Exoskeleton Robot},\n  author = {Brahim Brahmi and Abderraouf Maoudj and Jawhar Ghommam and Mohammad H. Rahman},\n  year = {2026},\n  booktitle = {Proceedings of the 23rd International Conference on Informatics in Control, Automation and Robotics - Volume 1: ICINCO},\n  volume = {1},\n  pages = {495--502},\n  doi = {10.5220/0015307300004979}\n}"
+    },
+    {
+      "id": "p44",
+      "title": "ML-BiRRT: Machine Learning-Enhanced Bi-Directional RRT for Multi-Arm Robot Motion Planning and Coordination",
+      "authors": "A. Maoudj, S. Mekid & M. Nouioua",
+      "authors_full": [
+        "Abderraouf Maoudj",
+        "Samir Mekid",
+        "Mourad Nouioua"
+      ],
+      "year": 2026,
+      "type": "underreview",
+      "status": "Under review",
+      "venue": "Robotics and Autonomous Systems, under review, 2026.",
+      "doi": "",
+      "url": "Papers/44/index.html",
+      "page_url": "Papers/44/index.html",
+      "bibtex": "@unpublished{Maoudj2026_p44,\n  title = {ML-BiRRT: Machine Learning-Enhanced Bi-Directional RRT for Multi-Arm Robot Motion Planning and Coordination},\n  author = {Abderraouf Maoudj and Samir Mekid and Mourad Nouioua},\n  year = {2026},\n  note = {Under review}\n}"
+    },
+    {
+      "id": "p43",
+      "title": "Editorial: Human-robot interaction in industrial settings: new challenges and opportunities",
+      "authors": "S. Bouraine, M. Ammi, K. Geihs, A. Hentout, A. Maoudj & F. Yacef",
+      "authors_full": [
+        "Sara Bouraine",
+        "Mehdi Ammi",
+        "Kurt Geihs",
+        "Abdelfetah Hentout",
+        "Abderraouf Maoudj",
+        "Fouad Yacef"
+      ],
+      "year": 2025,
+      "type": "other",
+      "status": "Published",
+      "venue": "Frontiers in Robotics and AI, vol. 12, article 1652426, 2025.",
+      "doi": "10.3389/frobt.2025.1652426",
+      "url": "Papers/43/index.html",
+      "page_url": "Papers/43/index.html",
+      "bibtex": "@misc{Maoudj2025_p43,\n  title = {Editorial: Human-robot interaction in industrial settings: new challenges and opportunities},\n  author = {Sara Bouraine and Mehdi Ammi and Kurt Geihs and Abdelfetah Hentout and Abderraouf Maoudj and Fouad Yacef},\n  year = {2025},\n  volume = {12},\n  pages = {1652426},\n  doi = {10.3389/frobt.2025.1652426},\n  eid = {1652426}\n}"
+    },
+    {
+      "id": "p42",
+      "title": "HM-DRL: Enhancing multi-agent pathfinding with a heatmap-based heuristic for distributed deep reinforcement learning",
+      "authors": "M. Boumediene, A. Maoudj & A. L. Christensen",
+      "authors_full": [
+        "Mouad Boumediene",
+        "Abderraouf Maoudj",
+        "Anders Lyhne Christensen"
+      ],
+      "year": 2025,
+      "type": "journal",
+      "status": "Published",
+      "venue": "Applied Intelligence, vol. 55, no. 12, article 873, 2025.",
+      "doi": "10.1007/s10489-025-06747-0",
+      "url": "Papers/42/index.html",
+      "page_url": "Papers/42/index.html",
+      "bibtex": "@article{Maoudj2025_p42,\n  title = {HM-DRL: Enhancing multi-agent pathfinding with a heatmap-based heuristic for distributed deep reinforcement learning},\n  author = {Mouad Boumediene and Abderraouf Maoudj and Anders Lyhne Christensen},\n  year = {2025},\n  journal = {Applied Intelligence},\n  volume = {55},\n  number = {12},\n  doi = {10.1007/s10489-025-06747-0},\n  eid = {873}\n}"
+    },
+    {
+      "id": "p41",
+      "title": "Evolution of path costs for efficient decentralized multi-agent pathfinding",
+      "authors": "U. Farhadi, H. Hess, A. Maoudj & A. L. Christensen",
+      "authors_full": [
+        "Ulrich Farhadi",
+        "Henning Hess",
+        "Abderraouf Maoudj",
+        "Anders Lyhne Christensen"
+      ],
+      "year": 2025,
+      "type": "journal",
+      "status": "Published",
+      "venue": "Swarm and Evolutionary Computation, vol. 93, article 101833, 2025.",
+      "doi": "10.1016/j.swevo.2024.101833",
+      "url": "Papers/41/index.html",
+      "page_url": "Papers/41/index.html",
+      "bibtex": "@article{Maoudj2025_p41,\n  title = {Evolution of path costs for efficient decentralized multi-agent pathfinding},\n  author = {Ulrich Farhadi and Henning Hess and Abderraouf Maoudj and Anders Lyhne Christensen},\n  year = {2025},\n  journal = {Swarm and Evolutionary Computation},\n  volume = {93},\n  doi = {10.1016/j.swevo.2024.101833},\n  eid = {101833}\n}"
+    },
+    {
+      "id": "p40",
+      "title": "AquaRob: An Unmanned Surface Drone for the Coastal Surveillance and Environmental Monitoring",
+      "authors": "K. Amara, W. Dib, A. O. Djekoune, A. Maoudj & N. Zenati",
+      "authors_full": [
+        "Kahina Amara",
+        "Wassila Dib",
+        "A. Oualid Djekoune",
+        "Abderraouf Maoudj",
+        "Nadia Zenati"
+      ],
+      "year": 2024,
+      "type": "conference",
+      "status": "Published",
+      "venue": "2024 4th International Conference on Embedded & Distributed Systems (EDiS), pp. 193-198, 2024.",
+      "doi": "10.1109/edis63605.2024.10783242",
+      "url": "Papers/40/index.html",
+      "page_url": "Papers/40/index.html",
+      "bibtex": "@inproceedings{Maoudj2024_p40,\n  title = {AquaRob: An Unmanned Surface Drone for the Coastal Surveillance and Environmental Monitoring},\n  author = {Kahina Amara and Wassila Dib and A. Oualid Djekoune and Abderraouf Maoudj and Nadia Zenati},\n  year = {2024},\n  booktitle = {2024 4th International Conference on Embedded &amp;amp; Distributed Systems (EDiS)},\n  pages = {193-198},\n  doi = {10.1109/edis63605.2024.10783242}\n}"
+    },
+    {
+      "id": "p39",
+      "title": "Improved decentralized cooperative multi-agent path finding for robots with limited communication",
+      "authors": "A. Maoudj & A. L. Christensen",
+      "authors_full": [
+        "Abderraouf Maoudj",
+        "Anders Lyhne Christensen"
+      ],
+      "year": 2024,
+      "type": "journal",
+      "status": "Published",
+      "venue": "Swarm Intelligence, vol. 18, no. 2, pp. 167-185, 2024.",
+      "doi": "10.1007/s11721-023-00230-7",
+      "url": "Papers/39/index.html",
+      "page_url": "Papers/39/index.html",
+      "bibtex": "@article{Maoudj2024_p39,\n  title = {Improved decentralized cooperative multi-agent path finding for robots with limited communication},\n  author = {Abderraouf Maoudj and Anders Lyhne Christensen},\n  year = {2024},\n  journal = {Swarm Intelligence},\n  volume = {18},\n  number = {2-3},\n  pages = {167-185},\n  doi = {10.1007/s11721-023-00230-7}\n}"
+    },
+    {
+      "id": "p37",
+      "title": "Shortest path planning and efficient fuzzy logic control of mobile robots in indoor static and dynamic environments",
+      "authors": "A. Hentout, A. Maoudj & A. Kouider",
+      "authors_full": [
+        "Abdelfetah Hentout",
+        "Abderraouf Maoudj",
+        "Ahmed Kouider"
+      ],
+      "year": 2024,
+      "type": "journal",
+      "status": "Published",
+      "venue": "Romanian Journal of Information Science and Technology, vol. 27, no. 1, pp. 21–36, 2024.",
+      "doi": "",
+      "url": "Papers/37/index.html",
+      "page_url": "Papers/37/index.html",
+      "bibtex": "@article{Maoudj2024_p37,\n  title = {Shortest path planning and efficient fuzzy logic control of mobile robots in indoor static and dynamic environments},\n  author = {Abdelfetah Hentout and Abderraouf Maoudj and Ahmed Kouider},\n  year = {2024},\n  journal = {Romanian Journal of Information Science and Technology},\n  volume = {27},\n  number = {1},\n  pages = {21-36}\n}"
+    },
+    {
+      "id": "p36",
+      "title": "Lifelong MAPF for Shipment Preparation in Stochastic Warehouses",
+      "authors": "A. Maoudj, S. Mekid & A. L. Christensen",
+      "authors_full": [
+        "Abderraouf Maoudj",
+        "Samir Nadir Mekid",
+        "Anders Lyhne Christensen"
+      ],
+      "year": 2024,
+      "type": "conference",
+      "status": "Published",
+      "venue": "IEEE 20th International Conference on Automation Science and Engineering (CASE), pp. 1006–1011, 2024.",
+      "doi": "10.1109/case59546.2024.10711327",
+      "url": "Papers/36/index.html",
+      "page_url": "Papers/36/index.html",
+      "bibtex": "@inproceedings{Maoudj2024_p36,\n  title = {Lifelong MAPF for Shipment Preparation in Stochastic Warehouses},\n  author = {Abderraouf Maoudj and Samir Nadir Mekid and Anders Lyhne Christensen},\n  year = {2024},\n  booktitle = {2024 IEEE 20th International Conference on Automation Science and Engineering (CASE)},\n  pages = {1006--1011},\n  doi = {10.1109/case59546.2024.10711327}\n}"
+    },
+    {
+      "id": "p38",
+      "title": "Integration of a vision system with a robotic polishing system for machining variety of workpieces",
+      "authors": "A. KHARIDEGE & A. MAOUDJ",
+      "authors_full": [
+        "AHMED KHARIDEGE",
+        "ABDERRAOUF MAOUDJ"
+      ],
+      "year": 2024,
+      "type": "other",
+      "status": "Preprint / technical report",
+      "venue": "Research Square preprint, 2024.",
+      "doi": "10.21203/rs.3.rs-4306065/v1",
+      "url": "Papers/38/index.html",
+      "page_url": "Papers/38/index.html",
+      "bibtex": "@misc{Maoudj2024_p38,\n  title = {Integration of a vision system with a robotic polishing system for machining variety of workpieces},\n  author = {AHMED KHARIDEGE and ABDERRAOUF MAOUDJ},\n  year = {2024},\n  doi = {10.21203/rs.3.rs-4306065/v1},\n  note = {Preprint / technical report}\n}"
+    },
+    {
+      "id": "p35",
+      "title": "Decentralized multi-agent path finding in dynamic warehouse environments",
+      "authors": "A. Maoudj & A. L. Christensen",
+      "authors_full": [
+        "Abderraouf Maoudj",
+        "Anders Lyhne Christensen"
+      ],
+      "year": 2023,
+      "type": "conference",
+      "status": "Published",
+      "venue": "2023 21st International Conference on Advanced Robotics (ICAR), pp. 28-34, 2023.",
+      "doi": "10.1109/icar58858.2023.10406648",
+      "url": "Papers/35/index.html",
+      "page_url": "Papers/35/index.html",
+      "bibtex": "@inproceedings{Maoudj2023_p35,\n  title = {Decentralized multi-agent path finding in dynamic warehouse environments},\n  author = {Abderraouf Maoudj and Anders Lyhne Christensen},\n  year = {2023},\n  booktitle = {2023 21st International Conference on Advanced Robotics (ICAR)},\n  pages = {28-34},\n  doi = {10.1109/icar58858.2023.10406648}\n}"
+    },
+    {
+      "id": "p33",
+      "title": "The capacitated multi-AGV scheduling problem with conflicting products: Model and a decentralized multi-agent approach",
+      "authors": "A. Maoudj, A. Kouider & A. L. Christensen",
+      "authors_full": [
+        "Abderraouf Maoudj",
+        "Ahmed Kouider",
+        "Anders Lyhne Christensen"
+      ],
+      "year": 2023,
+      "type": "journal",
+      "status": "Published",
+      "venue": "Robotics and Computer-Integrated Manufacturing, vol. 81, article 102514, 2023.",
+      "doi": "10.1016/j.rcim.2022.102514",
+      "url": "Papers/33/index.html",
+      "page_url": "Papers/33/index.html",
+      "bibtex": "@article{Maoudj2023_p33,\n  title = {The capacitated multi-AGV scheduling problem with conflicting products: Model and a decentralized multi-agent approach},\n  author = {Abderraouf Maoudj and Ahmed Kouider and Anders Lyhne Christensen},\n  year = {2023},\n  journal = {Robotics and Computer-Integrated Manufacturing},\n  volume = {81},\n  doi = {10.1016/j.rcim.2022.102514},\n  eid = {102514}\n}"
+    },
+    {
+      "id": "p32",
+      "title": "A review of the literature on fuzzy-logic approaches for collision-free path planning of manipulator robots",
+      "authors": "A. Hentout, A. Maoudj & M. Aouache",
+      "authors_full": [
+        "Abdelfetah Hentout",
+        "Abderraouf Maoudj",
+        "Mustapha Aouache"
+      ],
+      "year": 2023,
+      "type": "journal",
+      "status": "Published",
+      "venue": "Artificial Intelligence Review, vol. 56, no. 4, pp. 3369–3444, 2023.",
+      "doi": "10.1007/s10462-022-10257-7",
+      "url": "Papers/32/index.html",
+      "page_url": "Papers/32/index.html",
+      "bibtex": "@article{Maoudj2023_p32,\n  title = {A review of the literature on fuzzy-logic approaches for collision-free path planning of manipulator robots},\n  author = {Abdelfetah Hentout and Abderraouf Maoudj and Mustapha Aouache},\n  year = {2023},\n  journal = {Artificial Intelligence Review},\n  volume = {56},\n  number = {4},\n  pages = {3369-3444},\n  doi = {10.1007/s10462-022-10257-7}\n}"
+    },
+    {
+      "id": "p34",
+      "title": "Efficient fuzzy-logic control of indoor mobile robots evolving in static and dynamic workspaces",
+      "authors": "A. Hentout, A. Maoudj & A. Kouider",
+      "authors_full": [
+        "Abdelfetah Hentout",
+        "Abderraouf Maoudj",
+        "Ahmed Kouider"
+      ],
+      "year": 2023,
+      "type": "other",
+      "status": "Preprint / technical report",
+      "venue": "Research Square preprint, 2023.",
+      "doi": "10.21203/rs.3.rs-3182222/v1",
+      "url": "Papers/34/index.html",
+      "page_url": "Papers/34/index.html",
+      "bibtex": "@misc{Maoudj2023_p34,\n  title = {Efficient fuzzy-logic control of indoor mobile robots evolving in static and dynamic workspaces},\n  author = {Abdelfetah Hentout and Abderraouf Maoudj and Ahmed Kouider},\n  year = {2023},\n  doi = {10.21203/rs.3.rs-3182222/v1},\n  note = {Preprint / technical report}\n}"
+    },
+    {
+      "id": "p31",
+      "title": "Decentralized multi-agent path finding in warehouse environments for fleets of mobile robots with limited communication range",
+      "authors": "A. Maoudj & A. L. Christensen",
+      "authors_full": [
+        "Abderraouf Maoudj",
+        "Anders Lyhne Christensen"
+      ],
+      "year": 2022,
+      "type": "conference",
+      "status": "Published",
+      "venue": "Swarm Intelligence (ANTS 2022), LNCS vol. 13491, pp. 104–116, 2022.",
+      "doi": "10.1007/978-3-031-20176-9_9",
+      "url": "Papers/31/index.html",
+      "page_url": "Papers/31/index.html",
+      "bibtex": "@inproceedings{Maoudj2022_p31,\n  title = {Decentralized multi-agent path finding in warehouse environments for fleets of mobile robots with limited communication range},\n  author = {Abderraouf Maoudj and Anders Lyhne Christensen},\n  year = {2022},\n  booktitle = {Lecture Notes in Computer Science},\n  pages = {104-116},\n  doi = {10.1007/978-3-031-20176-9_9}\n}"
+    },
+    {
+      "id": "p29",
+      "title": "Effective GA approach for municipal solid waste collection: dynamic capacitated vehicle routing in smart cities",
+      "authors": "A. Hentout, A. Maoudj, A. Kouider & M. Aouache",
+      "authors_full": [
+        "Abdelfetah Hentout",
+        "Abderraouf Maoudj",
+        "Ahmed Kouider",
+        "Mustapha Aouache"
+      ],
+      "year": 2022,
+      "type": "journal",
+      "status": "Published",
+      "venue": "International Journal of Artificial Intelligence and Soft Computing, vol. 7, no. 4, pp. 329-352, 2022.",
+      "doi": "10.1504/ijaisc.2022.130561",
+      "url": "Papers/29/index.html",
+      "page_url": "Papers/29/index.html",
+      "bibtex": "@article{Maoudj2022_p29,\n  title = {Effective GA approach for municipal solid waste collection: dynamic capacitated vehicle routing in smart cities},\n  author = {Abdelfetah Hentout and Abderraouf Maoudj and Ahmed Kouider and Mustapha Aouache},\n  year = {2022},\n  journal = {International Journal of Artificial Intelligence and Soft Computing},\n  volume = {7},\n  number = {4},\n  pages = {329},\n  doi = {10.1504/ijaisc.2022.130561},\n  eid = {130561}\n}"
+    },
+    {
+      "id": "p2",
+      "title": "A literature review of service robotics: Challenges and open research issues",
+      "authors": "A. Hentout, A. Maoudj & A. Kouider",
+      "authors_full": [
+        "Abdelfetah Hentout",
+        "Abderraouf Maoudj",
+        "Ahmed Kouider"
+      ],
+      "year": 2022,
+      "type": "other",
+      "status": "Workshop paper",
+      "venue": "Workshop on Human-Robot Interaction: From Service to Industry (HRI-SI), 2022.",
+      "doi": "",
+      "url": "Papers/2/index.html",
+      "page_url": "Papers/2/index.html",
+      "bibtex": "@misc{Maoudj2022_p2,\n  title = {A literature review of service robotics: Challenges and open research issues},\n  author = {Abdelfetah Hentout and Abderraouf Maoudj and Ahmed Kouider},\n  year = {2022},\n  note = {Workshop paper}\n}"
+    },
+    {
+      "id": "p28",
+      "title": "A fast constructive path planning algorithm for mobile robot navigation",
+      "authors": "A. Maoudj, A. Hentout, A. L. Christensen & A. Kouider",
+      "authors_full": [
+        "Abderraouf Maoudj",
+        "Abdelfetah Hentout",
+        "Anders Lyhne Christensen",
+        "Ahmed Kouider"
+      ],
+      "year": 2021,
+      "type": "conference",
+      "status": "Published",
+      "venue": "2021 26th IEEE International Conference on Emerging Technologies and Factory Automation (ETFA), pp. 1-8, 2021.",
+      "doi": "10.1109/etfa45728.2021.9613217",
+      "url": "Papers/28/index.html",
+      "page_url": "Papers/28/index.html",
+      "bibtex": "@inproceedings{Maoudj2021_p28,\n  title = {A fast constructive path planning algorithm for mobile robot navigation},\n  author = {Abderraouf Maoudj and Abdelfetah Hentout and Anders Lyhne Christensen and Ahmed Kouider},\n  year = {2021},\n  booktitle = {2021 26th IEEE International Conference on Emerging Technologies and Factory Automation (ETFA )},\n  pages = {1-8},\n  doi = {10.1109/etfa45728.2021.9613217}\n}"
+    },
+    {
+      "id": "p27",
+      "title": "Q-learning-based navigation for mobile robots in continuous and dynamic environments",
+      "authors": "A. Maoudj & A. L. Christensen",
+      "authors_full": [
+        "Abderraouf Maoudj",
+        "Anders Lyhne Christensen"
+      ],
+      "year": 2021,
+      "type": "conference",
+      "status": "Published",
+      "venue": "2021 IEEE 17th International Conference on Automation Science and Engineering (CASE), pp. 1338-1345, 2021.",
+      "doi": "10.1109/case49439.2021.9551641",
+      "url": "Papers/27/index.html",
+      "page_url": "Papers/27/index.html",
+      "bibtex": "@inproceedings{Maoudj2021_p27,\n  title = {Q-learning-based navigation for mobile robots in continuous and dynamic environments},\n  author = {Abderraouf Maoudj and Anders Lyhne Christensen},\n  year = {2021},\n  booktitle = {2021 IEEE 17th International Conference on Automation Science and Engineering (CASE)},\n  pages = {1338-1345},\n  doi = {10.1109/case49439.2021.9551641}\n}"
+    },
+    {
+      "id": "p26",
+      "title": "Multi-agent control of an Industry 4.0 cyber-physical assembly cell",
+      "authors": "M. Gaham, M. Kadri, A. Maoudj, A. Bendjelloul, A. Kouider, B. Mihoubi, K. Tebani & B. Bouzouia",
+      "authors_full": [
+        "M Gaham",
+        "M Kadri",
+        "A Maoudj",
+        "A Bendjelloul",
+        "A Kouider",
+        "B Mihoubi",
+        "K Tebani",
+        "B Bouzouia"
+      ],
+      "year": 2021,
+      "type": "conference",
+      "status": "Published",
+      "venue": "1st National Conference on Applied Computing and Smart Technologies, Algeria, 2021.",
+      "doi": "",
+      "url": "Papers/26/index.html",
+      "page_url": "Papers/26/index.html",
+      "bibtex": "@inproceedings{Maoudj2021_p26,\n  title = {Multi-agent control of an Industry 4.0 cyber-physical assembly cell},\n  author = {M Gaham and M Kadri and A Maoudj and A Bendjelloul and A Kouider and B Mihoubi and K Tebani and B Bouzouia},\n  year = {2021},\n  booktitle = {1st National Conference on Applied Computing and Smart Technologies. Ecole Supérieure en Informatique, Sidi Bel Abbès, Algeria. Available at: https://www. researchgate. net/publication/353165007_Multi-Agent_Control_of_an_Industry_40_Cyber-physical_Assembly_Cell (accessed 11 December 2021)}\n}"
+    },
+    {
+      "id": "p25",
+      "title": "Optimal path planning approach based on Q-learning algorithm for mobile robots",
+      "authors": "A. Maoudj & A. Hentout",
+      "authors_full": [
+        "Abderraouf Maoudj",
+        "Abdelfetah Hentout"
+      ],
+      "year": 2020,
+      "type": "journal",
+      "status": "Published",
+      "venue": "Applied Soft Computing, vol. 97, article 106796, 2020.",
+      "doi": "10.1016/j.asoc.2020.106796",
+      "url": "Papers/25/index.html",
+      "page_url": "Papers/25/index.html",
+      "bibtex": "@article{Maoudj2020_p25,\n  title = {Optimal path planning approach based on Q-learning algorithm for mobile robots},\n  author = {Abderraouf Maoudj and Abdelfetah Hentout},\n  year = {2020},\n  journal = {Applied Soft Computing},\n  volume = {97},\n  doi = {10.1016/j.asoc.2020.106796},\n  eid = {106796}\n}"
+    },
+    {
+      "id": "p13",
+      "title": "Distributed Multi-agent Bidding-Based Approach for the Collaborative Mapping of Unknown Indoor Environments by a Homogeneous Mobile Robot Team",
+      "authors": "A. Hentout, A. Maoudj, N. Kaid-youcef, D. Hebib & B. Bouzouia",
+      "authors_full": [
+        "Abdelfetah Hentout",
+        "Abderraouf Maoudj",
+        "Nesrine Kaid-youcef",
+        "Djamila Hebib",
+        "Brahim Bouzouia"
+      ],
+      "year": 2020,
+      "type": "journal",
+      "status": "Published",
+      "venue": "Journal of Intelligent Systems, vol. 29, no. 1, pp. 84–99, 2020 (online 2017).",
+      "doi": "10.1515/jisys-2017-0255",
+      "url": "Papers/13/index.html",
+      "page_url": "Papers/13/index.html",
+      "bibtex": "@article{Maoudj2020_p13,\n  title = {Distributed Multi-agent Bidding-Based Approach for the Collaborative Mapping of Unknown Indoor Environments by a Homogeneous Mobile Robot Team},\n  author = {Abdelfetah Hentout and Abderraouf Maoudj and Nesrine Kaid-youcef and Djamila Hebib and Brahim Bouzouia},\n  year = {2020},\n  journal = {Journal of Intelligent Systems},\n  volume = {29},\n  number = {1},\n  pages = {84-99},\n  doi = {10.1515/jisys-2017-0255}\n}"
+    },
+    {
+      "id": "p24",
+      "title": "RRT-A*-BT approach for optimal collision-free path planning for mobile robots",
+      "authors": "A. Hentout, A. Maoudj, D. Yahiaoui & M. Aouache",
+      "authors_full": [
+        "Abdelfetah Hentout",
+        "Abderraouf Maoudj",
+        "Djelloul Yahiaoui",
+        "Mustapha Aouache"
+      ],
+      "year": 2019,
+      "type": "journal",
+      "status": "Published",
+      "venue": "Algerian Journal of Signals and Systems, vol. 4, no. 2, pp. 39-50, 2019.",
+      "doi": "10.51485/ajss.v4i2.81",
+      "url": "Papers/24/index.html",
+      "page_url": "Papers/24/index.html",
+      "bibtex": "@article{Maoudj2019_p24,\n  title = {RRT-A*-BT approach for optimal collision-free path planning for mobile robots},\n  author = {Abdelfetah Hentout and Abderraouf Maoudj and Djelloul Yahiaoui and Mustapha Aouache},\n  year = {2019},\n  journal = {Algerian Journal of Signals and Systems},\n  volume = {4},\n  number = {2},\n  pages = {39-50},\n  doi = {10.51485/ajss.v4i2.81}\n}"
+    },
+    {
+      "id": "p23",
+      "title": "Design and Control of an Educational and Research-Oriented Mobile Robot",
+      "authors": "A. Maoudj, A. Hentout, M. Bouhebila, C. Boubakir & H. Maoudj",
+      "authors_full": [
+        "Abderraouf Maoudj",
+        "Abdelfetah Hentout",
+        "Mohammed Bouhebila",
+        "Chaâbane Boubakir",
+        "Houdaifa Maoudj"
+      ],
+      "year": 2019,
+      "type": "conference",
+      "status": "Published",
+      "venue": "The International Conference on Networking Telecommunications, Biomedical Engineering and Applications (ICNTBA 2019), 2019.",
+      "doi": "",
+      "url": "Papers/23/index.html",
+      "page_url": "Papers/23/index.html",
+      "bibtex": "@inproceedings{Maoudj2019_p23,\n  title = {Design and Control of an Educational and Research-Oriented Mobile Robot},\n  author = {Abderraouf Maoudj and Abdelfetah Hentout and Mohammed Bouhebila and Chaâbane Boubakir and Houdaifa Maoudj},\n  year = {2019}\n}"
+    },
+    {
+      "id": "p22",
+      "title": "Human–robot interaction in industrial collaborative robotics: a literature review of the decade 2008–2017",
+      "authors": "A. Hentout, M. Aouache, A. Maoudj & I. Akli",
+      "authors_full": [
+        "Abdelfetah Hentout",
+        "Mustapha Aouache",
+        "Abderraouf Maoudj",
+        "Isma Akli"
+      ],
+      "year": 2019,
+      "type": "journal",
+      "status": "Published",
+      "venue": "Advanced Robotics, vol. 33, no. 15–16, pp. 764–799, 2019.",
+      "doi": "10.1080/01691864.2019.1636714",
+      "url": "Papers/22/index.html",
+      "page_url": "Papers/22/index.html",
+      "bibtex": "@article{Maoudj2019_p22,\n  title = {Human–robot interaction in industrial collaborative robotics: a literature review of the decade 2008–2017},\n  author = {Abdelfetah Hentout and Mustapha Aouache and Abderraouf Maoudj and Isma Akli},\n  year = {2019},\n  journal = {Advanced Robotics},\n  volume = {33},\n  number = {15-16},\n  pages = {764-799},\n  doi = {10.1080/01691864.2019.1636714}\n}"
+    },
+    {
+      "id": "p21",
+      "title": "Autonomous Fuzzy-based Navigation of Mobile Robots: Design, Realization and Control of a Prototype",
+      "authors": "H. M. A. Maoudj, A. Hentout, M.Bouhebila & C. Boubakir",
+      "authors_full": [
+        "H. Maoudj A. Maoudj",
+        "A. Hentout",
+        "M.Bouhebila",
+        "C. Boubakir"
+      ],
+      "year": 2019,
+      "type": "conference",
+      "status": "Published",
+      "venue": "International Conference on Networking Telecommunications, Biomedical Engineering and Applications (ICNTBA 2019), 2019.",
+      "doi": "",
+      "url": "Papers/21/index.html",
+      "page_url": "Papers/21/index.html",
+      "bibtex": "@inproceedings{Maoudj2019_p21,\n  title = {Autonomous Fuzzy-based Navigation of Mobile Robots: Design, Realization and Control of a Prototype},\n  author = {H. Maoudj A. Maoudj and A. Hentout and M.Bouhebila and C. Boubakir},\n  year = {2019}\n}"
+    },
+    {
+      "id": "p20",
+      "title": "Collision-free path planning for indoor mobile robots based on rapidly-exploring random trees and piecewise cubic hermite interpolating polynomial",
+      "authors": "A. Hentout, A. Maoudj, D. Guir, S. Saighi, M. A. Harkat, M. Z. Hammouche & A. Bakdi",
+      "authors_full": [
+        "Abdelfetah Hentout",
+        "Abderraouf Maoudj",
+        "Dallel Guir",
+        "Souhila Saighi",
+        "M Aures Harkat",
+        "Mohamed Zakaria Hammouche",
+        "Azzeddine Bakdi"
+      ],
+      "year": 2019,
+      "type": "journal",
+      "status": "Published",
+      "venue": "International Journal of Imaging and Robotics, vol. 19, no. 03, 2019.",
+      "doi": "",
+      "url": "Papers/20/index.html",
+      "page_url": "Papers/20/index.html",
+      "bibtex": "@article{Maoudj2019_p20,\n  title = {Collision-free path planning for indoor mobile robots based on rapidly-exploring random trees and piecewise cubic hermite interpolating polynomial},\n  author = {Abdelfetah Hentout and Abderraouf Maoudj and Dallel Guir and Souhila Saighi and M Aures Harkat and Mohamed Zakaria Hammouche and Azzeddine Bakdi},\n  year = {2019},\n  journal = {International Journal of Imaging and Robotics},\n  volume = {19},\n  number = {03}\n}"
+    },
+    {
+      "id": "p19",
+      "title": "Fault-tolerant multi-agent scheme for leader/follower formation control of homogeneous mobile robot team",
+      "authors": "A. Hentout, A. Maoudj, M. Ouahal & A. Gasmi",
+      "authors_full": [
+        "Abdelfetah Hentout",
+        "Abderraouf Maoudj",
+        "Mohamed Ouahal",
+        "Abdennour Gasmi"
+      ],
+      "year": 2019,
+      "type": "journal",
+      "status": "Published",
+      "venue": "International Journal of Systems, Control and Communications, vol. 10, no. 2, pp. 95-125, 2019.",
+      "doi": "10.1504/ijscc.2019.098977",
+      "url": "Papers/19/index.html",
+      "page_url": "Papers/19/index.html",
+      "bibtex": "@article{Maoudj2019_p19,\n  title = {Fault-tolerant multi-agent scheme for leader/follower formation control of homogeneous mobile robot team},\n  author = {Abdelfetah Hentout and Abderraouf Maoudj and Mohamed Ouahal and Abdennour Gasmi},\n  year = {2019},\n  journal = {International Journal of Systems, Control and Communications},\n  volume = {10},\n  number = {2},\n  pages = {95},\n  doi = {10.1504/ijscc.2019.098977},\n  eid = {98977}\n}"
+    },
+    {
+      "id": "p9",
+      "title": "Distributed multi-agent scheduling and control system for robotic flexible assembly cells",
+      "authors": "A. Maoudj, B. Bouzouia, A. Hentout, A. Kouider & R. Toumi",
+      "authors_full": [
+        "Abderraouf Maoudj",
+        "Brahim Bouzouia",
+        "Abdelfetah Hentout",
+        "Ahmed Kouider",
+        "Redouane Toumi"
+      ],
+      "year": 2019,
+      "type": "journal",
+      "status": "Published",
+      "venue": "Journal of Intelligent Manufacturing, vol. 30, no. 4, pp. 1629–1644, 2019.",
+      "doi": "10.1007/s10845-017-1345-z",
+      "url": "Papers/9/index.html",
+      "page_url": "Papers/9/index.html",
+      "bibtex": "@article{Maoudj2019_p9,\n  title = {Distributed multi-agent scheduling and control system for robotic flexible assembly cells},\n  author = {Abderraouf Maoudj and Brahim Bouzouia and Abdelfetah Hentout and Ahmed Kouider and Redouane Toumi},\n  year = {2019},\n  journal = {Journal of Intelligent Manufacturing},\n  volume = {30},\n  number = {4},\n  pages = {1629-1644},\n  doi = {10.1007/s10845-017-1345-z}\n}"
+    },
+    {
+      "id": "p18",
+      "title": "Virtual pheromone-based approach for objects searching in RFID-based cyber-physical robotic systems",
+      "authors": "A. Hentout, A. Tiberkak, A. Maoudj, L. Berkat & A. Abeb",
+      "authors_full": [
+        "Abdelfetah Hentout",
+        "Allal Tiberkak",
+        "Abderraouf Maoudj",
+        "Lotfi Berkat",
+        "Abdelkrim Abeb"
+      ],
+      "year": 2018,
+      "type": "conference",
+      "status": "Published",
+      "venue": "2018 International Conference on Applied Smart Systems (ICASS), pp. 1-7, 2018.",
+      "doi": "10.1109/icass.2018.8652034",
+      "url": "Papers/18/index.html",
+      "page_url": "Papers/18/index.html",
+      "bibtex": "@inproceedings{Maoudj2018_p18,\n  title = {Virtual pheromone-based approach for objects searching in RFID-based cyber-physical robotic systems},\n  author = {Abdelfetah Hentout and Allal Tiberkak and Abderraouf Maoudj and Lotfi Berkat and Abdelkrim Abeb},\n  year = {2018},\n  booktitle = {2018 International Conference on Applied Smart Systems (ICASS)},\n  pages = {1-7},\n  doi = {10.1109/icass.2018.8652034}\n}"
+    },
+    {
+      "id": "p17",
+      "title": "Key challenges and open issues of industrial collaborative robotics",
+      "authors": "A. Hentout, M. Aouache, A. Maoudj & I. Akli",
+      "authors_full": [
+        "Abdelfetah Hentout",
+        "Mustapha Aouache",
+        "Abderraouf Maoudj",
+        "Isma Akli"
+      ],
+      "year": 2018,
+      "type": "other",
+      "status": "Published",
+      "venue": "Workshop on Human-Robot Interaction: From Service to Industry (HRI-SI), IEEE RO-MAN, 2018.",
+      "doi": "",
+      "url": "Papers/17/index.html",
+      "page_url": "Papers/17/index.html",
+      "bibtex": "@misc{Maoudj2018_p17,\n  title = {Key challenges and open issues of industrial collaborative robotics},\n  author = {Abdelfetah Hentout and Mustapha Aouache and Abderraouf Maoudj and Isma Akli},\n  year = {2018}\n}"
+    },
+    {
+      "id": "p14",
+      "title": "On-line fault-tolerant fuzzy-based path planning and obstacles avoidance approach for manipulator robots",
+      "authors": "A. Maoudj, A. Hentout, B. Bouzouia & R. Toumi",
+      "authors_full": [
+        "Abderraouf Maoudj",
+        "Abdelfetah Hentout",
+        "Brahim Bouzouia",
+        "Redouane Toumi"
+      ],
+      "year": 2018,
+      "type": "journal",
+      "status": "Published",
+      "venue": "International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems, vol. 26, no. 5, pp. 809–838, 2018.",
+      "doi": "10.1142/s0218488518500368",
+      "url": "Papers/14/index.html",
+      "page_url": "Papers/14/index.html",
+      "bibtex": "@article{Maoudj2018_p14,\n  title = {On-line fault-tolerant fuzzy-based path planning and obstacles avoidance approach for manipulator robots},\n  author = {Abderraouf Maoudj and Abdelfetah Hentout and Brahim Bouzouia and Redouane Toumi},\n  year = {2018},\n  journal = {International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems},\n  volume = {26},\n  number = {05},\n  pages = {809-838},\n  doi = {10.1142/s0218488518500368}\n}"
+    },
+    {
+      "id": "p15",
+      "title": "Téléopération multi-robots hétérogènes : Application au cas des robots RobuTER/ULM et AGV-M6",
+      "authors": "A. Maoudj",
+      "authors_full": [
+        "Abderraouf Maoudj"
+      ],
+      "year": 2018,
+      "type": "other",
+      "status": "Thesis",
+      "venue": "Doctoral thesis, Université des Sciences et de la Technologie Houari Boumediene, 2018.",
+      "doi": "",
+      "url": "Papers/15/index.html",
+      "page_url": "Papers/15/index.html",
+      "bibtex": "@misc{Maoudj2018_p15,\n  title = {Téléopération multi-robots hétérogènes : Application au cas des robots RobuTER/ULM et AGV-M6},\n  author = {Abderraouf Maoudj},\n  year = {2018},\n  note = {Thesis}\n}"
+    },
+    {
+      "id": "p1",
+      "title": "Developing a distributed architecture for robots control in industrial RFID-based cyber-physical systems",
+      "authors": "A. Hentout, I. Akli, A. Maoudj & A. Tiberkak",
+      "authors_full": [
+        "Abdelfetah Hentout",
+        "Isma Akli",
+        "Abderraouf Maoudj",
+        "Allal Tiberkak"
+      ],
+      "year": 2018,
+      "type": "other",
+      "status": "Preprint / technical report",
+      "venue": "Technical report / preprint, 2018.",
+      "doi": "",
+      "url": "Papers/1/index.html",
+      "page_url": "Papers/1/index.html",
+      "bibtex": "@misc{Maoudj2018_p1,\n  title = {Developing a distributed architecture for robots control in industrial RFID-based cyber-physical systems},\n  author = {Abdelfetah Hentout and Isma Akli and Abderraouf Maoudj and Allal Tiberkak},\n  year = {2018},\n  note = {Preprint / technical report}\n}"
+    },
+    {
+      "id": "p12",
+      "title": "Optimal path planning and execution for mobile robots using genetic algorithm and adaptive fuzzy-logic control",
+      "authors": "A. Bakdi, A. Hentout, H. Boutami, A. Maoudj, O. Hachour & B. Bouzouia",
+      "authors_full": [
+        "Azzeddine Bakdi",
+        "Abdelfetah Hentout",
+        "Hakim Boutami",
+        "Abderraouf Maoudj",
+        "Ouarda Hachour",
+        "Brahim Bouzouia"
+      ],
+      "year": 2017,
+      "type": "journal",
+      "status": "Published",
+      "venue": "Robotics and Autonomous Systems, vol. 89, pp. 95-109, 2017.",
+      "doi": "10.1016/j.robot.2016.12.008",
+      "url": "Papers/12/index.html",
+      "page_url": "Papers/12/index.html",
+      "bibtex": "@article{Maoudj2017_p12,\n  title = {Optimal path planning and execution for mobile robots using genetic algorithm and adaptive fuzzy-logic control},\n  author = {Azzeddine Bakdi and Abdelfetah Hentout and Hakim Boutami and Abderraouf Maoudj and Ouarda Hachour and Brahim Bouzouia},\n  year = {2017},\n  journal = {Robotics and Autonomous Systems},\n  volume = {89},\n  pages = {95-109},\n  doi = {10.1016/j.robot.2016.12.008}\n}"
+    },
+    {
+      "id": "p10",
+      "title": "Mobile robot RBPF-SLAM with LMS sensor in indoor environments Application on RobuTER robot",
+      "authors": "A. Hentout, A. Beghni, A. B. Nourine, A. Maoudj & B. Bouzouia",
+      "authors_full": [
+        "Abdelfetah Hentout",
+        "Abdelkader Beghni",
+        "Abdelkader Benahmed Nourine",
+        "Abderraouf Maoudj",
+        "Brahim Bouzouia"
+      ],
+      "year": 2017,
+      "type": "conference",
+      "status": "Published",
+      "venue": "5th International Conference on Electrical Engineering – Boumerdes (ICEE-B), IEEE, 2017.",
+      "doi": "10.1109/icee-b.2017.8192121",
+      "url": "Papers/10/index.html",
+      "page_url": "Papers/10/index.html",
+      "bibtex": "@inproceedings{Maoudj2017_p10,\n  title = {Mobile robot RBPF-SLAM with LMS sensor in indoor environments Application on RobuTER robot},\n  author = {Abdelfetah Hentout and Abdelkader Beghni and Abdelkader Benahmed Nourine and Abderraouf Maoudj and Brahim Bouzouia},\n  year = {2017},\n  booktitle = {2017 5th International Conference on Electrical Engineering - Boumerdes (ICEE-B)},\n  pages = {1-6},\n  doi = {10.1109/icee-b.2017.8192121}\n}"
+    },
+    {
+      "id": "p8",
+      "title": "A survey of development frameworks for robotics",
+      "authors": "A. Hentout, A. Maoudj & B. Bouzouia",
+      "authors_full": [
+        "Abdelfetah Hentout",
+        "Abderraouf Maoudj",
+        "Brahim Bouzouia"
+      ],
+      "year": 2016,
+      "type": "conference",
+      "status": "Published",
+      "venue": "8th International Conference on Modelling, Identification and Control (ICMIC), pp. 67–72, 2016.",
+      "doi": "10.1109/icmic.2016.7804217",
+      "url": "Papers/8/index.html",
+      "page_url": "Papers/8/index.html",
+      "bibtex": "@inproceedings{Maoudj2016_p8,\n  title = {A survey of development frameworks for robotics},\n  author = {Abdelfetah Hentout and Abderraouf Maoudj and Brahim Bouzouia},\n  year = {2016},\n  booktitle = {2016 8th International Conference on Modelling, Identification and Control (ICMIC)},\n  pages = {67-72},\n  doi = {10.1109/icmic.2016.7804217}\n}"
+    },
+    {
+      "id": "p7",
+      "title": "Distributed multi-agent approach based on priority rules and genetic algorithm for tasks scheduling in multi-robot cells",
+      "authors": "A. Maoudj, B. Bouzouia, A. Hentout, A. Kouider & R. Toumi",
+      "authors_full": [
+        "Abderraouf Maoudj",
+        "Brahim Bouzouia",
+        "Abdelfetah Hentout",
+        "Ahmed Kouider",
+        "Redouane Toumi"
+      ],
+      "year": 2016,
+      "type": "conference",
+      "status": "Published",
+      "venue": "IECON 2016-42nd Annual Conference of the IEEE Industrial Electronics Society, pp. 692-697, 2016.",
+      "doi": "10.1109/iecon.2016.7792995",
+      "url": "Papers/7/index.html",
+      "page_url": "Papers/7/index.html",
+      "bibtex": "@inproceedings{Maoudj2016_p7,\n  title = {Distributed multi-agent approach based on priority rules and genetic algorithm for tasks scheduling in multi-robot cells},\n  author = {Abderraouf Maoudj and Brahim Bouzouia and Abdelfetah Hentout and Ahmed Kouider and Redouane Toumi},\n  year = {2016},\n  booktitle = {IECON 2016 - 42nd Annual Conference of the IEEE Industrial Electronics Society},\n  pages = {692-697},\n  doi = {10.1109/iecon.2016.7792995}\n}"
+    },
+    {
+      "id": "p5",
+      "title": "Multi-agent approach for task allocation and scheduling in cooperative heterogeneous multi-robot team: Simulation results",
+      "authors": "A. Maoudj, B. Bouzouia, A. Hentout & R. Toumi",
+      "authors_full": [
+        "Abderraouf Maoudj",
+        "Brahim Bouzouia",
+        "Abdelfetah Hentout",
+        "Redouane Toumi"
+      ],
+      "year": 2015,
+      "type": "conference",
+      "status": "Published",
+      "venue": "2015 IEEE 13th international conference on industrial informatics (INDIN), pp. 179-184, 2015.",
+      "doi": "",
+      "url": "Papers/5/index.html",
+      "page_url": "Papers/5/index.html",
+      "bibtex": "@inproceedings{Maoudj2015_p5,\n  title = {Multi-agent approach for task allocation and scheduling in cooperative heterogeneous multi-robot team: Simulation results},\n  author = {Abderraouf Maoudj and Brahim Bouzouia and Abdelfetah Hentout and Redouane Toumi},\n  year = {2015},\n  booktitle = {IEEE},\n  pages = {179-184}\n}"
+    },
+    {
+      "id": "p4",
+      "title": "Multi-agent architecture for telerobotics of heterogeneous multi-robot cooperation through negotiated task allocation with constraints: Initial implementation",
+      "authors": "A. Maoudj, B. Bouzouia, A. Hentout & R. Toumi",
+      "authors_full": [
+        "A Maoudj",
+        "B Bouzouia",
+        "A Hentout",
+        "R Toumi"
+      ],
+      "year": 2014,
+      "type": "conference",
+      "status": "Published",
+      "venue": "1re Journée d’Étude en Automatique et ses Applications (1JEAA14), pp. 38–43, 2014.",
+      "doi": "",
+      "url": "Papers/4/index.html",
+      "page_url": "Papers/4/index.html",
+      "bibtex": "@inproceedings{Maoudj2014_p4,\n  title = {Multi-agent architecture for telerobotics of heterogeneous multi-robot cooperation through negotiated task allocation with constraints: Initial implementation},\n  author = {A Maoudj and B Bouzouia and A Hentout and R Toumi},\n  year = {2014},\n  pages = {38-43}\n}"
+    },
+    {
+      "id": "p3",
+      "title": "Conception et commande d'un prototype mobile à base de microcontrôleur",
+      "authors": "A. Maoudj & C. E. Boubakir",
+      "authors_full": [
+        "Abderraouf Maoudj",
+        "Chaabane Encadreur Boubakir"
+      ],
+      "year": 2012,
+      "type": "other",
+      "status": "Thesis",
+      "venue": "Master’s thesis, Mohammed-Seddik Benyahia University of Jijel, 2012.",
+      "doi": "",
+      "url": "Papers/3/index.html",
+      "page_url": "Papers/3/index.html",
+      "bibtex": "@misc{Maoudj2012_p3,\n  title = {Conception et commande d'un prototype mobile à base de microcontrôleur},\n  author = {Abderraouf Maoudj and Chaabane Encadreur Boubakir},\n  year = {2012},\n  note = {Thesis}\n}"
+    }
+  ]
+}

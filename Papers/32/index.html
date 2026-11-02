@@ -1,30 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- =============================================
-       META & DOCUMENT-LEVEL SETTINGS
-       - <title> and <meta name="description"> use header.*
-       - Viewport for responsive layout
-       ============================================= -->
   <meta charset="UTF-8">
-  <title>A review of the literature on fuzzy-logic approaches for collision-free path planning of manipulator robots</title>
-  <meta name="description" content="Detail on the paper titled : A review of the literature on fuzzy-logic approaches for collision-free path planning of manipulator robots.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- =============================================
-       FONTS & ICONS
-       - Inter font family
-       - Font Awesome icons (e.g., GitHub, PDF, DOI)
-       ============================================= -->
+  <title>A review of the literature on fuzzy-logic approaches for collision-free path planning of manipulator robots | Abderraouf Maoudj</title>
+  <meta name="description" content="A review of the literature on fuzzy-logic approaches for collision-free path planning of manipulator robots — Artificial Intelligence Review, vol. 56, no. 4, pp. 3369–3444, 2023.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- =============================================
-       PAGE STYLES
-       - 'css' should point to a page/theme stylesheet
-       - Example: /CSS/publication.css or a shared bundle
-       ============================================= -->
   <link rel="stylesheet" href="../../CSS/page_style.css">
 </head>
 
@@ -66,16 +49,8 @@
       <div class="paper-header">
         <h1>A review of the literature on fuzzy-logic approaches for collision-free path planning of manipulator robots</h1>
         <p><strong>Authors:</strong> A. Hentout, A. Maoudj &amp; M. Aouache</p>
-        <p>
-          <strong>Published:</strong> &nbsp;|&nbsp;
-          <strong>Journal:</strong> vol. 56, Vol. 56, pp. 3369-3444
-          <span class="inline-icons">
-                <!-- Icon with external link (opens in new tab) -->
-                <a href="https://link.springer.com/article/10.1007/s10462-022-10257-7" target="_blank" title="View publisher page"><i class="fas fa-file-alt"></i></a>
-                <!-- Icon without URL: retains an ID for JS binding -->
-                <a href="#" id="copy-citation" title="Copy BibTeX"><i class="fas fa-quote-right"></i></a>
-          </span>
-        </p>
+        <p><strong>Published:</strong> Artificial Intelligence Review, vol. 56, no. 4, pp. 3369–3444, 2023.</p>
+        <p class="inline-icons"><a href="https://doi.org/10.1007/s10462-022-10257-7" target="_blank" rel="noopener">Publisher / DOI</a> · <a href="#" id="copy-citation" title="Copy BibTeX">Copy BibTeX</a></p>
       </div>
 
       <!-- =============================================
@@ -134,14 +109,15 @@
            ============================================= -->
       <section id="citation">
         <h2 class="section-title">Citation</h2>
-        <pre id="bibtex-block">@misc{Hentout2023A,
+        <pre id="bibtex-block">@article{Maoudj2023_p32,
   title = {A review of the literature on fuzzy-logic approaches for collision-free path planning of manipulator robots},
   author = {Abdelfetah Hentout and Abderraouf Maoudj and Mustapha Aouache},
-  publisher = {Springer Netherlands},
+  year = {2023},
+  journal = {Artificial Intelligence Review},
   volume = {56},
   number = {4},
   pages = {3369-3444},
-  year = {2023}
+  doi = {10.1007/s10462-022-10257-7}
 }</pre>
       </section>
 
@@ -151,7 +127,7 @@
            - Text and URL are data-driven
            ============================================= -->
       <p style="text-align:center;">
-        <a href="../../#publication"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+        <a href="../../#publications"><i class="fas fa-arrow-left"></i> Back to Publications</a>
       </p>
 
     </main>
@@ -205,15 +181,7 @@
     const btn = document.getElementById('copy-citation');
     if (btn) {
       const pre = document.getElementById('bibtex-block');
-      const raw = `@misc{Hentout2023A,
-  title = {A review of the literature on fuzzy-logic approaches for collision-free path planning of manipulator robots},
-  author = {Abdelfetah Hentout and Abderraouf Maoudj and Mustapha Aouache},
-  publisher = {Springer Netherlands},
-  volume = {56},
-  number = {4},
-  pages = {3369-3444},
-  year = {2023}
-}`;
+      const raw = "@article{Maoudj2023_p32,\n  title = {A review of the literature on fuzzy-logic approaches for collision-free path planning of manipulator robots},\n  author = {Abdelfetah Hentout and Abderraouf Maoudj and Mustapha Aouache},\n  year = {2023},\n  journal = {Artificial Intelligence Review},\n  volume = {56},\n  number = {4},\n  pages = {3369-3444},\n  doi = {10.1007/s10462-022-10257-7}\n}";
       btn.addEventListener('click', e => {
         e.preventDefault();
         const text = pre ? pre.textContent : raw;

@@ -1,0 +1,278 @@
+[
+  {
+    "id": "J1",
+    "kind": "J",
+    "sort_order": -2,
+    "text": "A. Aziz Khater, Y. Chen, A. Maoudj, A. Aouaichia, “Lyapunov-based adaptive path tracking control of wheeled mobile robots using a self-organizing recurrent Gaussian-gating functional-link fuzzy neural network,” Scientific Reports, published online 1 November 2026.",
+    "doi": "10.1038/s41598-026-76212-6"
+  },
+  {
+    "id": "J2",
+    "text": "B. Brahmi, A. Maoudj, J. Ghommam, “Nonlinear Terminal Model-Based Second-Order Sliding Mode Control for Robust Tracking in Robotic Exoskeletons,” International Journal of Robust and Nonlinear Control, Early View, 30 October 2026.",
+    "doi": "10.1002/rnc.70826",
+    "kind": "J",
+    "sort_order": -1
+  },
+  {
+    "id": "J3",
+    "text": "A. Maoudj, B. Brahmi, A. A. Saputra, A. Aouaichia, M. Nouioua, N. Kubota, “Decentralized multi-drone gas source localization via belief-coupled MAPPO and barrier-filtered safety,” Scientific Reports, accepted, 2026."
+  },
+  {
+    "id": "J4",
+    "text": "A. Maoudj, A. A. Saputra, B. Brahmi, M. Nouioua, “SPINDER: An open-source 18-DoF hexapod robot with hierarchical central pattern generator control and analytic inverse kinematics,” Scientific Reports, vol. 16, art. 26147, 2026.",
+    "doi": "10.1038/s41598-026-56856-0"
+  },
+  {
+    "id": "J5",
+    "text": "A. Maoudj, A. A. Saputra, B. Brahmi, N. Kubota, “A hierarchical perception-action framework for adaptive legged locomotion in unstructured environments,” IEEE Access, vol. 14, pp. 74923–74932, 2026.",
+    "doi": "10.1109/ACCESS.2026.3689095"
+  },
+  {
+    "id": "J6",
+    "text": "N. Djouambi, M. A. Yallese, M. Kaddeche, A. Maoudj, A. Khellaf, M. Nouioua, “Machine-Learning Surrogates for the Multi-Objective Optimisation of Cutting Parameters in Dry Turning of POM C GF25%,” The International Journal of Advanced Manufacturing Technology, vol. 145, no. 5–6, pp. 3651–3670, 2026.",
+    "doi": "10.1007/s00170-026-18556-x"
+  },
+  {
+    "id": "J7",
+    "text": "M. Nouioua, A. Laouissi, A. A. D. Sarhan, V. Swaminathan, A. Maoudj, H. M. Al-Qahtani, “AI-Driven Decision Support for Multi-Objective Optimization of Turning Parameters in Grey Cast Iron Machining,” Results in Engineering, vol. 29, article 109805, 2026.",
+    "doi": "10.1016/j.rineng.2026.109805"
+  },
+  {
+    "id": "J8",
+    "text": "A. Mechta, A. Laouissi, E. Raouache, A. Maoudj, M. Nouioua, “Hybrid Numerical-Experimental Optimization of Resistance Spot Welding Parameters for Dissimilar S235/AISI 1075 Steel Sheets via Box–Behnken Response Surface Methodology,” JOM, vol. 78, no. 11, pp. 10785–10805, 2026.",
+    "doi": "10.1007/s11837-026-08687-7"
+  },
+  {
+    "id": "J9",
+    "text": "Z. Khan, A. Maoudj, S. Mekid, “From collaborative robots to Internet of Cobots: Innovations, applications, and emerging trends,” Journal of Ambient Intelligence and Smart Environments, vol. 18, no. 1, pp. 41–67, 2026.",
+    "doi": "10.1177/18761364251393221"
+  },
+  {
+    "id": "J10",
+    "text": "M. Boumediene, A. Maoudj, A. L. Christensen, “HM-DRL: Enhancing multi-agent pathfinding with a heatmap-based heuristic for distributed deep reinforcement learning,” Applied Intelligence, vol. 55, no. 12, art. 873, 2025.",
+    "doi": "10.1007/s10489-025-06747-0"
+  },
+  {
+    "id": "J11",
+    "text": "U. Farhadi, H. Hess, A. Maoudj, A. L. Christensen, “Evolution of path costs for efficient decentralized multi-agent pathfinding,” Swarm and Evolutionary Computation, vol. 93, art. 101833, 2025.",
+    "doi": "10.1016/j.swevo.2024.101833"
+  },
+  {
+    "id": "J12",
+    "text": "A. Maoudj, A. L. Christensen, “Improved decentralized cooperative multi-agent path finding for robots with limited communication,” Swarm Intelligence, vol. 18, no. 2–3, pp. 167–185, 2024.",
+    "doi": "10.1007/s11721-023-00230-7"
+  },
+  {
+    "id": "J13",
+    "text": "A. Hentout, A. Maoudj, A. Kouider, “Shortest path planning and efficient fuzzy logic control of mobile robots in indoor static and dynamic environments,” Romanian Journal of Information Science and Technology, vol. 27, no. 1, pp. 21–36, 2024."
+  },
+  {
+    "id": "J14",
+    "text": "A. Maoudj, A. Kouider, A. L. Christensen, “The capacitated multi-AGV scheduling problem with conflicting products: Model and a decentralized multi-agent approach,” Robotics and Computer-Integrated Manufacturing, vol. 81, art. 102514, 2023.",
+    "doi": "10.1016/j.rcim.2022.102514"
+  },
+  {
+    "id": "J15",
+    "text": "A. Hentout, A. Maoudj, M. Aouache, “A review of the literature on fuzzy-logic approaches for collision-free path planning of manipulator robots,” Artificial Intelligence Review, vol. 56, no. 4, pp. 3369–3444, 2023.",
+    "doi": "10.1007/s10462-022-10257-7"
+  },
+  {
+    "id": "J16",
+    "text": "A. Hentout, A. Maoudj, A. Kouider, M. Aouache, “Effective GA approach for municipal solid waste collection: Dynamic capacitated vehicle routing in smart cities,” International Journal of Artificial Intelligence and Soft Computing, vol. 7, no. 4, pp. 329–352, 2022.",
+    "doi": "10.1504/ijaisc.2022.130561"
+  },
+  {
+    "id": "J17",
+    "text": "A. Maoudj, A. Hentout, “Optimal path planning approach based on Q-learning algorithm for mobile robots,” Applied Soft Computing, vol. 97, art. 106796, 2020.",
+    "doi": "10.1016/j.asoc.2020.106796"
+  },
+  {
+    "id": "J18",
+    "text": "A. Hentout, A. Maoudj, N. Kaid-Youcef, D. Hebib, B. Bouzouia, “Distributed multi-agent bidding-based approach for the collaborative mapping of unknown indoor environments by a homogeneous mobile robot team,” Journal of Intelligent Systems, vol. 29, no. 1, pp. 84–99, 2020 (online 2017).",
+    "doi": "10.1515/jisys-2017-0255"
+  },
+  {
+    "id": "J19",
+    "text": "A. Hentout, M. Aouache, A. Maoudj, I. Akli, “Human-robot interaction in industrial collaborative robotics: A literature review of the decade 2008–2017,” Advanced Robotics, vol. 33, no. 15–16, pp. 764–799, 2019.",
+    "doi": "10.1080/01691864.2019.1636714"
+  },
+  {
+    "id": "J20",
+    "text": "A. Maoudj, B. Bouzouia, A. Hentout, A. Kouider, R. Toumi, “Distributed multi-agent scheduling and control system for robotic flexible assembly cells,” Journal of Intelligent Manufacturing, vol. 30, no. 4, pp. 1629–1644, 2019.",
+    "doi": "10.1007/s10845-017-1345-z"
+  },
+  {
+    "id": "J21",
+    "text": "A. Hentout, A. Maoudj, M. Ouahal, A. Gasmi, “Fault-tolerant multi-agent scheme for leader/follower formation control of homogeneous mobile robot team,” International Journal of Systems, Control and Communications, vol. 10, no. 2, pp. 95–125, 2019.",
+    "doi": "10.1504/ijscc.2019.098977"
+  },
+  {
+    "id": "J22",
+    "text": "A. Hentout, A. Maoudj, D. Guir, S. Saighi, M. A. Harkat, M. Z. Hammouche, A. Bakdi, “Collision-free path planning for indoor mobile robots based on rapidly-exploring random trees and piecewise cubic Hermite interpolating polynomial,” International Journal of Imaging and Robotics, vol. 19, no. 3, 2019."
+  },
+  {
+    "id": "J23",
+    "text": "A. Hentout, A. Maoudj, D. Yahiaoui, M. Aouache, “RRT-A*-BT approach for optimal collision-free path planning for mobile robots,” Algerian Journal of Signals and Systems, vol. 4, no. 2, pp. 39–50, 2019.",
+    "doi": "10.51485/ajss.v4i2.81"
+  },
+  {
+    "id": "J24",
+    "text": "A. Maoudj, A. Hentout, B. Bouzouia, R. Toumi, “On-line fault-tolerant fuzzy-based path planning and obstacles avoidance approach for manipulator robots,” International Journal of Uncertainty, Fuzziness and Knowledge-Based Systems, vol. 26, no. 5, pp. 809–838, 2018.",
+    "doi": "10.1142/s0218488518500368"
+  },
+  {
+    "id": "J25",
+    "text": "A. Bakdi, A. Hentout, H. Boutami, A. Maoudj, O. Hachour, B. Bouzouia, “Optimal path planning and execution for mobile robots using genetic algorithm and adaptive fuzzy-logic control,” Robotics and Autonomous Systems, vol. 89, pp. 95–109, 2017.",
+    "doi": "10.1016/j.robot.2016.12.008"
+  },
+  {
+    "id": "C1",
+    "text": "A. Maoudj, A. Kharidege, B. Brahmi, A. A. Saputra, M. Nouioua, “An Adaptive Vision-Based Robotic System for Flexible Surface Polishing,” 23rd International Conference on Informatics in Control, Automation and Robotics (ICINCO), vol. 2, pp. 1091–1098, 2026.",
+    "doi": "10.5220/0015220800004979"
+  },
+  {
+    "id": "C2",
+    "kind": "C",
+    "sort_order": 1.5,
+    "text": "B. Brahmi, A. Maoudj, J. Ghommam, M. H. Rahman, “Hamiltonian-Based Human Intention Estimation for Compliant Exoskeleton Robot,” 23rd International Conference on Informatics in Control, Automation and Robotics (ICINCO), vol. 1, pp. 495–502, 2026.",
+    "doi": "10.5220/0015307300004979"
+  },
+  {
+    "id": "C3",
+    "text": "K. Amara, W. Dib, A. O. Djekoune, A. Maoudj, N. Zenati, “AquaRob: An unmanned surface drone for the coastal surveillance and environmental monitoring,” Proc. 4th International Conference on Embedded & Distributed Systems (EDiS), IEEE, pp. 193–198, 2024.",
+    "doi": "10.1109/edis63605.2024.10783242"
+  },
+  {
+    "id": "C4",
+    "text": "A. Maoudj, S. Mekid, A. L. Christensen, “Lifelong MAPF for shipment preparation in stochastic warehouses,” Proc. IEEE 20th International Conference on Automation Science and Engineering (CASE), pp. 1006–1011, 2024.",
+    "doi": "10.1109/case59546.2024.10711327"
+  },
+  {
+    "id": "C5",
+    "text": "A. Maoudj, A. L. Christensen, “Decentralized multi-agent path finding in dynamic warehouse environments,” Proc. 21st International Conference on Advanced Robotics (ICAR), IEEE, pp. 28–34, 2023.",
+    "doi": "10.1109/icar58858.2023.10406648"
+  },
+  {
+    "id": "C6",
+    "text": "A. Maoudj, A. L. Christensen, “Decentralized multi-agent path finding in warehouse environments for fleets of mobile robots with limited communication range,” Swarm Intelligence: 13th International Conference (ANTS 2022), Springer LNCS vol. 13491, pp. 104–116, 2022.",
+    "doi": "10.1007/978-3-031-20176-9_9"
+  },
+  {
+    "id": "C7",
+    "text": "M. Gaham, M. Kadri, A. Maoudj, A. Bendjelloul, A. Kouider, B. Mihoubi, K. Tebani, B. Bouzouia, “Multi-agent control of an Industry 4.0 cyber-physical assembly cell,” 1st National Conference on Applied Computing and Smart Technologies, Sidi Bel Abbès, Algeria, 2021."
+  },
+  {
+    "id": "C8",
+    "text": "A. Maoudj, A. Hentout, A. L. Christensen, A. Kouider, “A fast constructive path planning algorithm for mobile robot navigation,” Proc. 26th IEEE International Conference on Emerging Technologies and Factory Automation (ETFA), pp. 1–8, 2021.",
+    "doi": "10.1109/etfa45728.2021.9613217"
+  },
+  {
+    "id": "C9",
+    "text": "A. Maoudj, A. L. Christensen, “Q-learning-based navigation for mobile robots in continuous and dynamic environments,” Proc. IEEE 17th International Conference on Automation Science and Engineering (CASE), pp. 1338–1345, 2021.",
+    "doi": "10.1109/case49439.2021.9551641"
+  },
+  {
+    "id": "C10",
+    "text": "A. Maoudj, A. Hentout, M. Bouhebila, C. Boubakir, H. Maoudj, “Design and control of an educational and research-oriented mobile robot,” International Conference on Networking, Telecommunications, Biomedical Engineering and Applications (ICNTBA), 2019."
+  },
+  {
+    "id": "C11",
+    "text": "H. Maoudj, A. Maoudj, A. Hentout, M. Bouhebila, C. Boubakir, “Autonomous fuzzy-based navigation of mobile robots: Design, realization and control of a prototype,” International Conference on Networking, Telecommunications, Biomedical Engineering and Applications (ICNTBA), 2019."
+  },
+  {
+    "id": "C12",
+    "text": "A. Hentout, A. Tiberkak, A. Maoudj, L. Berkat, A. Abeb, “Virtual pheromone-based approach for objects searching in RFID-based cyber-physical robotic systems,” Proc. International Conference on Applied Smart Systems (ICASS), pp. 1–7, 2018.",
+    "doi": "10.1109/icass.2018.8652034"
+  },
+  {
+    "id": "C13",
+    "text": "A. Hentout, A. Beghni, A. B. Nourine, A. Maoudj, B. Bouzouia, “Mobile robot RBPF-SLAM with LMS sensor in indoor environments: Application on RobuTER robot,” Proc. 5th International Conference on Electrical Engineering, Boumerdes (ICEE-B), IEEE, 2017.",
+    "doi": "10.1109/icee-b.2017.8192121"
+  },
+  {
+    "id": "C14",
+    "text": "A. Hentout, A. Maoudj, B. Bouzouia, “A survey of development frameworks for robotics,” Proc. 8th International Conference on Modelling, Identification and Control (ICMIC), pp. 67–72, 2016.",
+    "doi": "10.1109/icmic.2016.7804217"
+  },
+  {
+    "id": "C15",
+    "text": "A. Maoudj, B. Bouzouia, A. Hentout, A. Kouider, R. Toumi, “Distributed multi-agent approach based on priority rules and genetic algorithm for tasks scheduling in multi-robot cells,” Proc. IECON 2016, 42nd Annual Conference of the IEEE Industrial Electronics Society, pp. 692–697, 2016.",
+    "doi": "10.1109/iecon.2016.7792995"
+  },
+  {
+    "id": "C16",
+    "text": "A. Maoudj, B. Bouzouia, A. Hentout, R. Toumi, “Multi-agent approach for task allocation and scheduling in cooperative heterogeneous multi-robot team: Simulation results,” Proc. IEEE 13th International Conference on Industrial Informatics (INDIN), pp. 179–184, 2015."
+  },
+  {
+    "id": "C17",
+    "text": "A. Maoudj, B. Bouzouia, A. Hentout, R. Toumi, “Multi-agent architecture for telerobotics of heterogeneous multi-robot cooperation through negotiated task allocation with constraints: Initial implementation,” 1re Journée d’Étude en Automatique et ses Applications (1JEAA14), pp. 38–43, 2014."
+  },
+  {
+    "id": "O1",
+    "text": "S. Bouraine, M. Ammi, K. Geihs, A. Hentout, A. Maoudj, F. Yacef, “Editorial: Human-robot interaction in industrial settings: new challenges and opportunities,” Frontiers in Robotics and AI, vol. 12, art. 1652426, 2025.",
+    "doi": "10.3389/frobt.2025.1652426"
+  },
+  {
+    "id": "O2",
+    "text": "A. Hentout, M. Aouache, A. Maoudj, I. Akli, “Key challenges and open issues of industrial collaborative robotics,” Workshop on Human-Robot Interaction: From Service to Industry (HRI-SI), held at IEEE RO-MAN, 2018."
+  },
+  {
+    "id": "O3",
+    "text": "A. Kharidege, A. Maoudj, “Integration of a vision system with a robotic polishing system for machining variety of workpieces,” Research Square preprint, 2024.",
+    "doi": "10.21203/rs.3.rs-4306065/v1"
+  },
+  {
+    "id": "O4",
+    "text": "A. Hentout, A. Maoudj, A. Kouider, “Efficient fuzzy-logic control of indoor mobile robots evolving in static and dynamic workspaces,” Research Square preprint, 2023.",
+    "doi": "10.21203/rs.3.rs-3182222/v1"
+  },
+  {
+    "id": "O5",
+    "text": "A. Hentout, A. Maoudj, A. Kouider, “A literature review of service robotics: Challenges and open research issues,” Workshop on Human-Robot Interaction: From Service to Industry (HRI-SI), 2022.",
+    "url": "https://hri-si2022.cdta.dz/Hentout_HRISI2022.pdf"
+  },
+  {
+    "id": "O6",
+    "text": "A. Hentout, I. Akli, A. Maoudj, A. Tiberkak, “Developing a distributed architecture for robots control in industrial RFID-based cyber-physical systems,” technical report/preprint, 2018."
+  },
+  {
+    "id": "O7",
+    "text": "A. Maoudj, “Téléopération multi-robots hétérogènes : Application au cas des robots RobuTER/ULM et AGV-M6,” Doctoral thesis, USTHB, 2018."
+  },
+  {
+    "id": "O8",
+    "text": "A. Maoudj, C. E. Boubakir, “Conception et commande d’un prototype mobile à base de microcontrôleur,” Master’s thesis, Mohammed-Seddik Benyahia University of Jijel, 2012."
+  },
+  {
+    "id": "U1",
+    "text": "A. A. Saputra, A. Maoudj, M. L. Afakh, A. R. Ahmad, S. Mekid, N. Kubota, “Decentralized RL-CPG control for hexapod locomotion under simultaneous multi-leg failures,” IEEE Transactions on Robotics, under review, 2026."
+  },
+  {
+    "id": "U2",
+    "text": "A. Maoudj, S. Mekid, M. Nouioua, “ML-BiRRT: Machine-learning-enhanced bi-directional RRT for multi-arm robot motion planning and coordination,” Robotics and Autonomous Systems, under review, 2026."
+  },
+  {
+    "id": "U3",
+    "text": "A. Maoudj, A. A. Khater, B. Brahmi, A. Aouaichia, A. M. Sallam, A. A. Saputra, “Online fuzzy-neural actor-critic control for hexapod trajectory tracking,” Applied Soft Computing, under review, 2026."
+  },
+  {
+    "id": "U4",
+    "text": "M. Boumediene, A. L. Christensen, A. Maoudj, “MAPF-Relocate: Mitigating congestion through strategic agent relocation in multi-agent pathfinding,” Journal of Intelligent & Robotic Systems, under review, 2026."
+  },
+  {
+    "id": "U5",
+    "text": "A. Maoudj, A. A. Khater, B. Brahmi, A. Aouaichia, A. M. Sallam, A. A. Saputra, P. K. M. Parameswarappa, “Lyapunov-stable path tracking control of wheeled mobile robots using self-organizing recurrent probabilistic functional-link fuzzy neural network,” Biomimetic Intelligence and Robotics, under review, 2026."
+  },
+  {
+    "id": "U6",
+    "text": "B. Brahmi, A. Maoudj, N. Iqbal, M. H. Rahman, “Model-based terminal second-order sliding mode control with exact finite-time convergence for fault-tolerant exoskeleton robots,” IEEE Transactions on Systems, Man, and Cybernetics: Systems, under review, 2026."
+  },
+  {
+    "id": "U7",
+    "text": "A. A. Khater, A. Aouaichia, A. Maoudj, Y. Chen, “An advanced recurrent probabilistic TSK neuro-fuzzy identifier for mobile robot system,” Engineering Applications of Artificial Intelligence, under review, 2026."
+  },
+  {
+    "id": "U8",
+    "text": "S. Alqahtani, A. Maoudj, S. Bashmal, “Learning-based kinematic modeling and disturbance compensation for a 3UPU parallel kinematic manipulator under base vibrations,” submitted, 2026."
+  }
+]

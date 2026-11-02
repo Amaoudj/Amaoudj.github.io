@@ -1,30 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- =============================================
-       META & DOCUMENT-LEVEL SETTINGS
-       - <title> and <meta name="description"> use header.*
-       - Viewport for responsive layout
-       ============================================= -->
   <meta charset="UTF-8">
-  <title>Integration of a vision system with a robotic polishing system for machining variety of workpieces</title>
-  <meta name="description" content="Detail on the paper titled : Integration of a vision system with a robotic polishing system for machining variety of workpieces.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- =============================================
-       FONTS & ICONS
-       - Inter font family
-       - Font Awesome icons (e.g., GitHub, PDF, DOI)
-       ============================================= -->
+  <title>Integration of a vision system with a robotic polishing system for machining variety of workpieces | Abderraouf Maoudj</title>
+  <meta name="description" content="Integration of a vision system with a robotic polishing system for machining variety of workpieces — Research Square preprint, 2024.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- =============================================
-       PAGE STYLES
-       - 'css' should point to a page/theme stylesheet
-       - Example: /CSS/publication.css or a shared bundle
-       ============================================= -->
   <link rel="stylesheet" href="../../CSS/page_style.css">
 </head>
 
@@ -66,16 +49,8 @@
       <div class="paper-header">
         <h1>Integration of a vision system with a robotic polishing system for machining variety of workpieces</h1>
         <p><strong>Authors:</strong> A. KHARIDEGE &amp; A. MAOUDJ</p>
-        <p>
-          <strong>Published:</strong> &nbsp;|&nbsp;
-          <strong>Journal:</strong> 2024., , 
-          <span class="inline-icons">
-                <!-- Icon with external link (opens in new tab) -->
-                <a href="https://www.researchsquare.com/article/rs-4306065/latest" target="_blank" title="View paper"><i class="fas fa-file-alt"></i></a>
-                <!-- Icon without URL: retains an ID for JS binding -->
-                <a href="#" id="copy-citation" title="Copy BibTeX"><i class="fas fa-quote-right"></i></a>
-          </span>
-        </p>
+        <p><strong>Preprint / technical report:</strong> Research Square preprint, 2024.</p>
+        <p class="inline-icons"><a href="https://doi.org/10.21203/rs.3.rs-4306065/v1" target="_blank" rel="noopener">Publisher / DOI</a> · <a href="#" id="copy-citation" title="Copy BibTeX">Copy BibTeX</a></p>
       </div>
 
       <!-- =============================================
@@ -323,10 +298,12 @@
            ============================================= -->
       <section id="citation">
         <h2 class="section-title">Citation</h2>
-        <pre id="bibtex-block">@misc{KHARIDEGE2024Integration,
+        <pre id="bibtex-block">@misc{Maoudj2024_p38,
   title = {Integration of a vision system with a robotic polishing system for machining variety of workpieces},
   author = {AHMED KHARIDEGE and ABDERRAOUF MAOUDJ},
-  year = {2024}
+  year = {2024},
+  doi = {10.21203/rs.3.rs-4306065/v1},
+  note = {Preprint / technical report}
 }</pre>
       </section>
 
@@ -336,7 +313,7 @@
            - Text and URL are data-driven
            ============================================= -->
       <p style="text-align:center;">
-        <a href="../../#publication"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+        <a href="../../#publications"><i class="fas fa-arrow-left"></i> Back to Publications</a>
       </p>
 
     </main>
@@ -390,11 +367,7 @@
     const btn = document.getElementById('copy-citation');
     if (btn) {
       const pre = document.getElementById('bibtex-block');
-      const raw = `@misc{KHARIDEGE2024Integration,
-  title = {Integration of a vision system with a robotic polishing system for machining variety of workpieces},
-  author = {AHMED KHARIDEGE and ABDERRAOUF MAOUDJ},
-  year = {2024}
-}`;
+      const raw = "@misc{Maoudj2024_p38,\n  title = {Integration of a vision system with a robotic polishing system for machining variety of workpieces},\n  author = {AHMED KHARIDEGE and ABDERRAOUF MAOUDJ},\n  year = {2024},\n  doi = {10.21203/rs.3.rs-4306065/v1},\n  note = {Preprint / technical report}\n}";
       btn.addEventListener('click', e => {
         e.preventDefault();
         const text = pre ? pre.textContent : raw;

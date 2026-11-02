@@ -1,30 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- =============================================
-       META & DOCUMENT-LEVEL SETTINGS
-       - <title> and <meta name="description"> use header.*
-       - Viewport for responsive layout
-       ============================================= -->
   <meta charset="UTF-8">
-  <title>Fault-tolerant multi-agent scheme for leader/follower formation control of homogeneous mobile robot team</title>
-  <meta name="description" content="Detail on the paper titled : Fault-tolerant multi-agent scheme for leader/follower formation control of homogeneous mobile robot team.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- =============================================
-       FONTS & ICONS
-       - Inter font family
-       - Font Awesome icons (e.g., GitHub, PDF, DOI)
-       ============================================= -->
+  <title>Fault-tolerant multi-agent scheme for leader/follower formation control of homogeneous mobile robot team | Abderraouf Maoudj</title>
+  <meta name="description" content="Fault-tolerant multi-agent scheme for leader/follower formation control of homogeneous mobile robot team — International Journal of Systems, Control and Communications, vol. 10, no. 2, pp. 95-125, 2019.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- =============================================
-       PAGE STYLES
-       - 'css' should point to a page/theme stylesheet
-       - Example: /CSS/publication.css or a shared bundle
-       ============================================= -->
   <link rel="stylesheet" href="../../CSS/page_style.css">
 </head>
 
@@ -66,16 +49,8 @@
       <div class="paper-header">
         <h1>Fault-tolerant multi-agent scheme for leader/follower formation control of homogeneous mobile robot team</h1>
         <p><strong>Authors:</strong> A. Hentout, A. Maoudj, M. Ouahal &amp; A. Gasmi</p>
-        <p>
-          <strong>Published:</strong> &nbsp;|&nbsp;
-          <strong>Journal:</strong> International Journal of Systems, Vol. 10, pp. 95-125
-          <span class="inline-icons">
-                <!-- Icon with external link (opens in new tab) -->
-                <a href="https://www.inderscienceonline.com/doi/abs/10.1504/IJSCC.2019.098977" target="_blank" title="View paper"><i class="fas fa-file-alt"></i></a>
-                <!-- Icon without URL: retains an ID for JS binding -->
-                <a href="#" id="copy-citation" title="Copy BibTeX"><i class="fas fa-quote-right"></i></a>
-          </span>
-        </p>
+        <p><strong>Published:</strong> International Journal of Systems, Control and Communications, vol. 10, no. 2, pp. 95-125, 2019.</p>
+        <p class="inline-icons"><a href="https://doi.org/10.1504/ijscc.2019.098977" target="_blank" rel="noopener">Publisher / DOI</a> · <a href="#" id="copy-citation" title="Copy BibTeX">Copy BibTeX</a></p>
       </div>
 
       <!-- =============================================
@@ -111,15 +86,16 @@
            ============================================= -->
       <section id="citation">
         <h2 class="section-title">Citation</h2>
-        <pre id="bibtex-block">@article{Hentout2019Faulttolerant,
+        <pre id="bibtex-block">@article{Maoudj2019_p19,
   title = {Fault-tolerant multi-agent scheme for leader/follower formation control of homogeneous mobile robot team},
   author = {Abdelfetah Hentout and Abderraouf Maoudj and Mohamed Ouahal and Abdennour Gasmi},
+  year = {2019},
   journal = {International Journal of Systems, Control and Communications},
-  publisher = {Inderscience Publishers (IEL)},
   volume = {10},
   number = {2},
-  pages = {95-125},
-  year = {2019}
+  pages = {95},
+  doi = {10.1504/ijscc.2019.098977},
+  eid = {98977}
 }</pre>
       </section>
 
@@ -129,7 +105,7 @@
            - Text and URL are data-driven
            ============================================= -->
       <p style="text-align:center;">
-        <a href="../../#publication"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+        <a href="../../#publications"><i class="fas fa-arrow-left"></i> Back to Publications</a>
       </p>
 
     </main>
@@ -183,16 +159,7 @@
     const btn = document.getElementById('copy-citation');
     if (btn) {
       const pre = document.getElementById('bibtex-block');
-      const raw = `@article{Hentout2019Faulttolerant,
-  title = {Fault-tolerant multi-agent scheme for leader/follower formation control of homogeneous mobile robot team},
-  author = {Abdelfetah Hentout and Abderraouf Maoudj and Mohamed Ouahal and Abdennour Gasmi},
-  journal = {International Journal of Systems, Control and Communications},
-  publisher = {Inderscience Publishers (IEL)},
-  volume = {10},
-  number = {2},
-  pages = {95-125},
-  year = {2019}
-}`;
+      const raw = "@article{Maoudj2019_p19,\n  title = {Fault-tolerant multi-agent scheme for leader/follower formation control of homogeneous mobile robot team},\n  author = {Abdelfetah Hentout and Abderraouf Maoudj and Mohamed Ouahal and Abdennour Gasmi},\n  year = {2019},\n  journal = {International Journal of Systems, Control and Communications},\n  volume = {10},\n  number = {2},\n  pages = {95},\n  doi = {10.1504/ijscc.2019.098977},\n  eid = {98977}\n}";
       btn.addEventListener('click', e => {
         e.preventDefault();
         const text = pre ? pre.textContent : raw;

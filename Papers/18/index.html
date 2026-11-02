@@ -1,30 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- =============================================
-       META & DOCUMENT-LEVEL SETTINGS
-       - <title> and <meta name="description"> use header.*
-       - Viewport for responsive layout
-       ============================================= -->
   <meta charset="UTF-8">
-  <title>Virtual pheromone-based approach for objects searching in RFID-based cyber-physical robotic systems</title>
-  <meta name="description" content="Detail on the paper titled : Virtual pheromone-based approach for objects searching in RFID-based cyber-physical robotic systems.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- =============================================
-       FONTS & ICONS
-       - Inter font family
-       - Font Awesome icons (e.g., GitHub, PDF, DOI)
-       ============================================= -->
+  <title>Virtual pheromone-based approach for objects searching in RFID-based cyber-physical robotic systems | Abderraouf Maoudj</title>
+  <meta name="description" content="Virtual pheromone-based approach for objects searching in RFID-based cyber-physical robotic systems — 2018 International Conference on Applied Smart Systems (ICASS), pp. 1-7, 2018.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- =============================================
-       PAGE STYLES
-       - 'css' should point to a page/theme stylesheet
-       - Example: /CSS/publication.css or a shared bundle
-       ============================================= -->
   <link rel="stylesheet" href="../../CSS/page_style.css">
 </head>
 
@@ -66,16 +49,8 @@
       <div class="paper-header">
         <h1>Virtual pheromone-based approach for objects searching in RFID-based cyber-physical robotic systems</h1>
         <p><strong>Authors:</strong> A. Hentout, A. Tiberkak, A. Maoudj, L. Berkat &amp; A. Abeb</p>
-        <p>
-          <strong>Published:</strong> &nbsp;|&nbsp;
-          <strong>Journal:</strong> 2018 International Conference on Applied Smart Systems (ICASS), , pp. 1-7
-          <span class="inline-icons">
-                <!-- Icon with external link (opens in new tab) -->
-                <a href="https://ieeexplore.ieee.org/abstract/document/8652034/" target="_blank" title="View paper"><i class="fas fa-file-alt"></i></a>
-                <!-- Icon without URL: retains an ID for JS binding -->
-                <a href="#" id="copy-citation" title="Copy BibTeX"><i class="fas fa-quote-right"></i></a>
-          </span>
-        </p>
+        <p><strong>Published:</strong> 2018 International Conference on Applied Smart Systems (ICASS), pp. 1-7, 2018.</p>
+        <p class="inline-icons"><a href="https://doi.org/10.1109/icass.2018.8652034" target="_blank" rel="noopener">Publisher / DOI</a> · <a href="#" id="copy-citation" title="Copy BibTeX">Copy BibTeX</a></p>
       </div>
 
       <!-- =============================================
@@ -111,12 +86,13 @@
            ============================================= -->
       <section id="citation">
         <h2 class="section-title">Citation</h2>
-        <pre id="bibtex-block">@inproceedings{Hentout2018Virtual,
+        <pre id="bibtex-block">@inproceedings{Maoudj2018_p18,
   title = {Virtual pheromone-based approach for objects searching in RFID-based cyber-physical robotic systems},
   author = {Abdelfetah Hentout and Allal Tiberkak and Abderraouf Maoudj and Lotfi Berkat and Abdelkrim Abeb},
-  publisher = {IEEE},
+  year = {2018},
+  booktitle = {2018 International Conference on Applied Smart Systems (ICASS)},
   pages = {1-7},
-  year = {2018}
+  doi = {10.1109/icass.2018.8652034}
 }</pre>
       </section>
 
@@ -126,7 +102,7 @@
            - Text and URL are data-driven
            ============================================= -->
       <p style="text-align:center;">
-        <a href="../../#publication"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+        <a href="../../#publications"><i class="fas fa-arrow-left"></i> Back to Publications</a>
       </p>
 
     </main>
@@ -180,13 +156,7 @@
     const btn = document.getElementById('copy-citation');
     if (btn) {
       const pre = document.getElementById('bibtex-block');
-      const raw = `@inproceedings{Hentout2018Virtual,
-  title = {Virtual pheromone-based approach for objects searching in RFID-based cyber-physical robotic systems},
-  author = {Abdelfetah Hentout and Allal Tiberkak and Abderraouf Maoudj and Lotfi Berkat and Abdelkrim Abeb},
-  publisher = {IEEE},
-  pages = {1-7},
-  year = {2018}
-}`;
+      const raw = "@inproceedings{Maoudj2018_p18,\n  title = {Virtual pheromone-based approach for objects searching in RFID-based cyber-physical robotic systems},\n  author = {Abdelfetah Hentout and Allal Tiberkak and Abderraouf Maoudj and Lotfi Berkat and Abdelkrim Abeb},\n  year = {2018},\n  booktitle = {2018 International Conference on Applied Smart Systems (ICASS)},\n  pages = {1-7},\n  doi = {10.1109/icass.2018.8652034}\n}";
       btn.addEventListener('click', e => {
         e.preventDefault();
         const text = pre ? pre.textContent : raw;

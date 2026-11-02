@@ -1,30 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- =============================================
-       META & DOCUMENT-LEVEL SETTINGS
-       - <title> and <meta name="description"> use header.*
-       - Viewport for responsive layout
-       ============================================= -->
   <meta charset="UTF-8">
-  <title>Autonomous Fuzzy-based Navigation of Mobile Robots: Design, Realization and Control of a Prototype</title>
-  <meta name="description" content="Detail on the paper titled : Autonomous Fuzzy-based Navigation of Mobile Robots: Design, Realization and Control of a Prototype.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- =============================================
-       FONTS & ICONS
-       - Inter font family
-       - Font Awesome icons (e.g., GitHub, PDF, DOI)
-       ============================================= -->
+  <title>Autonomous Fuzzy-based Navigation of Mobile Robots: Design, Realization and Control of a Prototype | Abderraouf Maoudj</title>
+  <meta name="description" content="Autonomous Fuzzy-based Navigation of Mobile Robots: Design, Realization and Control of a Prototype — International Conference on Networking Telecommunications, Biomedical Engineering and Applications (ICNTBA 2019), 2019.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- =============================================
-       PAGE STYLES
-       - 'css' should point to a page/theme stylesheet
-       - Example: /CSS/publication.css or a shared bundle
-       ============================================= -->
   <link rel="stylesheet" href="../../CSS/page_style.css">
 </head>
 
@@ -66,14 +49,8 @@
       <div class="paper-header">
         <h1>Autonomous Fuzzy-based Navigation of Mobile Robots: Design, Realization and Control of a Prototype</h1>
         <p><strong>Authors:</strong> H. M. A. Maoudj, A. Hentout, M.Bouhebila &amp; C. Boubakir</p>
-        <p>
-          <strong>Published:</strong> &nbsp;|&nbsp;
-          <strong>Journal:</strong> International Conference on Networking Telecommunications, , 
-          <span class="inline-icons">
-                <!-- Icon without URL: retains an ID for JS binding -->
-                <a href="#" id="copy-citation" title="Copy BibTeX"><i class="fas fa-quote-right"></i></a>
-          </span>
-        </p>
+        <p><strong>Published:</strong> International Conference on Networking Telecommunications, Biomedical Engineering and Applications (ICNTBA 2019), 2019.</p>
+        <p class="inline-icons"><a href="#" id="copy-citation" title="Copy BibTeX">Copy BibTeX</a></p>
       </div>
 
       <!-- =============================================
@@ -104,7 +81,7 @@
            ============================================= -->
       <section id="citation">
         <h2 class="section-title">Citation</h2>
-        <pre id="bibtex-block">@inproceedings{Maoudj2019Autonomous,
+        <pre id="bibtex-block">@inproceedings{Maoudj2019_p21,
   title = {Autonomous Fuzzy-based Navigation of Mobile Robots: Design, Realization and Control of a Prototype},
   author = {H. Maoudj A. Maoudj and A. Hentout and M.Bouhebila and C. Boubakir},
   year = {2019}
@@ -117,7 +94,7 @@
            - Text and URL are data-driven
            ============================================= -->
       <p style="text-align:center;">
-        <a href="../../#publication"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+        <a href="../../#publications"><i class="fas fa-arrow-left"></i> Back to Publications</a>
       </p>
 
     </main>
@@ -171,11 +148,7 @@
     const btn = document.getElementById('copy-citation');
     if (btn) {
       const pre = document.getElementById('bibtex-block');
-      const raw = `@inproceedings{Maoudj2019Autonomous,
-  title = {Autonomous Fuzzy-based Navigation of Mobile Robots: Design, Realization and Control of a Prototype},
-  author = {H. Maoudj A. Maoudj and A. Hentout and M.Bouhebila and C. Boubakir},
-  year = {2019}
-}`;
+      const raw = "@inproceedings{Maoudj2019_p21,\n  title = {Autonomous Fuzzy-based Navigation of Mobile Robots: Design, Realization and Control of a Prototype},\n  author = {H. Maoudj A. Maoudj and A. Hentout and M.Bouhebila and C. Boubakir},\n  year = {2019}\n}";
       btn.addEventListener('click', e => {
         e.preventDefault();
         const text = pre ? pre.textContent : raw;

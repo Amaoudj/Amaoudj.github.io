@@ -1,30 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- =============================================
-       META & DOCUMENT-LEVEL SETTINGS
-       - <title> and <meta name="description"> use header.*
-       - Viewport for responsive layout
-       ============================================= -->
   <meta charset="UTF-8">
-  <title>Conception et commande d&#39;un prototype mobile à base de microcontrôleur</title>
-  <meta name="description" content="Detail on the paper titled : Conception et commande d&#39;un prototype mobile à base de microcontrôleur.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- =============================================
-       FONTS & ICONS
-       - Inter font family
-       - Font Awesome icons (e.g., GitHub, PDF, DOI)
-       ============================================= -->
+  <title>Conception et commande d&#x27;un prototype mobile à base de microcontrôleur | Abderraouf Maoudj</title>
+  <meta name="description" content="Conception et commande d&#x27;un prototype mobile à base de microcontrôleur — Master’s thesis, Mohammed-Seddik Benyahia University of Jijel, 2012.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- =============================================
-       PAGE STYLES
-       - 'css' should point to a page/theme stylesheet
-       - Example: /CSS/publication.css or a shared bundle
-       ============================================= -->
   <link rel="stylesheet" href="../../CSS/page_style.css">
 </head>
 
@@ -64,18 +47,10 @@
            - If icon.url exists → external link; else emits an anchor with id
            ============================================= -->
       <div class="paper-header">
-        <h1>Conception et commande d&#39;un prototype mobile à base de microcontrôleur</h1>
+        <h1>Conception et commande d&#x27;un prototype mobile à base de microcontrôleur</h1>
         <p><strong>Authors:</strong> A. Maoudj &amp; C. E. Boubakir</p>
-        <p>
-          <strong>Published:</strong> &nbsp;|&nbsp;
-          <strong>Journal:</strong> 2012., , 
-          <span class="inline-icons">
-                <!-- Icon with external link (opens in new tab) -->
-                <a href="https://scholar.google.com/scholar?cluster=5363167821428220945&amp;hl=en&amp;oi=scholarr" target="_blank" title="View paper"><i class="fas fa-file-alt"></i></a>
-                <!-- Icon without URL: retains an ID for JS binding -->
-                <a href="#" id="copy-citation" title="Copy BibTeX"><i class="fas fa-quote-right"></i></a>
-          </span>
-        </p>
+        <p><strong>Thesis:</strong> Master’s thesis, Mohammed-Seddik Benyahia University of Jijel, 2012.</p>
+        <p class="inline-icons"><a href="https://scholar.google.com/scholar?cluster=5363167821428220945&amp;hl=en&amp;oi=scholarr" target="_blank" rel="noopener">Publication record</a> · <a href="#" id="copy-citation" title="Copy BibTeX">Copy BibTeX</a></p>
       </div>
 
       <!-- =============================================
@@ -106,10 +81,11 @@
            ============================================= -->
       <section id="citation">
         <h2 class="section-title">Citation</h2>
-        <pre id="bibtex-block">@misc{Maoudj2012Conception,
-  title = {Conception et commande d&#39;un prototype mobile à base de microcontrôleur},
+        <pre id="bibtex-block">@misc{Maoudj2012_p3,
+  title = {Conception et commande d&#x27;un prototype mobile à base de microcontrôleur},
   author = {Abderraouf Maoudj and Chaabane Encadreur Boubakir},
-  year = {2012}
+  year = {2012},
+  note = {Thesis}
 }</pre>
       </section>
 
@@ -119,7 +95,7 @@
            - Text and URL are data-driven
            ============================================= -->
       <p style="text-align:center;">
-        <a href="../../#publication"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+        <a href="../../#publications"><i class="fas fa-arrow-left"></i> Back to Publications</a>
       </p>
 
     </main>
@@ -173,11 +149,7 @@
     const btn = document.getElementById('copy-citation');
     if (btn) {
       const pre = document.getElementById('bibtex-block');
-      const raw = `@misc{Maoudj2012Conception,
-  title = {Conception et commande d&#39;un prototype mobile à base de microcontrôleur},
-  author = {Abderraouf Maoudj and Chaabane Encadreur Boubakir},
-  year = {2012}
-}`;
+      const raw = "@misc{Maoudj2012_p3,\n  title = {Conception et commande d'un prototype mobile à base de microcontrôleur},\n  author = {Abderraouf Maoudj and Chaabane Encadreur Boubakir},\n  year = {2012},\n  note = {Thesis}\n}";
       btn.addEventListener('click', e => {
         e.preventDefault();
         const text = pre ? pre.textContent : raw;

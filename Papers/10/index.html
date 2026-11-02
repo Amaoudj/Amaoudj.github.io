@@ -1,30 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- =============================================
-       META & DOCUMENT-LEVEL SETTINGS
-       - <title> and <meta name="description"> use header.*
-       - Viewport for responsive layout
-       ============================================= -->
   <meta charset="UTF-8">
-  <title>Mobile robot RBPF-SLAM with LMS sensor in indoor environments Application on RobuTER robot</title>
-  <meta name="description" content="Detail on the paper titled : Mobile robot RBPF-SLAM with LMS sensor in indoor environments Application on RobuTER robot.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- =============================================
-       FONTS & ICONS
-       - Inter font family
-       - Font Awesome icons (e.g., GitHub, PDF, DOI)
-       ============================================= -->
+  <title>Mobile robot RBPF-SLAM with LMS sensor in indoor environments Application on RobuTER robot | Abderraouf Maoudj</title>
+  <meta name="description" content="Mobile robot RBPF-SLAM with LMS sensor in indoor environments Application on RobuTER robot — 5th International Conference on Electrical Engineering – Boumerdes (ICEE-B), IEEE, 2017.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- =============================================
-       PAGE STYLES
-       - 'css' should point to a page/theme stylesheet
-       - Example: /CSS/publication.css or a shared bundle
-       ============================================= -->
   <link rel="stylesheet" href="../../CSS/page_style.css">
 </head>
 
@@ -66,16 +49,8 @@
       <div class="paper-header">
         <h1>Mobile robot RBPF-SLAM with LMS sensor in indoor environments Application on RobuTER robot</h1>
         <p><strong>Authors:</strong> A. Hentout, A. Beghni, A. B. Nourine, A. Maoudj &amp; B. Bouzouia</p>
-        <p>
-          <strong>Published:</strong> &nbsp;|&nbsp;
-          <strong>Journal:</strong> The 5th International Conference on Electrical Engineering – Boumerdes (ICEE-B), , 
-          <span class="inline-icons">
-                <!-- Icon with external link (opens in new tab) -->
-                <a href="https://ieeexplore.ieee.org/abstract/document/8192121/" target="_blank" title="View paper"><i class="fas fa-file-alt"></i></a>
-                <!-- Icon without URL: retains an ID for JS binding -->
-                <a href="#" id="copy-citation" title="Copy BibTeX"><i class="fas fa-quote-right"></i></a>
-          </span>
-        </p>
+        <p><strong>Published:</strong> 5th International Conference on Electrical Engineering – Boumerdes (ICEE-B), IEEE, 2017.</p>
+        <p class="inline-icons"><a href="https://doi.org/10.1109/icee-b.2017.8192121" target="_blank" rel="noopener">Publisher / DOI</a> · <a href="#" id="copy-citation" title="Copy BibTeX">Copy BibTeX</a></p>
       </div>
 
       <!-- =============================================
@@ -111,11 +86,13 @@
            ============================================= -->
       <section id="citation">
         <h2 class="section-title">Citation</h2>
-        <pre id="bibtex-block">@inproceedings{Hentout2017Mobile,
+        <pre id="bibtex-block">@inproceedings{Maoudj2017_p10,
   title = {Mobile robot RBPF-SLAM with LMS sensor in indoor environments Application on RobuTER robot},
   author = {Abdelfetah Hentout and Abdelkader Beghni and Abdelkader Benahmed Nourine and Abderraouf Maoudj and Brahim Bouzouia},
-  number = {978-1-5386-0686-5/17/$31.00 ©2017 IEEE},
-  year = {2017}
+  year = {2017},
+  booktitle = {2017 5th International Conference on Electrical Engineering - Boumerdes (ICEE-B)},
+  pages = {1-6},
+  doi = {10.1109/icee-b.2017.8192121}
 }</pre>
       </section>
 
@@ -125,7 +102,7 @@
            - Text and URL are data-driven
            ============================================= -->
       <p style="text-align:center;">
-        <a href="../../#publication"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+        <a href="../../#publications"><i class="fas fa-arrow-left"></i> Back to Publications</a>
       </p>
 
     </main>
@@ -179,12 +156,7 @@
     const btn = document.getElementById('copy-citation');
     if (btn) {
       const pre = document.getElementById('bibtex-block');
-      const raw = `@inproceedings{Hentout2017Mobile,
-  title = {Mobile robot RBPF-SLAM with LMS sensor in indoor environments Application on RobuTER robot},
-  author = {Abdelfetah Hentout and Abdelkader Beghni and Abdelkader Benahmed Nourine and Abderraouf Maoudj and Brahim Bouzouia},
-  number = {978-1-5386-0686-5/17/$31.00 ©2017 IEEE},
-  year = {2017}
-}`;
+      const raw = "@inproceedings{Maoudj2017_p10,\n  title = {Mobile robot RBPF-SLAM with LMS sensor in indoor environments Application on RobuTER robot},\n  author = {Abdelfetah Hentout and Abdelkader Beghni and Abdelkader Benahmed Nourine and Abderraouf Maoudj and Brahim Bouzouia},\n  year = {2017},\n  booktitle = {2017 5th International Conference on Electrical Engineering - Boumerdes (ICEE-B)},\n  pages = {1-6},\n  doi = {10.1109/icee-b.2017.8192121}\n}";
       btn.addEventListener('click', e => {
         e.preventDefault();
         const text = pre ? pre.textContent : raw;

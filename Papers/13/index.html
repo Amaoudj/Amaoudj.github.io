@@ -1,30 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- =============================================
-       META & DOCUMENT-LEVEL SETTINGS
-       - <title> and <meta name="description"> use header.*
-       - Viewport for responsive layout
-       ============================================= -->
   <meta charset="UTF-8">
-  <title>Distributed Multi-agent Bidding-Based Approach for the Collaborative Mapping of Unknown Indoor Environments by a Homogeneous Mobile Robot Team</title>
-  <meta name="description" content="Detail on the paper titled : Distributed Multi-agent Bidding-Based Approach for the Collaborative Mapping of Unknown Indoor Environments by a Homogeneous Mobile Robot Team.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- =============================================
-       FONTS & ICONS
-       - Inter font family
-       - Font Awesome icons (e.g., GitHub, PDF, DOI)
-       ============================================= -->
+  <title>Distributed Multi-agent Bidding-Based Approach for the Collaborative Mapping of Unknown Indoor Environments by a Homogeneous Mobile Robot Team | Abderraouf Maoudj</title>
+  <meta name="description" content="Distributed Multi-agent Bidding-Based Approach for the Collaborative Mapping of Unknown Indoor Environments by a Homogeneous Mobile Robot Team — Journal of Intelligent Systems, vol. 29, no. 1, pp. 84–99, 2020 (online 2017).">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- =============================================
-       PAGE STYLES
-       - 'css' should point to a page/theme stylesheet
-       - Example: /CSS/publication.css or a shared bundle
-       ============================================= -->
   <link rel="stylesheet" href="../../CSS/page_style.css">
 </head>
 
@@ -66,16 +49,8 @@
       <div class="paper-header">
         <h1>Distributed Multi-agent Bidding-Based Approach for the Collaborative Mapping of Unknown Indoor Environments by a Homogeneous Mobile Robot Team</h1>
         <p><strong>Authors:</strong> A. Hentout, A. Maoudj, N. Kaid-youcef, D. Hebib &amp; B. Bouzouia</p>
-        <p>
-          <strong>Published:</strong> &nbsp;|&nbsp;
-          <strong>Journal:</strong> Journal of Intelligent Systems, , 
-          <span class="inline-icons">
-                <!-- Icon with external link (opens in new tab) -->
-                <a href="https://www.degruyterbrill.com/document/doi/10.1515/jisys-2017-0255/html" target="_blank" title="View paper"><i class="fas fa-file-alt"></i></a>
-                <!-- Icon without URL: retains an ID for JS binding -->
-                <a href="#" id="copy-citation" title="Copy BibTeX"><i class="fas fa-quote-right"></i></a>
-          </span>
-        </p>
+        <p><strong>Published:</strong> Journal of Intelligent Systems, vol. 29, no. 1, pp. 84–99, 2020 (online 2017).</p>
+        <p class="inline-icons"><a href="https://doi.org/10.1515/jisys-2017-0255" target="_blank" rel="noopener">Publisher / DOI</a> · <a href="#" id="copy-citation" title="Copy BibTeX">Copy BibTeX</a></p>
       </div>
 
       <!-- =============================================
@@ -111,12 +86,15 @@
            ============================================= -->
       <section id="citation">
         <h2 class="section-title">Citation</h2>
-        <pre id="bibtex-block">@article{Hentout2017Distributed,
+        <pre id="bibtex-block">@article{Maoudj2020_p13,
   title = {Distributed Multi-agent Bidding-Based Approach for the Collaborative Mapping of Unknown Indoor Environments by a Homogeneous Mobile Robot Team},
   author = {Abdelfetah Hentout and Abderraouf Maoudj and Nesrine Kaid-youcef and Djamila Hebib and Brahim Bouzouia},
+  year = {2020},
   journal = {Journal of Intelligent Systems},
-  publisher = {De Gruyter},
-  year = {2017}
+  volume = {29},
+  number = {1},
+  pages = {84-99},
+  doi = {10.1515/jisys-2017-0255}
 }</pre>
       </section>
 
@@ -126,7 +104,7 @@
            - Text and URL are data-driven
            ============================================= -->
       <p style="text-align:center;">
-        <a href="../../#publication"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+        <a href="../../#publications"><i class="fas fa-arrow-left"></i> Back to Publications</a>
       </p>
 
     </main>
@@ -180,13 +158,7 @@
     const btn = document.getElementById('copy-citation');
     if (btn) {
       const pre = document.getElementById('bibtex-block');
-      const raw = `@article{Hentout2017Distributed,
-  title = {Distributed Multi-agent Bidding-Based Approach for the Collaborative Mapping of Unknown Indoor Environments by a Homogeneous Mobile Robot Team},
-  author = {Abdelfetah Hentout and Abderraouf Maoudj and Nesrine Kaid-youcef and Djamila Hebib and Brahim Bouzouia},
-  journal = {Journal of Intelligent Systems},
-  publisher = {De Gruyter},
-  year = {2017}
-}`;
+      const raw = "@article{Maoudj2020_p13,\n  title = {Distributed Multi-agent Bidding-Based Approach for the Collaborative Mapping of Unknown Indoor Environments by a Homogeneous Mobile Robot Team},\n  author = {Abdelfetah Hentout and Abderraouf Maoudj and Nesrine Kaid-youcef and Djamila Hebib and Brahim Bouzouia},\n  year = {2020},\n  journal = {Journal of Intelligent Systems},\n  volume = {29},\n  number = {1},\n  pages = {84-99},\n  doi = {10.1515/jisys-2017-0255}\n}";
       btn.addEventListener('click', e => {
         e.preventDefault();
         const text = pre ? pre.textContent : raw;

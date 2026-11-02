@@ -1,30 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- =============================================
-       META & DOCUMENT-LEVEL SETTINGS
-       - <title> and <meta name="description"> use header.*
-       - Viewport for responsive layout
-       ============================================= -->
   <meta charset="UTF-8">
-  <title>Distributed multi-agent scheduling and control system for robotic flexible assembly cells</title>
-  <meta name="description" content="Detail on the paper titled : Distributed multi-agent scheduling and control system for robotic flexible assembly cells.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- =============================================
-       FONTS & ICONS
-       - Inter font family
-       - Font Awesome icons (e.g., GitHub, PDF, DOI)
-       ============================================= -->
+  <title>Distributed multi-agent scheduling and control system for robotic flexible assembly cells | Abderraouf Maoudj</title>
+  <meta name="description" content="Distributed multi-agent scheduling and control system for robotic flexible assembly cells — Journal of Intelligent Manufacturing, vol. 30, no. 4, pp. 1629–1644, 2019.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- =============================================
-       PAGE STYLES
-       - 'css' should point to a page/theme stylesheet
-       - Example: /CSS/publication.css or a shared bundle
-       ============================================= -->
   <link rel="stylesheet" href="../../CSS/page_style.css">
 </head>
 
@@ -66,16 +49,8 @@
       <div class="paper-header">
         <h1>Distributed multi-agent scheduling and control system for robotic flexible assembly cells</h1>
         <p><strong>Authors:</strong> A. Maoudj, B. Bouzouia, A. Hentout, A. Kouider &amp; R. Toumi</p>
-        <p>
-          <strong>Published:</strong> &nbsp;|&nbsp;
-          <strong>Journal:</strong> Journal of Intelligent Manufacturing, Vol. 30, pp. 1629–1644
-          <span class="inline-icons">
-                <!-- Icon with external link (opens in new tab) -->
-                <a href="https://link.springer.com/article/10.1007/s10845-017-1345-z" target="_blank" title="View publisher page"><i class="fas fa-file-alt"></i></a>
-                <!-- Icon without URL: retains an ID for JS binding -->
-                <a href="#" id="copy-citation" title="Copy BibTeX"><i class="fas fa-quote-right"></i></a>
-          </span>
-        </p>
+        <p><strong>Published:</strong> Journal of Intelligent Manufacturing, vol. 30, no. 4, pp. 1629–1644, 2019.</p>
+        <p class="inline-icons"><a href="https://doi.org/10.1007/s10845-017-1345-z" target="_blank" rel="noopener">Publisher / DOI</a> · <a href="#" id="copy-citation" title="Copy BibTeX">Copy BibTeX</a></p>
       </div>
 
       <!-- =============================================
@@ -111,15 +86,15 @@
            ============================================= -->
       <section id="citation">
         <h2 class="section-title">Citation</h2>
-        <pre id="bibtex-block">@article{Maoudj2017Distributed,
+        <pre id="bibtex-block">@article{Maoudj2019_p9,
   title = {Distributed multi-agent scheduling and control system for robotic flexible assembly cells},
   author = {Abderraouf Maoudj and Brahim Bouzouia and Abdelfetah Hentout and Ahmed Kouider and Redouane Toumi},
+  year = {2019},
   journal = {Journal of Intelligent Manufacturing},
-  publisher = {Springer US},
   volume = {30},
   number = {4},
-  pages = {1629–1644},
-  year = {2017}
+  pages = {1629-1644},
+  doi = {10.1007/s10845-017-1345-z}
 }</pre>
       </section>
 
@@ -129,7 +104,7 @@
            - Text and URL are data-driven
            ============================================= -->
       <p style="text-align:center;">
-        <a href="../../#publication"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+        <a href="../../#publications"><i class="fas fa-arrow-left"></i> Back to Publications</a>
       </p>
 
     </main>
@@ -183,16 +158,7 @@
     const btn = document.getElementById('copy-citation');
     if (btn) {
       const pre = document.getElementById('bibtex-block');
-      const raw = `@article{Maoudj2017Distributed,
-  title = {Distributed multi-agent scheduling and control system for robotic flexible assembly cells},
-  author = {Abderraouf Maoudj and Brahim Bouzouia and Abdelfetah Hentout and Ahmed Kouider and Redouane Toumi},
-  journal = {Journal of Intelligent Manufacturing},
-  publisher = {Springer US},
-  volume = {30},
-  number = {4},
-  pages = {1629–1644},
-  year = {2017}
-}`;
+      const raw = "@article{Maoudj2019_p9,\n  title = {Distributed multi-agent scheduling and control system for robotic flexible assembly cells},\n  author = {Abderraouf Maoudj and Brahim Bouzouia and Abdelfetah Hentout and Ahmed Kouider and Redouane Toumi},\n  year = {2019},\n  journal = {Journal of Intelligent Manufacturing},\n  volume = {30},\n  number = {4},\n  pages = {1629-1644},\n  doi = {10.1007/s10845-017-1345-z}\n}";
       btn.addEventListener('click', e => {
         e.preventDefault();
         const text = pre ? pre.textContent : raw;

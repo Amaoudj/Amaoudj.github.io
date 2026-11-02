@@ -1,30 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- =============================================
-       META & DOCUMENT-LEVEL SETTINGS
-       - <title> and <meta name="description"> use header.*
-       - Viewport for responsive layout
-       ============================================= -->
   <meta charset="UTF-8">
-  <title>RRT-A*-BT approach for optimal collision-free path planning for mobile robots</title>
-  <meta name="description" content="Detail on the paper titled : RRT-A*-BT approach for optimal collision-free path planning for mobile robots.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- =============================================
-       FONTS & ICONS
-       - Inter font family
-       - Font Awesome icons (e.g., GitHub, PDF, DOI)
-       ============================================= -->
+  <title>RRT-A*-BT approach for optimal collision-free path planning for mobile robots | Abderraouf Maoudj</title>
+  <meta name="description" content="RRT-A*-BT approach for optimal collision-free path planning for mobile robots — Algerian Journal of Signals and Systems, vol. 4, no. 2, pp. 39-50, 2019.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- =============================================
-       PAGE STYLES
-       - 'css' should point to a page/theme stylesheet
-       - Example: /CSS/publication.css or a shared bundle
-       ============================================= -->
   <link rel="stylesheet" href="../../CSS/page_style.css">
 </head>
 
@@ -66,16 +49,8 @@
       <div class="paper-header">
         <h1>RRT-A*-BT approach for optimal collision-free path planning for mobile robots</h1>
         <p><strong>Authors:</strong> A. Hentout, A. Maoudj, D. Yahiaoui &amp; M. Aouache</p>
-        <p>
-          <strong>Published:</strong> &nbsp;|&nbsp;
-          <strong>Journal:</strong> Algerian Journal of Signals and Systems, Vol. 4, pp. 39-50
-          <span class="inline-icons">
-                <!-- Icon with external link (opens in new tab) -->
-                <a href="https://www.ajss.dz/index.php/ajss/article/view/81" target="_blank" title="View paper"><i class="fas fa-file-alt"></i></a>
-                <!-- Icon without URL: retains an ID for JS binding -->
-                <a href="#" id="copy-citation" title="Copy BibTeX"><i class="fas fa-quote-right"></i></a>
-          </span>
-        </p>
+        <p><strong>Published:</strong> Algerian Journal of Signals and Systems, vol. 4, no. 2, pp. 39-50, 2019.</p>
+        <p class="inline-icons"><a href="https://doi.org/10.51485/ajss.v4i2.81" target="_blank" rel="noopener">Publisher / DOI</a> · <a href="#" id="copy-citation" title="Copy BibTeX">Copy BibTeX</a></p>
       </div>
 
       <!-- =============================================
@@ -112,14 +87,15 @@
            ============================================= -->
       <section id="citation">
         <h2 class="section-title">Citation</h2>
-        <pre id="bibtex-block">@article{Hentout2019RRTABT,
+        <pre id="bibtex-block">@article{Maoudj2019_p24,
   title = {RRT-A*-BT approach for optimal collision-free path planning for mobile robots},
   author = {Abdelfetah Hentout and Abderraouf Maoudj and Djelloul Yahiaoui and Mustapha Aouache},
+  year = {2019},
   journal = {Algerian Journal of Signals and Systems},
   volume = {4},
   number = {2},
   pages = {39-50},
-  year = {2019}
+  doi = {10.51485/ajss.v4i2.81}
 }</pre>
       </section>
 
@@ -129,7 +105,7 @@
            - Text and URL are data-driven
            ============================================= -->
       <p style="text-align:center;">
-        <a href="../../#publication"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+        <a href="../../#publications"><i class="fas fa-arrow-left"></i> Back to Publications</a>
       </p>
 
     </main>
@@ -183,15 +159,7 @@
     const btn = document.getElementById('copy-citation');
     if (btn) {
       const pre = document.getElementById('bibtex-block');
-      const raw = `@article{Hentout2019RRTABT,
-  title = {RRT-A*-BT approach for optimal collision-free path planning for mobile robots},
-  author = {Abdelfetah Hentout and Abderraouf Maoudj and Djelloul Yahiaoui and Mustapha Aouache},
-  journal = {Algerian Journal of Signals and Systems},
-  volume = {4},
-  number = {2},
-  pages = {39-50},
-  year = {2019}
-}`;
+      const raw = "@article{Maoudj2019_p24,\n  title = {RRT-A*-BT approach for optimal collision-free path planning for mobile robots},\n  author = {Abdelfetah Hentout and Abderraouf Maoudj and Djelloul Yahiaoui and Mustapha Aouache},\n  year = {2019},\n  journal = {Algerian Journal of Signals and Systems},\n  volume = {4},\n  number = {2},\n  pages = {39-50},\n  doi = {10.51485/ajss.v4i2.81}\n}";
       btn.addEventListener('click', e => {
         e.preventDefault();
         const text = pre ? pre.textContent : raw;

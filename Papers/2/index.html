@@ -1,30 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- =============================================
-       META & DOCUMENT-LEVEL SETTINGS
-       - <title> and <meta name="description"> use header.*
-       - Viewport for responsive layout
-       ============================================= -->
   <meta charset="UTF-8">
-  <title>A literature review of service robotics</title>
-  <meta name="description" content="Detail on the paper titled : A literature review of service robotics.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- =============================================
-       FONTS & ICONS
-       - Inter font family
-       - Font Awesome icons (e.g., GitHub, PDF, DOI)
-       ============================================= -->
+  <title>A literature review of service robotics: Challenges and open research issues | Abderraouf Maoudj</title>
+  <meta name="description" content="A literature review of service robotics: Challenges and open research issues — Workshop on Human-Robot Interaction: From Service to Industry (HRI-SI), 2022.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-  <!-- =============================================
-       PAGE STYLES
-       - 'css' should point to a page/theme stylesheet
-       - Example: /CSS/publication.css or a shared bundle
-       ============================================= -->
   <link rel="stylesheet" href="../../CSS/page_style.css">
 </head>
 
@@ -64,18 +47,10 @@
            - If icon.url exists → external link; else emits an anchor with id
            ============================================= -->
       <div class="paper-header">
-        <h1>A literature review of service robotics</h1>
+        <h1>A literature review of service robotics: Challenges and open research issues</h1>
         <p><strong>Authors:</strong> A. Hentout, A. Maoudj &amp; A. Kouider</p>
-        <p>
-          <strong>Published:</strong> &nbsp;|&nbsp;
-          <strong>Journal:</strong> , , 
-          <span class="inline-icons">
-                <!-- Icon with external link (opens in new tab) -->
-                <a href="https://www.researchgate.net/profile/Abdelfetah-Hentout/publication/364030429_A_literature_review_of_service_robotics_Challenges_and_open_research_issues/links/6336c13b9cb4fe44f3ed3622/A-literature-review-of-service-robotics-Challenges-and-open-research-issues.pdf" target="_blank" title="View paper"><i class="fas fa-file-alt"></i></a>
-                <!-- Icon without URL: retains an ID for JS binding -->
-                <a href="#" id="copy-citation" title="Copy BibTeX"><i class="fas fa-quote-right"></i></a>
-          </span>
-        </p>
+        <p><strong>Workshop paper:</strong> Workshop on Human-Robot Interaction: From Service to Industry (HRI-SI), 2022.</p>
+        <p class="inline-icons"><a href="https://www.researchgate.net/profile/Abdelfetah-Hentout/publication/364030429_A_literature_review_of_service_robotics_Challenges_and_open_research_issues/links/6336c13b9cb4fe44f3ed3622/A-literature-review-of-service-robotics-Challenges-and-open-research-issues.pdf" target="_blank" rel="noopener">Publication record</a> · <a href="#" id="copy-citation" title="Copy BibTeX">Copy BibTeX</a></p>
       </div>
 
       <!-- =============================================
@@ -110,9 +85,11 @@
            ============================================= -->
       <section id="citation">
         <h2 class="section-title">Citation</h2>
-        <pre id="bibtex-block">@misc{HentoutA,
-  title = {A literature review of service robotics},
-  author = {Abdelfetah Hentout and Abderraouf Maoudj and Ahmed Kouider}
+        <pre id="bibtex-block">@misc{Maoudj2022_p2,
+  title = {A literature review of service robotics: Challenges and open research issues},
+  author = {Abdelfetah Hentout and Abderraouf Maoudj and Ahmed Kouider},
+  year = {2022},
+  note = {Workshop paper}
 }</pre>
       </section>
 
@@ -122,7 +99,7 @@
            - Text and URL are data-driven
            ============================================= -->
       <p style="text-align:center;">
-        <a href="../../#publication"><i class="fas fa-arrow-left"></i> Back to Publications</a>
+        <a href="../../#publications"><i class="fas fa-arrow-left"></i> Back to Publications</a>
       </p>
 
     </main>
@@ -176,10 +153,7 @@
     const btn = document.getElementById('copy-citation');
     if (btn) {
       const pre = document.getElementById('bibtex-block');
-      const raw = `@misc{HentoutA,
-  title = {A literature review of service robotics},
-  author = {Abdelfetah Hentout and Abderraouf Maoudj and Ahmed Kouider}
-}`;
+      const raw = "@misc{Maoudj2022_p2,\n  title = {A literature review of service robotics: Challenges and open research issues},\n  author = {Abdelfetah Hentout and Abderraouf Maoudj and Ahmed Kouider},\n  year = {2022},\n  note = {Workshop paper}\n}";
       btn.addEventListener('click', e => {
         e.preventDefault();
         const text = pre ? pre.textContent : raw;

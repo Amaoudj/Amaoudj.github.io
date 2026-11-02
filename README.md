@@ -10,7 +10,7 @@ This is a static GitHub Pages website. No build step or server-side dependencies
 - `CSS/academic.css`: responsive homepage design.
 - `CSS/project_style.css`: research project overview pages, with shared publication-page styles.
 - `JS/portfolio.js`: publication filtering, BibTeX copying, figure viewing, and video playback coordination.
-- `Projects/<slug>/index.html`: detailed biped and industrial inspection project pages.
+- `Projects/<slug>/index.html`: detailed research project and ongoing-work overviews.
 - `Papers/<number>/index.html`: existing publication detail pages, styled by `CSS/page_style.css`.
 - `videos/current-projects/`: six locally hosted demonstrations, loaded only when played.
 - `images/current-projects/`: genuine preview images and video stills.
@@ -33,6 +33,8 @@ To regenerate the PDF after editing the HTML, print it from Chromium with A4 pap
 Publication records were checked against the public Google Scholar profile and publisher metadata on **2 November 2026**. Duplicate records are consolidated. Accepted articles and manuscripts under review are explicitly labeled. Citation metrics are a dated snapshot linked to Google Scholar.
 
 When changing publications, update the homepage record, any corresponding detail page, the public JSON/BibTeX downloads, and the CV where applicable. Preserve author order, final DOI links, and publication status.
+
+Keep research narratives focused on methods, contributions and evidence. Put authorship, venue and publication-status details in the bibliography. Use uniform plain text for all publication author names, without highlighting the profile owner.
 
 ## Preview and publish
 

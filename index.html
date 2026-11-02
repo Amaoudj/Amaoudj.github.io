@@ -97,22 +97,19 @@
     <main class="main-content" id="main-content">
 
       <!-- ABOUT / HERO -->
-      <section id="about" class="hero" aria-labelledby="profile-title">
-  <h1 id="profile-title">Abderraouf Maoudj</h1>
-  <p>My work builds intelligent robot brains that reason on physical time and act safely on physical robots, with embodied AI for robot arms, legged robots and robot teams as the main application. For more than a decade I have carried out academic and industrial research and development in Algeria, Denmark and Saudi Arabia, with industrial partners that include Siemens, Mobile Industrial Robots and Enabled Robotics. The applications lie in intelligent manufacturing and smart logistics, and in embodied intelligence and the low-altitude economy. One question organises the research: how can robots learn useful behaviour from limited interaction, keep working safely when their hardware or their task changes, and coordinate at industrial scale?</p>
-  <ul class="about-list">
-    <li>
-<strong>Embodied AI and world models:</strong> NeuroAct, a robot brain designed to keep working when the body or the task changes, whose shared model generalises in simulation to robot bodies it never saw in training; <strong>multi-agent world models</strong> (current work), in which each robot is curious about how its own actions and those of its teammates change the environment, so that the team learns a joint model of how the whole system evolves; and, as directions I am developing, vision-language-action policies that consult a world model before contact, and policies that reason on physical time.</li>
-    <li>
-<strong>Robot learning for intelligent manufacturing:</strong> as Principal Investigator of KFUPM Grant No. INMR2403, which I proposed, won and delivered, I built a dual-arm Meca500 skill-learning testbed that is now shared laboratory infrastructure in active use. On it, a decentralised policy per arm with graph attention between arms runs on the physical arms and coordinates more arms in simulation than it was trained with.</li>
-    <li>
-<strong>Multi-robot systems for smart logistics and drone teams:</strong> decentralised path finding and scheduling for warehouse robot fleets under limited communication, developed with the industrial partner Enabled Robotics, which coordinate very large fleets in simulation; and decentralised multi-drone gas-source localisation with a safety filter, which found the source far more often than infotaxis and model-predictive-control baselines.</li>
-    <li>
-<strong>Fault-tolerant legged robots and actuation:</strong> a co-authored controller in which reinforcement learning modulates central pattern generators was deployed zero-shot on a physical 18-DoF hexapod and kept it walking without a fall across repeated hardware trials, even with multiple legs disabled (under review); the open-source SPINDER hexapod platform (<em>Scientific Reports</em>, 2026); and, as Co-Principal Investigator of KFUPM Grant No. INMR2632, a dual-mode actuation joint for an open bipedal platform.</li>
-  </ul>
-</section>
-
-      <section id="current-projects" aria-labelledby="current-title"><div class="section-heading">
+      <section id="about" class="hero" aria-labelledby="profile-title"><h1 id="profile-title">Abderraouf Maoudj</h1>
+<p>My research develops embodied intelligence for robot arms, legged robots and robot teams: systems that learn from limited experience, adapt when their hardware or tasks change, and coordinate safely at industrial scale. Over more than a decade, I have carried out academic and industrial research in Algeria, Denmark and Saudi Arabia, working with partners including Siemens, Mobile Industrial Robots and Enabled Robotics. My work connects robot learning, control and mechatronic design to flexible manufacturing, smart logistics and autonomous inspection.</p>
+<ul class="about-list">
+<li>
+<strong>Embodied AI and world models:</strong> I develop NeuroAct, a modular robot intelligence architecture that combines embodiment representations, hierarchical policies and persistent memory to support adaptation across bodies and tasks. Its shared model has generalised to robot bodies not encountered during training in simulation. My current work develops multi-agent world models that learn how individual and collective actions shape the environment, alongside vision-language-action policies that anticipate physical interactions and reason about their timing.</li>
+<li>
+<strong>Robot learning for intelligent manufacturing:</strong> As Principal Investigator of KFUPM Grant INMR2403, I established a dual-arm Meca500 skill-learning testbed that is now shared laboratory infrastructure in active use. Decentralised policies with graph attention coordinate the physical arms and extend to larger teams in simulation. This work connects reusable manipulation skills, inter-arm coordination and motion planning to flexible industrial automation.</li>
+<li>
+<strong>Multi-robot autonomy for smart logistics and environmental monitoring:</strong> I develop decentralised path finding and scheduling for warehouse fleets operating with limited communication, in collaboration with Enabled Robotics. These methods coordinate large fleets and handle continuous task arrivals. Safety-filtered multi-drone policies improve gas-source localisation over infotaxis and model-predictive-control baselines, supporting research towards coordinated environmental monitoring.</li>
+<li>
+<strong>Bio-inspired learning and fault-tolerant control for legged robots:</strong> Reinforcement learning coupled with central pattern generators enables a physical 18-DoF hexapod to keep walking despite multiple disabled legs, without falls in repeated hardware trials. I am extending this direction through gait learning from a single insect walk using window-level adversarial inverse reinforcement learning, and online fuzzy-neural actor-critic control for hexapod trajectory tracking. The open-source SPINDER platform supports reproducible locomotion research; as Co-Principal Investigator of KFUPM Grant INMR2632, I also develop modular bipedal hardware and actuation.</li>
+</ul>
+</section><section id="current-projects" aria-labelledby="current-title"><div class="section-heading">
 <div>
 <p class="eyebrow">Inside the lab · 2026</p>
 <h2 id="current-title" class="section-title">Current Projects</h2>
@@ -172,7 +169,7 @@
     <div class="project-body">
 <div class="project-kicker">Cooperative aerial inspection</div>
 <h3 id="project-gas-source-localization">Drone teams that search for gas leaks</h3>
-<p>Three drones share source-location estimates and coordinate their search through changing gas readings. Multi-agent reinforcement learning guides motion, while a safety filter adjusts commands for separation and obstacle clearance. The associated paper is accepted in Scientific Reports.</p>
+<p>Three drones share gas-source estimates and coordinate their search through changing measurements. Multi-agent reinforcement learning guides motion, while a safety filter adjusts commands for separation and obstacle clearance. The work connects cooperative search with collision-aware control for autonomous leak inspection.</p>
 <div class="project-bottom">
 <span class="application">Industrial inspection</span><a href="https://www.linkedin.com/feed/update/urn:li:activity:7517547685487452160/" target="_blank" rel="noopener noreferrer" aria-label="Cooperative aerial inspection: original LinkedIn video and project notes">Project notes <span aria-hidden="true">↗</span></a>
 </div>
@@ -195,16 +192,23 @@
 </div></div>
   <div class="research-directions">
     <article><span class="direction-number">01</span><div>
-<h3>Robot learning &amp; manipulation</h3>
-<p>Learning skills from interaction and demonstration; combining reinforcement learning, world models, and vision–language–action policies with reliable multi-arm planning and control.</p>
+<h3>Robot learning and intelligent manipulation</h3>
+<p>Learning reusable manipulation skills from interaction and demonstration, with world models and coordinated policies that connect perception, planning and physical robot control. A shared dual-arm testbed supports the development of adaptable industrial automation.</p>
 </div></article>
     <article><span class="direction-number">02</span><div>
-<h3>Resilient, embodied intelligence</h3>
-<p>Bio-inspired control and learning for legged robots that adapt to terrain and hardware faults. Open robot platforms connect mechanism design, control, and sim-to-real experimentation.</p>
+<h3>Bio-inspired learning and fault-tolerant control</h3>
+<p>Connecting biological movement, robot learning and adaptive control to keep legged robots effective as their tasks, terrain and hardware change. The open SPINDER hexapod links control development with physical locomotion experiments and reproducible robot design.</p>
+<ul class="research-work-list">
+<li>
+<strong>Learning What a Gait Is:</strong> ongoing work on learning hexapod gait structure from a single insect walk through window-level adversarial inverse reinforcement learning.</li>
+<li>
+<strong>Online fuzzy-neural actor–critic control:</strong> developing adaptive hexapod trajectory tracking that learns during operation and responds to uncertain robot dynamics.</li>
+</ul>
+<a class="research-detail-link" href="Projects/bio-inspired-legged-control/">Explore the legged-robot research →</a>
 </div></article>
     <article><span class="direction-number">03</span><div>
-<h3>Coordinated robot teams</h3>
-<p>Decentralized path finding, task allocation, and cooperative perception for robot fleets in warehouses and industrial environments, where local decisions must support effective teamwork.</p>
+<h3>Scalable autonomy for robot teams</h3>
+<p>Decentralised path finding, scheduling and cooperative perception for warehouse fleets and aerial robot teams. The work addresses limited communication, changing task streams and shared operating spaces, connecting local decisions with coordinated industrial logistics and inspection.</p>
 </div></article>
   </div>
   <details class="research-programmes"><summary>Research programmes &amp; collaborations <span aria-hidden="true">+</span></summary><div class="programme-grid">
@@ -217,7 +221,7 @@
 <a href="https://pure.kfupm.edu.sa/en/persons/abderraouf-maoudj/projects/" target="_blank" rel="noopener noreferrer">Research projects ↗</a></article>
     <article><p class="programme-meta">SDU Biorobotics · 2021–2023</p>
 <h3>Swarm Robotics for Industry 4.0</h3>
-<p>Decentralized fleet coordination and scheduling for e-commerce warehouses, with Enable Robotics and Mobile Industrial Robots.</p>
+<p>Decentralized fleet coordination and scheduling for e-commerce warehouses, with Enabled Robotics and Mobile Industrial Robots.</p>
 <a href="https://www.sdu.dk/en/forskning/sdu_biorobotics/projects/swarm-robotics-i-4-0-lab" target="_blank" rel="noopener noreferrer">Programme page ↗</a></article>
   </div></details>
 </section><section id="teaching" aria-labelledby="teaching-title"><div class="section-heading"><div>
@@ -244,7 +248,7 @@
 </div>
 <div>
 <h3>Supervision &amp; curriculum design</h3>
-<p>Supervision and co-supervision of doctoral, master’s, and engineering projects across KFUPM, SDU, and CDTA/USTHB.</p>
+<p>Supervision and co-supervision of doctoral, master’s, and engineering projects at KFUPM and CDTA/USTHB, connecting robotics theory with experimental development.</p>
 <p>Graduate courses developed in <strong>Reinforcement Learning for Robotics</strong> and <strong>Sim-to-Real Embodied Robotics</strong>, connecting learning algorithms with open robot hardware.</p>
 <a class="text-link" href="CV_Abderraouf_2026.pdf" target="_blank" rel="noopener noreferrer">Teaching experience in the CV ↗</a>
 </div>
@@ -285,7 +289,7 @@
               <li>Lead research on adaptive control and learning for next-generation robotic manipulation, including VLA models, world-model RL, and imitation learning.</li>
               <li>Established a collaborative-robotics testbed and a Collaborative Robotics Network Framework with closed-loop control for rapid, low-configuration cobot deployment.</li>
               <li>Develop AI-driven methods for high-throughput coordination of autonomous mobile-robot fleets in dense warehouses supporting KSA e-commerce and logistics.</li>
-              <li>Supervise Master's students and research interns; several projects reached publications, industrial demos, or technology prototypes.</li>
+              <li>Supervise graduate projects and research internships that connect algorithm design with physical prototypes and industrial demonstrations.</li>
             </ul>
           </div>
           <div class="tl-item">
@@ -293,9 +297,9 @@
             <div class="tl-org">SDU Biorobotics, University of Southern Denmark — Denmark</div>
             <div class="tl-period">2021 – 2023</div>
             <ul>
-              <li>AI-based distributed multi-robot coordination for large-scale e-commerce logistics (project: Swarm Robotics for Industry 4.0, with Enable Robotics).</li>
-              <li>Decentralized multi-agent path finding, capacitated multi-AGV scheduling, and swarm robotics in dynamic warehouses; frameworks scaling to &gt;3,000 robots.</li>
-              <li>Co-supervised Master's projects emphasizing reproducible experimentation, benchmarking, and open-source software.</li>
+              <li>Developed decentralised multi-robot coordination for industrial logistics through Swarm Robotics for Industry 4.0, with Enabled Robotics.</li>
+              <li>Designed communication-aware path finding, capacitated fleet scheduling and lifelong planning for dense warehouse environments, with large-scale computational evaluation.</li>
+              <li>Developed reproducible benchmarks and open planning methods for robot-fleet coordination under communication constraints.</li>
             </ul>
           </div>
           <div class="tl-item">

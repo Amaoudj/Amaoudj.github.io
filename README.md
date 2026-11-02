@@ -36,6 +36,8 @@ When changing publications, update the homepage record, any corresponding detail
 
 Keep research narratives focused on methods, contributions and evidence. Put authorship, venue and publication-status details in the bibliography. Use uniform plain text for all publication author names, without highlighting the profile owner.
 
+Preserve the approved detailed Research Profile and project descriptions. When removing authorship or paper references, edit only those phrases; retain technical methods, hardware results, evaluation scope, grant roles and project links. Do not condense or broadly rewrite approved prose unless explicitly requested.
+
 ## Preview and publish
 
 From the repository root:

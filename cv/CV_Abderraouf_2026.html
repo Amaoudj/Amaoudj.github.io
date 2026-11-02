@@ -9,6 +9,9 @@ h1 { font-family: Georgia, 'Times New Roman', serif; color: #173747; font-size: 
 .focus { color: #284e63; font-size: 11pt; font-weight: 600; margin-bottom: 11px; }
 .position { font-size: 10.3pt; font-weight: 700; margin: 0; }
 .affiliation { margin: 2px 0 11px; color: #414d56; }
+.header-main { display: grid; grid-template-columns: minmax(0,1fr) 24mm; gap: 5mm; align-items: start; }
+.portrait { display: block; width: 24mm; height: auto; border: .6px solid #c9d5dc; border-radius: 3px; }
+.header-main .affiliation { margin-bottom: 0; }
 .contacts { display: grid; grid-template-columns: 1.17fr 1fr; column-gap: 14px; row-gap: 4px; font-size: 9pt; margin: 12px 0 17px; }
 .contact { display: flex; gap: 7px; align-items: center; }
 .contact svg { flex: none; width: 13px; height: 13px; fill: none; stroke: #284e63; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; }
@@ -47,10 +50,12 @@ li { margin-bottom: 5px; orphans: 3; widows: 3; }
 @media screen and (max-width:600px) { body { padding:22px; } .contacts,.refs-grid { grid-template-columns:1fr; } .entry { grid-template-columns:1fr; gap:2px; } }
 </style></head><body>
 <header>
+<div class="header-main"><div>
 <h1>Dr. Abderraouf Maoudj</h1>
 <div class="focus">Robot learning · Multi-robot coordination · Resilient robotic systems</div>
 <p class="position">Postdoctoral Research Fellow &amp; Coordinator of the Robotics Laboratory</p>
 <p class="affiliation">Interdisciplinary Research Center for Intelligent Manufacturing and Robotics<br>King Fahd University of Petroleum &amp; Minerals (KFUPM), Dhahran, Saudi Arabia</p>
+</div><img class="portrait" src="../profile_image.png" alt="Abderraouf Maoudj"></div>
 <div class="contacts"><div class="contact"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg><a href="mailto:abderraouf.maoudj@kfupm.edu.sa">abderraouf.maoudj@kfupm.edu.sa</a></div><div class="contact"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c5 5 5 13 0 18-5-5-5-13 0-18Z"/></svg><a href="https://amaoudj.github.io/">amaoudj.github.io</a></div><div class="contact"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></svg><a href="mailto:raouf.maoudj@gmail.com">raouf.maoudj@gmail.com</a></div><div class="contact"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M8 10v7M8 7v.1M12 7h2a5 5 0 0 1 0 10h-2V7Z"/></svg><a href="https://orcid.org/0000-0002-4058-2506">ORCID: 0000-0002-4058-2506</a></div><div class="contact"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m2 9 10-5 10 5-10 5-10-5Zm4 2v6c4 3 8 3 12 0v-6M22 9v8"/></svg><a href="https://scholar.google.com/citations?user=Fn2egmsAAAAJ">Google Scholar</a></div><div class="contact"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 10v7M7 7v.1M11 17v-7M11 13a3 3 0 0 1 6 0v4"/></svg><a href="https://www.linkedin.com/in/abderraouf-maoudj-phd-676a397b/">LinkedIn</a></div></div>
 <p class="metrics">1,837 citations · h-index 14 · i10-index 16 <span style="font-size:8pt">(Google Scholar, November 2026)</span></p>
 </header>
@@ -65,7 +70,7 @@ li { margin-bottom: 5px; orphans: 3; widows: 3; }
 
 <section><h2>Research Appointments</h2>
 <div class="entry"><div class="date">2023–Present</div><div><b>Postdoctoral Research Fellow &amp; Robotics Laboratory Coordinator</b><div class="org">IRC-IMR, King Fahd University of Petroleum &amp; Minerals, Saudi Arabia</div><p>Learning-based manipulation and multi-arm planning; decentralized multi-agent learning; resilient legged control and cross-embodiment policies. PI, INMR2403; Co-PI, INMR2632. Graduate teaching and student supervision.</p></div></div>
-<div class="entry"><div class="date">2021–2023</div><div><b>Postdoctoral Researcher</b><div class="org">SDU Biorobotics, University of Southern Denmark</div><p>Decentralized multi-robot coordination, communication-constrained path finding and capacitated fleet scheduling for industrial logistics. Worked with Enabled Robotics on MiR–UR5 mobile manipulators; guest lecturing and Master’s supervision.</p></div></div>
+<div class="entry"><div class="date">2021–2023</div><div><b>Postdoctoral Researcher</b><div class="org">SDU Biorobotics, University of Southern Denmark</div><p>Decentralized multi-robot coordination, communication-constrained path finding and capacitated fleet scheduling for industrial logistics. Worked with Enabled Robotics on MiR–UR5 mobile manipulators; Master’s supervision.</p></div></div>
 <div class="entry"><div class="date">2018–2020</div><div><b>Senior Researcher, Robotics Division</b><div class="org">Centre de Développement des Technologies Avancées (CDTA), Algeria</div><p>AGV fleet control, intelligent scheduling, collaborative robot integration and Siemens PLC automation for Industry 4.0; engineering teaching and project supervision.</p></div></div>
 <div class="entry"><div class="date">2014–2018</div><div><b>Robotics Engineer, Robotics Division</b><div class="org">CDTA, Algeria</div><p>Robot development, including an industrial AGV and a remotely operated bathymetric survey boat; doctoral research and laboratory teaching at USTHB.</p></div></div>
 </section>
@@ -82,7 +87,7 @@ li { margin-bottom: 5px; orphans: 3; widows: 3; }
 <h3>Courses taught</h3>
 <ul class="compact-list">
 <li><b>Automation Laboratory (AUTO503)</b>, undergraduate, USTHB, 2014/2015 and 2015/2016; <b>Control Laboratory</b>, Master’s in Electronics of Embedded Systems, 2017/2018; <b>Industrial Programmable Logic Controllers (API)</b>, Master’s in Instrumentation, 2018/2019.</li>
-<li><b>Further teaching:</b> Linear Control Systems; Introduction to Robotic Systems and ROS; Applied Reinforcement Learning for Robotic Manipulation; Embedded Systems for Automotive Engineering; Algorithms and C Programming; guest lectures at the University of Southern Denmark.</li>
+<li><b>Further teaching:</b> Linear Control Systems; Introduction to Robotic Systems and ROS; Applied Reinforcement Learning for Robotic Manipulation; Embedded Systems for Automotive Engineering; Algorithms and C Programming.</li>
 <li><b>Curriculum development:</b> graduate courses in Reinforcement Learning for Robotics and Sim-to-Real Embodied Robotics, integrating classical control, robot learning and projects on open robotic platforms.</li>
 </ul>
 <h3>Graduate and project supervision</h3>
@@ -132,7 +137,7 @@ li { margin-bottom: 5px; orphans: 3; widows: 3; }
 <li><b>Reinforcement Learning in Robotics: From Mathematical Foundations to Real-World Applications.</b> Invited seminar, Electrical Engineering Department, KFUPM, November 2025.</li>
 <li><b>Decentralized Multi-Robot Motion Planning and Coordination for Industrial Applications.</b> Invited seminar, University of Tartu, Estonia, September 2024.</li>
 <li><b>Multi-Robot Motion Planning and Coordination in Industrial Environments.</b> Speaker and co-organizer, Fourth Annual Research Workshop, KFUPM, August 2024.</li>
-<li>Guest lectures at SDU Biorobotics (2021–2023); research demonstrations at the KFUPM Research Forum (October 2024); presented research at several international conferences in robotics, automation and industrial informatics.</li>
+<li>Research demonstrations at the KFUPM Research Forum (October 2024); presented research at several international conferences in robotics, automation and industrial informatics.</li>
 </ul></section>
 
 <section><h2>Professional Service and Industry Engagement</h2>
